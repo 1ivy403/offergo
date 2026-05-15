@@ -1322,7 +1322,9 @@
 
     function buildCardCommon(j) {
       const linkHtml = j.url
-        ? `<a class="job-link" href="${escapeAttr(j.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(j.url)}</a>`
+        ? (j.url_expired
+            ? `<span class="job-link" style="color:var(--muted);text-decoration:line-through;cursor:default" title="该岗位链接已失效（岗位可能已下线）">${escapeHtml(j.url)}</span><span style="font-size:0.75rem;color:#c84040;margin-left:0.4rem">⚠️ 链接已失效</span>`
+            : `<a class="job-link" href="${escapeAttr(j.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(j.url)}</a>`)
         : "";
       const extraLinkHtml = j.extraApplyUrl
         ? `<div class="meta" style="margin-top:0.2rem;font-size:0.78rem;color:var(--muted)">PDF 另有投递入口：<a class="job-link" href="${escapeAttr(j.extraApplyUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(j.extraApplyUrl)}</a></div>`
