@@ -701,7 +701,7 @@
       company: [],   // 多选，空数组 = 全部
       category: [],  // 多选，空数组 = 全部
       hire: [],      // 多选，空数组 = 全部
-      city: "",      // 单选，空字符串 = 全部
+      city: [],      // 多选，空数组 = 全部
       keyword: "",
       apply: "",
     };
@@ -944,9 +944,9 @@
     }
 
     function passCity(j) {
-      if (!FILTER.city) return true;
+      if (!FILTER.city.length) return true;
       const cities = jobCityNorm(j);
-      return cities.includes(FILTER.city);
+      return cities.some((c) => FILTER.city.includes(c));
     }
 
     function passKeyword(j) {
@@ -1002,10 +1002,13 @@
       return true;
     }
 
-    /** 返回岗位所含的所有单独城市名（数组），用于筛选与统计 */
+    /** 返回岗位所含的所有单独城市名（数组），用于筛选与统计；过滤纯数字等无效值 */
     function jobCityNorm(j) {
       if (!j.city || j.city === OMIT) return [OMIT];
-      return j.city.split(" / ").map((c) => c.trim()).filter((c) => c) || [OMIT];
+      const parts = j.city.split(" / ")
+        .map((c) => c.trim())
+        .filter((c) => c && !/^\d+$/.test(c));
+      return parts.length ? parts : [OMIT];
     }
 
     /** 漏斗统计基数：不含投递状态，含类别 */
@@ -1515,17 +1518,17 @@
           cityCountMap[c] = (cityCountMap[c] || 0) + 1;
         }
       }
-      const cityOpts = [
-        { value: "", label: `全部城市（${baseCity.length}）` },
-        ...cities.map((c) => ({
-          value: c,
-          label: (c === OMIT ? "城市未注明" : c) + `（${cityCountMap[c] || 0}）`,
-        })),
-      ];
-      mountCusel(document.getElementById("cuselCity"), cityOpts, FILTER.city, (v) => {
-        FILTER.city = v;
-        refresh();
-      });
+      const cityOpts = cities.map((c) => ({
+        value: c,
+        label: (c === OMIT ? "城市未注明" : c) + `（${cityCountMap[c] || 0}）`,
+      }));
+      mountCuselMulti(
+        document.getElementById("cuselCity"),
+        `全部城市（${baseCity.length}）`,
+        cityOpts,
+        FILTER.city,
+        (v) => { FILTER.city = v; refresh(); }
+      );
     }
 
     function syncFunnelBar() {
