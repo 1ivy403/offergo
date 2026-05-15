@@ -198,6 +198,25 @@
       color: var(--accent);
       font-weight: 600;
     }
+    /* 多选选项：带 checkbox */
+    .cusel-option.cusel-check {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .cusel-option.cusel-check input[type="checkbox"] {
+      width: 0.85rem;
+      height: 0.85rem;
+      flex-shrink: 0;
+      accent-color: var(--accent);
+      cursor: pointer;
+      pointer-events: none;
+    }
+    .cusel-option.cusel-check-all-on {
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0.15rem;
+      padding-bottom: 0.5rem;
+    }
     .kw-row {
       display: flex;
       flex-wrap: wrap;
@@ -611,12 +630,12 @@
     <div class="header-inner">
       <h1>Offer Go 岗位看板</h1>
       <div class="insight-strip" aria-label="岗位共性与筛选倾向">
-        <p>这批意向岗的共性：</p>
+        <p>这批意向岗的共性（基于 58 家公司 · 1,555 条留存岗位）：</p>
         <ul class="insight-list">
-          <li><strong>方向</strong>：AI / LLM / Agent / 多模态的应用型产品为主，少量偏平台、模型效果与数据闭环。</li>
-          <li><strong>公司</strong>：字节跳动、美团、快手、腾讯、京东、蚂蚁、蔚来、小米、淘天、vivo、百度、滴滴、月之暗面、科大讯飞、阿里巴巴、小红书等 60+ 家。</li>
-          <li><strong>能力</strong>：普遍要技术理解、评测与指标、跨团队推进；Agent、工作流、Prompt、RAG、平台化反复出现。</li>
-          <li><strong>你的筛选</strong>：更偏「前沿 + 能把产品做深」的机会；实习 / 校招 / 社招混在一起，城市约束弱。</li>
+          <li><strong>方向</strong>：大模型 / Agent / AIGC 三角为核心——JD 命中率分别为 49% / 33% / 18%；多模态（12%）、RAG（9%）、Prompt 工程（10%）紧随其后；少量偏评测数据闭环与 AI 平台基础设施。应用型产品远多于平台型与模型产品型。</li>
+          <li><strong>公司</strong>：58 家，字节跳动、美团、京东、蚂蚁、蔚来、小米、淘天、vivo、百度、月之暗面、科大讯飞、小红书、阿里巴巴、网易、携程等大厂为主体；MiniMax、智谱 AI、百川 AI、阶跃星辰、零一万物、面壁智能等 AI 原生公司亦在列。社招约 72%、实习约 25%、校招约 5%。</li>
+          <li><strong>能力</strong>：技术理解（大模型原理 / 推理链路 / Prompt 调优）＋产品感知（需求洞察 / PRD / 原型）＋跨团队推进（算法—工程—业务）是三条硬线；关键词出现频次：大模型 621、AI 584、Agent 448、AIGC 218、多模态 179、RAG 139、Prompt 111、商业化 137。</li>
+          <li><strong>我的筛选</strong>：AI 类型标注中「AI 原生」（产品本身即 AI）占 59%，「AI 赋能」占 32%，更偏前沿方向 ＋ 能把产品做深；排除纯运营、纯数据标注、仅用 AI 工具但核心仍为传统业务的岗位；实习 / 校招 / 社招混收，城市约束弱。</li>
         </ul>
       </div>
     </div>
@@ -711,10 +730,10 @@
 
     /** 与下拉同步的筛选状态（自定义下拉不挂原生 value） */
     const FILTER = {
-      company: "",
-      category: "",
-      hire: "",
-      city: "",
+      company: [],   // 多选，空数组 = 全部
+      category: [],  // 多选，空数组 = 全部
+      hire: [],      // 多选，空数组 = 全部
+      city: "",      // 单选，空字符串 = 全部
       keyword: "",
       apply: "",
     };
@@ -930,7 +949,7 @@
         }
         parts[i] = chunk;
       }
-      return parts.join("");
+      return parts.join("").replace(/\n/g, "<br>");
     }
 
     function companyKey(j) {
@@ -942,29 +961,24 @@
     }
 
     function passCompany(j) {
-      if (!FILTER.company) return true;
-      return companyKey(j) === FILTER.company;
+      if (!FILTER.company.length) return true;
+      return FILTER.company.includes(companyKey(j));
     }
 
     function passCategory(j) {
-      if (!FILTER.category) return true;
-      return j.cats.includes(FILTER.category);
+      if (!FILTER.category.length) return true;
+      return j.cats.some((c) => FILTER.category.includes(c));
     }
 
     function passHire(j) {
-      if (!FILTER.hire) return true;
-      const t = j.type || "";
-      if (FILTER.hire === "实习") return /实习/.test(t);
-      if (FILTER.hire === "社招") return /社招/.test(t);
-      if (FILTER.hire === "校招") return /校招/.test(t);
-      return true;
+      if (!FILTER.hire.length) return true;
+      return FILTER.hire.some((h) => matchesHireType(j, h));
     }
 
     function passCity(j) {
       if (!FILTER.city) return true;
-      const c = j.city || OMIT;
-      if (FILTER.city === OMIT) return c === OMIT;
-      return c === FILTER.city;
+      const cities = jobCityNorm(j);
+      return cities.includes(FILTER.city);
     }
 
     function passKeyword(j) {
@@ -1020,8 +1034,10 @@
       return true;
     }
 
+    /** 返回岗位所含的所有单独城市名（数组），用于筛选与统计 */
     function jobCityNorm(j) {
-      return j.city && j.city !== OMIT ? j.city : OMIT;
+      if (!j.city || j.city === OMIT) return [OMIT];
+      return j.city.split(" / ").map((c) => c.trim()).filter((c) => c) || [OMIT];
     }
 
     /** 漏斗统计基数：不含投递状态，含类别 */
@@ -1055,20 +1071,20 @@
     }
 
     function rebuildCategoryOptions() {
-      if (FILTER.category && !CAT_PRODUCT.includes(FILTER.category)) FILTER.category = "";
+      FILTER.category = FILTER.category.filter((c) => CAT_PRODUCT.includes(c));
       const base = jobsEnriched.filter(passForCategoryCounts);
       const counts = countJobsByCategory(base);
-      const opts = [
-        { value: "", label: `全部类别（${base.length}）` },
-        ...CAT_PRODUCT.map((c) => ({
-          value: c,
-          label: `${c}（${counts[c] ?? 0}）`,
-        })),
-      ];
-      mountCusel(document.getElementById("cuselCategory"), opts, FILTER.category, (v) => {
-        FILTER.category = v;
-        refresh();
-      });
+      const opts = CAT_PRODUCT.map((c) => ({
+        value: c,
+        label: `${c}（${counts[c] ?? 0}）`,
+      }));
+      mountCuselMulti(
+        document.getElementById("cuselCategory"),
+        `全部类别（${base.length}）`,
+        opts,
+        FILTER.category,
+        (v) => { FILTER.category = v; refresh(); }
+      );
     }
 
     function getFiltered() {
@@ -1078,7 +1094,7 @@
     function uniqueCities() {
       const set = new Set();
       for (const j of jobsEnriched) {
-        set.add(j.city && j.city !== OMIT ? j.city : OMIT);
+        for (const c of jobCityNorm(j)) set.add(c);
       }
       return [...set].sort((a, b) => {
         if (a === OMIT) return 1;
@@ -1087,10 +1103,12 @@
       });
     }
 
+    /** 单选下拉（用于城市）：按钮标题不含数字，仅下拉选项显示数量 */
     function mountCusel(root, options, currentValue, onPick) {
       if (!root) return;
       const cur = options.find((o) => o.value === currentValue) || options[0];
-      const curLabel = cur ? cur.label : "";
+      // 按钮标题去除数字（如"全部城市（388）" → "全部城市"）
+      const btnText = cur ? cur.label.replace(/（\d+）$/, "").trim() : "";
       root.innerHTML = "";
       const btn = document.createElement("button");
       btn.type = "button";
@@ -1098,17 +1116,19 @@
       btn.setAttribute("aria-haspopup", "listbox");
       btn.setAttribute("aria-expanded", "false");
       const span = document.createElement("span");
-      span.style.flex = "1";
-      span.style.minWidth = "0";
-      span.style.overflow = "hidden";
-      span.style.textOverflow = "ellipsis";
-      span.style.whiteSpace = "nowrap";
-      span.textContent = curLabel;
+      span.style.cssText = "flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap";
+      span.textContent = btnText;
       const caret = document.createElement("span");
       caret.className = "cusel-caret";
       caret.setAttribute("aria-hidden", "true");
       btn.appendChild(span);
       btn.appendChild(caret);
+      if (currentValue) {
+        btn.style.borderColor = "rgba(61,110,232,0.45)";
+        btn.style.background = "var(--accent-soft)";
+        btn.style.color = "var(--accent)";
+        btn.style.fontWeight = "600";
+      }
       const panel = document.createElement("div");
       panel.className = "cusel-panel";
       panel.setAttribute("role", "listbox");
@@ -1131,6 +1151,129 @@
         }
       }
       renderOptions();
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const open = root.classList.toggle("open");
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+        if (open) {
+          document.querySelectorAll(".cusel.open").forEach((el) => {
+            if (el !== root) {
+              el.classList.remove("open");
+              const ob = el.querySelector(".cusel-btn");
+              if (ob) ob.setAttribute("aria-expanded", "false");
+            }
+          });
+        }
+      });
+      root.addEventListener("click", (e) => e.stopPropagation());
+      root.appendChild(btn);
+      root.appendChild(panel);
+    }
+
+    /**
+     * 多选下拉（用于公司 / 类别 / 招聘类型）。
+     * allLabel：下拉中"全部"选项的文字（含数字，如"全部公司（1555）"）
+     * options：[{value, label}] 各具体选项（label 含数字）
+     * selectedArr：当前已选值的数组
+     * onChange：(newArr) => void
+     */
+    function mountCuselMulti(root, allLabel, options, selectedArr, onChange) {
+      if (!root) return;
+      let sel = new Set(selectedArr || []);
+
+      function btnLabel() {
+        if (sel.size === 0) return allLabel.replace(/（\d+）$/, "").trim();
+        if (sel.size === 1) {
+          const v = [...sel][0];
+          const opt = options.find((o) => o.value === v);
+          return opt ? opt.label.replace(/（\d+）$/, "").trim() : v;
+        }
+        return `${sel.size} 项已选`;
+      }
+
+      root.innerHTML = "";
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "cusel-btn";
+      btn.setAttribute("aria-haspopup", "listbox");
+      btn.setAttribute("aria-expanded", "false");
+      const labelSpan = document.createElement("span");
+      labelSpan.style.cssText = "flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap";
+      labelSpan.textContent = btnLabel();
+      const caret = document.createElement("span");
+      caret.className = "cusel-caret";
+      caret.setAttribute("aria-hidden", "true");
+      btn.appendChild(labelSpan);
+      btn.appendChild(caret);
+
+      function updateBtn() {
+        labelSpan.textContent = btnLabel();
+        const active = sel.size > 0;
+        btn.style.borderColor = active ? "rgba(61,110,232,0.45)" : "";
+        btn.style.background = active ? "var(--accent-soft)" : "";
+        btn.style.color = active ? "var(--accent)" : "";
+        btn.style.fontWeight = active ? "600" : "";
+      }
+
+      const panel = document.createElement("div");
+      panel.className = "cusel-panel";
+      panel.setAttribute("role", "listbox");
+
+      function renderOpts() {
+        panel.innerHTML = "";
+        // "全部" 选项
+        const allBtn = document.createElement("button");
+        allBtn.type = "button";
+        allBtn.className = "cusel-option cusel-check" + (sel.size === 0 ? " cusel-check-all-on" : "");
+        allBtn.setAttribute("role", "option");
+        allBtn.setAttribute("aria-selected", sel.size === 0 ? "true" : "false");
+        const allCb = document.createElement("input");
+        allCb.type = "checkbox";
+        allCb.checked = sel.size === 0;
+        allCb.tabIndex = -1;
+        allCb.setAttribute("aria-hidden", "true");
+        const allTxt = document.createElement("span");
+        allTxt.textContent = allLabel;
+        allBtn.appendChild(allCb);
+        allBtn.appendChild(allTxt);
+        allBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          sel.clear();
+          updateBtn();
+          renderOpts();
+          onChange([]);
+        });
+        panel.appendChild(allBtn);
+
+        for (const o of options) {
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = "cusel-option cusel-check";
+          b.setAttribute("role", "option");
+          b.setAttribute("aria-selected", sel.has(o.value) ? "true" : "false");
+          const cb = document.createElement("input");
+          cb.type = "checkbox";
+          cb.checked = sel.has(o.value);
+          cb.tabIndex = -1;
+          cb.setAttribute("aria-hidden", "true");
+          const sp = document.createElement("span");
+          sp.textContent = o.label;
+          b.appendChild(cb);
+          b.appendChild(sp);
+          b.addEventListener("click", (e) => {
+            e.stopPropagation();
+            if (sel.has(o.value)) { sel.delete(o.value); } else { sel.add(o.value); }
+            updateBtn();
+            renderOpts();
+            onChange([...sel]);
+          });
+          panel.appendChild(b);
+        }
+      }
+
+      renderOpts();
+      updateBtn();
+
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         const open = root.classList.toggle("open");
@@ -1367,38 +1510,47 @@
     function mountCompanyHireCity() {
       const companies = [...new Set(jobsEnriched.map(companyKey))].sort((a, b) => a.localeCompare(b, "zh"));
       const baseCo = jobsEnriched.filter(passForCompanyCounts);
-      const coOpts = [
-        { value: "", label: `全部公司（${baseCo.length}）` },
-        ...companies.map((c) => ({
-          value: c,
-          label: `${c}（${baseCo.filter((j) => companyKey(j) === c).length}）`,
-        })),
-      ];
-      mountCusel(document.getElementById("cuselCompany"), coOpts, FILTER.company, (v) => {
-        FILTER.company = v;
-        refresh();
-      });
+      const coOpts = companies.map((c) => ({
+        value: c,
+        label: `${c}（${baseCo.filter((j) => companyKey(j) === c).length}）`,
+      }));
+      mountCuselMulti(
+        document.getElementById("cuselCompany"),
+        `全部公司（${baseCo.length}）`,
+        coOpts,
+        FILTER.company,
+        (v) => { FILTER.company = v; refresh(); }
+      );
 
       const baseHire = jobsEnriched.filter(passForHireCounts);
       const hireOpts = [
-        { value: "", label: `全部类型（${baseHire.length}）` },
         { value: "社招", label: `社招（${baseHire.filter((j) => matchesHireType(j, "社招")).length}）` },
         { value: "校招", label: `校招（${baseHire.filter((j) => matchesHireType(j, "校招")).length}）` },
         { value: "实习", label: `实习（${baseHire.filter((j) => matchesHireType(j, "实习")).length}）` },
       ];
-      mountCusel(document.getElementById("cuselHire"), hireOpts, FILTER.hire, (v) => {
-        FILTER.hire = v;
-        refresh();
-      });
+      mountCuselMulti(
+        document.getElementById("cuselHire"),
+        `全部类型（${baseHire.length}）`,
+        hireOpts,
+        FILTER.hire,
+        (v) => { FILTER.hire = v; refresh(); }
+      );
 
       const baseCity = jobsEnriched.filter(passForCityCounts);
       const cities = uniqueCities();
+      // 统计每个单城市在当前基础岗位集合中出现次数
+      const cityCountMap = {};
+      for (const j of baseCity) {
+        for (const c of jobCityNorm(j)) {
+          cityCountMap[c] = (cityCountMap[c] || 0) + 1;
+        }
+      }
       const cityOpts = [
         { value: "", label: `全部城市（${baseCity.length}）` },
-        ...cities.map((c) => {
-          const n = baseCity.filter((j) => jobCityNorm(j) === c).length;
-          return { value: c, label: (c === OMIT ? "城市未注明" : c) + `（${n}）` };
-        }),
+        ...cities.map((c) => ({
+          value: c,
+          label: (c === OMIT ? "城市未注明" : c) + `（${cityCountMap[c] || 0}）`,
+        })),
       ];
       mountCusel(document.getElementById("cuselCity"), cityOpts, FILTER.city, (v) => {
         FILTER.city = v;
