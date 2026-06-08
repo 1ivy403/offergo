@@ -1,0 +1,680 @@
+[
+  {
+    "file": "alibaba_jobs.json",
+    "jobs": 5,
+    "urls_checked": 5,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "alibaba_offcampus_jobs.json",
+    "jobs": 12,
+    "urls_checked": 12,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "antgroup_social_jobs.json",
+    "jobs": 51,
+    "urls_checked": 51,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "baichuan_jobs.json",
+    "jobs": 5,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 5,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "baidu_campus_manual_jobs.json",
+    "jobs": 37,
+    "urls_checked": 37,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "bilibili_campus_jobs.json",
+    "jobs": 6,
+    "urls_checked": 6,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "bilibili_intern_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "bilibili_social_jobs.json",
+    "jobs": 32,
+    "urls_checked": 32,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "bytedance_jobs.json",
+    "jobs": 167,
+    "urls_checked": 167,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "ctrip_campus_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "ctrip_social_jobs.json",
+    "jobs": 17,
+    "urls_checked": 17,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "didi_campus_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "didi_intern_jobs.json",
+    "jobs": 3,
+    "urls_checked": 3,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "didi_social_jobs.json",
+    "jobs": 21,
+    "urls_checked": 21,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "dji_social_jobs.json",
+    "jobs": 4,
+    "urls_checked": 4,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "duxiaoman_campus_jobs.json",
+    "jobs": 5,
+    "urls_checked": 5,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 5,
+    "sample_dead": [
+      "https://campus.duxiaoman.com/051736/position/detail/7563509884961573171",
+      "https://campus.duxiaoman.com/051736/position/detail/7548790318952548618",
+      "https://campus.duxiaoman.com/051736/position/detail/7594370311240337705",
+      "https://campus.duxiaoman.com/051736/position/detail/7615934023782123803",
+      "https://campus.duxiaoman.com/051736/position/detail/7595795304310720814"
+    ]
+  },
+  {
+    "file": "eleme_jobs.json",
+    "jobs": 4,
+    "urls_checked": 4,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "fliggy_jobs.json",
+    "jobs": 3,
+    "urls_checked": 3,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "highflyer_jobs.json",
+    "jobs": 3,
+    "urls_checked": 3,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "honor_intern_jobs.json",
+    "jobs": 4,
+    "urls_checked": 4,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "honor_social_jobs.json",
+    "jobs": 5,
+    "urls_checked": 5,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "iflytek_campus_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "iflytek_social_jobs.json",
+    "jobs": 256,
+    "urls_checked": 256,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "jd_campus_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "jd_intern_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "jd_social_jobs.json",
+    "jobs": 30,
+    "urls_checked": 30,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "kuaishou_campus_fulltime_jobs.json",
+    "jobs": 7,
+    "urls_checked": 7,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "kuaishou_campus_intern_jobs.json",
+    "jobs": 6,
+    "urls_checked": 6,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "kuaishou_zhaopin_intern_jobs.json",
+    "jobs": 64,
+    "urls_checked": 64,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "kuaishou_zhaopin_social_jobs.json",
+    "jobs": 241,
+    "urls_checked": 241,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "lenovo_campus_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "lenovo_social_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "lixiang_campus_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "lixiang_social_jobs.json",
+    "jobs": 12,
+    "urls_checked": 12,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "meituan_campus_jobs.json",
+    "jobs": 34,
+    "urls_checked": 34,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "meituan_jobs.json",
+    "jobs": 76,
+    "urls_checked": 76,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "meituan_social_jobs.json",
+    "jobs": 46,
+    "urls_checked": 46,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "minimax_campus_jobs.json",
+    "jobs": 4,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 4,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "minimax_social_jobs.json",
+    "jobs": 4,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 4,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "modelbest_campus_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "modelbest_social_jobs.json",
+    "jobs": 3,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 3,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "moonshot_campus_jobs.json",
+    "jobs": 11,
+    "urls_checked": 11,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "moonshot_social_jobs.json",
+    "jobs": 15,
+    "urls_checked": 15,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "netease_campus_163_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "netease_game_campus_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "netease_social_jobs.json",
+    "jobs": 38,
+    "urls_checked": 38,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "nio_campus_jobs.json",
+    "jobs": 129,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 129,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "nio_social_jobs.json",
+    "jobs": 130,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 130,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "oppo_campus_jobs.json",
+    "jobs": 6,
+    "urls_checked": 6,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "oppo_social_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "pdd_campus_grad_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "pdd_social_jobs.json",
+    "jobs": 8,
+    "urls_checked": 8,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "pingan_campus_jobs.json",
+    "jobs": 10,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "pingan_intern_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "pingan_social_jobs.json",
+    "jobs": 6,
+    "urls_checked": 6,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "qunar_jobs.json",
+    "jobs": 1,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 1,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "sensetime_intern_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "sensetime_social_jobs.json",
+    "jobs": 10,
+    "urls_checked": 10,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "shein_jobs.json",
+    "jobs": 7,
+    "urls_checked": 7,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "step_campus_jobs.json",
+    "jobs": 2,
+    "urls_checked": 2,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "step_social_jobs.json",
+    "jobs": 7,
+    "urls_checked": 7,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "taotian_jobs.json",
+    "jobs": 4,
+    "urls_checked": 4,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "tencent_jobs.json",
+    "jobs": 186,
+    "urls_checked": 186,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "tongcheng_campus_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "tongcheng_social_jobs.json",
+    "jobs": 3,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "vivo_campus_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "vivo_daily_intern_jobs.json",
+    "jobs": 14,
+    "urls_checked": 14,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "vivo_social_jobs.json",
+    "jobs": 17,
+    "urls_checked": 17,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "vivo_summer_intern_jobs.json",
+    "jobs": 7,
+    "urls_checked": 7,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "wangyi_jobs.json",
+    "jobs": 43,
+    "urls_checked": 43,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "xiaohongshu_jobs.json",
+    "jobs": 20,
+    "urls_checked": 20,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "xiaomi_campus_jobs.json",
+    "jobs": 3,
+    "urls_checked": 3,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 3,
+    "sample_dead": [
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7613723748080617754",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7613721549363284251",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7623315253073824009"
+    ]
+  },
+  {
+    "file": "xiaomi_intern_jobs.json",
+    "jobs": 13,
+    "urls_checked": 13,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 13,
+    "sample_dead": [
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7647344071166085395",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7630755534131906854",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7646306013033892138",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7618109056100239662",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7618109186979023142"
+    ]
+  },
+  {
+    "file": "xiaomi_social_jobs.json",
+    "jobs": 26,
+    "urls_checked": 26,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 26,
+    "sample_dead": [
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7629270952027998507",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7616624186430277930",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7508641517943275629",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7501913192727363693",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7568397033129003307"
+    ]
+  },
+  {
+    "file": "xpeng_intern_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "xpeng_social_jobs.json",
+    "jobs": 10,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 10,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "yiwan_jobs.json",
+    "jobs": 3,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 3,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "zhipin_social_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "zhipu_campus_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "zhipu_social_jobs.json",
+    "jobs": 11,
+    "urls_checked": 11,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "zte_campus_jobs.json",
+    "jobs": 0,
+    "urls_checked": 0,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  },
+  {
+    "file": "zte_social_jobs.json",
+    "jobs": 1,
+    "urls_checked": 1,
+    "urls_skipped_feishu": 0,
+    "expired_marked": 0,
+    "sample_dead": []
+  }
+]

@@ -1,0 +1,1673 @@
+{
+  "_meta": {
+    "generated_at": "2026-06-08 10:51:07",
+    "duration_sec": 35.5,
+    "total_raw": 750,
+    "after_dedup": 207,
+    "kept": 167,
+    "excluded_hard": 31,
+    "excluded_tech": 9
+  },
+  "KEPT": [
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7632260263870433589"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI产品经理（B端）-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626382357930821941"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI产品经理（B端）-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626381123106883893"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理（智能对话与AI员工）-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7577708164797335861"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "商品库AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7628212457643231493"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI产品经理（商家方向）-TikTok Shop",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7541033768229275912"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理（智能对话与AI员工）-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7624018646638414133"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7473015537938827528"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=6, 信号词=['预训练(+3)', 'SFT(+3)'], product_score=3",
+      "title": "AI产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7340707372484806949"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI产品经理（数据知识/数据语义层方向）-Data",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7210674773684619575"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=6, 信号词=['预训练(+3)', 'SFT(+3)'], product_score=3",
+      "title": "AI产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7030689021407873311"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=7",
+      "title": "AI产品经理-ArkClaw",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7615915798603827509"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "AI产品经理-AI Coding",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7494870018459846919"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "AI产品经理-AI Coding",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7494870211914008839"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=7",
+      "title": "AI产品经理-ArkClaw",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7615916167356041477"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=7",
+      "title": "AI产品经理-ArkClaw",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7615914486223603973"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "研发平台AI产品经理-Dev Infra",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7248886398798317861"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "AI产品经理-AI Coding",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7494869795275245842"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "AI产品经理-AI Coding",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7494489223861438727"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=1",
+      "title": "AI产品经理（智能客服）-TikTok",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7574271101550840069"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理（可观测性方向）-Dev Infra",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7514278326501804295"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI产品经理-飞书多维表格",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7158335852224661791"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "高级AI产品经理-飞书多维表格",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7571096273624631557"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=6",
+      "title": "高级AI产品经理-集团信息系统",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7639347683555133701"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI产品经理-Data语音",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7348334602769172745"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "资深AI产品经理-飞书多维表格",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7424441750486272283"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI产品经理（搜索方向）-飞书项目",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7627125252828481845"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=2, 信号词=['基础设施(+2)'], product_score=5",
+      "title": "AI产品经理-Dev Infra",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626223705287788853"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=2, 信号词=['基础设施(+2)'], product_score=5",
+      "title": "AI产品经理-Dev Infra",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626223336313817349"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "商家增长策略AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7483372038481463559"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI产品经理-抖音搜索",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7641919889154705669"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI产品经理-豆包",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7636711627346463029"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "商家增长AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7628084252005140741"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631136762592758021"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-小云雀Pippit",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7543473856541116680"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "商品发布AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7496816198228199698"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI产品经理-Data语音",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7485329753940379911"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7644121777660446981"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7638594066480990517"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理（可观测性方向）-Dev Infra",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7514280711382288647"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI产品经理-TikTok Shop",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7604699219862096133"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI产品经理-TikTok Shop",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7579076498786732293"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI产品经理-TikTok Shop",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7592884817608657157"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=6",
+      "title": "高级AI产品经理（AI垂直场景）-集团信息系统",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7640003873964427573"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631454845517646133"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['模型训练(+3)'], product_score=5",
+      "title": "AI大模型产品经理（算法平台）-Data AML",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631099446092548405"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI大模型产品经理（算法平台）-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7594409789403252997"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI大模型产品经理（算法平台）-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7594409737933555973"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI大模型产品经理（算法平台）-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7594409925948819717"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "资深数据产品经理（AI方向）-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7264856201115535653"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "豆包AI大模型应用策略产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7597278274092828981"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI商业化产品经理（游戏化付费方向）-Parallel",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626276855460940085"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "豆包AI大模型应用策略产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7597278236465203461"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "搜索产品经理（AI搜索方向）-TikTok",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7519064028641528071"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=6, 信号词=['RLHF(+3)', 'SFT(+3)'], product_score=2",
+      "title": "LLM训练产品经理-AI数据与安全",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7411457281215023410"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=6",
+      "title": "AI Coding产品经理-TRAE",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7424493757935225125"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=2, 信号词=['基础设施(+2)'], product_score=1",
+      "title": "AI策略产品经理-Dev Infra",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626224968504756485"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "大模型应用产品经理-火山引擎（北京/上海/深圳/杭州）",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7506543216532769031"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=6",
+      "title": "AI Coding产品经理-TRAE",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7360527198607395109"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AIGC产品经理（创意Agent方向电商营销）-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7634385633538918661"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=6",
+      "title": "AI观测存储分析产品经理-Data",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7627034767146060037"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI Coding产品经理（开发工具设计方向）-TRAE",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7494208058601048328"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['模型训练(+3)'], product_score=2",
+      "title": "AI策略产品经理-AI创新业务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7374629302891825459"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=6, 信号词=['预训练(+3)', 'SFT(+3)'], product_score=3",
+      "title": "大模型产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7433656813104417036"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "资深产品经理（AI方向）-TikTok Shop",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7574272525165873461"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['SFT(+3)'], product_score=2",
+      "title": "高级AI Agent产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631057068845697333"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['SFT(+3)'], product_score=2",
+      "title": "高级AI Agent产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631056643272689925"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['SFT(+3)'], product_score=2",
+      "title": "高级AI Agent产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631055900241348917"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['SFT(+3)'], product_score=2",
+      "title": "高级AI Agent产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631055618484717829"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=0",
+      "title": "智能客服评测资深产品专家-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7610684958047734069"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=6, 信号词=['预训练(+3)', '模型训练(+3)'], product_score=4",
+      "title": "资深AI大模型产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7569519538625300741"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "豆包AI大模型产品解决方案-Data AML",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7602919135697651973"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=6, 信号词=['预训练(+3)', '模型训练(+3)'], product_score=4",
+      "title": "资深AI大模型产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7569518686495983877"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "豆包AI大模型产品解决方案-Data AML",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7602918158467696949"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "豆包AI大模型产品解决方案-Data AML",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7602917413553850677"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=6",
+      "title": "大模型产品经理-豆包",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7410622362042059045"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "豆包AI大模型产品解决方案-Data AML",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7602918834000890165"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['模型训练(+3)'], product_score=4",
+      "title": "座舱大模型产品经理-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7370931403174988058"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "豆包AI大模型产品解决方案-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7584296549554030853"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "语音交互大模型产品经理-Data语音",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7485326381946620178"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "智驾大模型产品经理-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7575017022809442613"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "大模型产品经理-网络平台产品",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7567214513184639237"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "语音大模型产品经理-Data语音",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7559515401470822674"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['预训练(+3)'], product_score=3",
+      "title": "大模型产品经理-搜索",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7330195433467742514"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['IaaS(+3)'], product_score=2",
+      "title": "大模型产品解决方案架构师-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7534690650279168274"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "豆包AI大模型产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7483074865621321991"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "豆包AI大模型产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7323089843444599091"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "大模型产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7257136960225429815"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=7",
+      "title": "豆包AI大模型产品经理（异构资源池）-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7581840904396032309"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "豆包AI大模型产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7491219757154158856"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "豆包AI大模型产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7323089857126320410"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "大模型产品经理（AI写作/智能办公）-豆包",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7598072564382173445"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "大模型产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7257134992152463677"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "大模型产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7257135625651571000"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "豆包AI大模型产品解决方案架构师-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7323090749905570099"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=7",
+      "title": "豆包AI大模型产品经理（异构资源池）-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7581840357370005765"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=7",
+      "title": "豆包AI大模型产品经理（异构资源池）-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7581840329156086069"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI Agent产品经理（即梦）-剪映CapCut",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7545401043636881672"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI Agent产品经理-Aime",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7579632297735391493"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "Agent产品经理（增长方向）-剪映CapCut",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631912117831371061"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=2, 信号词=['基础设施(+2)'], product_score=3",
+      "title": "Agent产品经理-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7044435107453471007"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI Agent产品解决方案架构师-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7637456813097371957"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI Agent产品解决方案架构师-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626662519582574901"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI Agent产品解决方案架构师-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626662241379764533"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI Agent产品解决方案架构师-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626661545669527861"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI Agent产品经理（特效工具）-TikTok",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7602468390209751301"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=2, 信号词=['基础设施(+2)'], product_score=3",
+      "title": "Agent产品经理-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7044434617672714526"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=2, 信号词=['基础设施(+2)'], product_score=3",
+      "title": "Agent产品经理-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7044435284037798174"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=2, 信号词=['基础设施(+2)'], product_score=3",
+      "title": "Agent产品经理-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7301333135140063497"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI Agent产品经理-中国广告产品（北京/上海）",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7493850557715679496"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "高级AI产品经理-飞书多维表格",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7555486407952795911"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "AI Agent数据产品经理（开发套件方向）-Data",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7636665044055509253"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "AI Agent数据产品经理（开发套件方向）-Data",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7636973296722643253"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "AI Agent数据产品经理（开发套件方向）-Data",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7636972915567167749"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI产品经理（通用Agent方向）-Stone-Bot Studio",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7535077448737392904"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AIGC产品经理（创意Agent方向·电商营销）-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7636628525310904581"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "商业投放策略产品经理（AI Agent 方向）-国际化",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7564728870685788421"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理（AI coding方向）-Aime",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7594410079992432949"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理（AI Coding方向）-Stone-Bot Studio",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7594409781193804085"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "商业化资深评测产品经理（AI Evaluation）-国际化",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7619229567491852597"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=2, 信号词=['基础设施(+2)'], product_score=1",
+      "title": "AI策略产品经理-Dev Infra",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7626224941537380661"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI策略产品经理（大模型应用专项）-抖音增长",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7514613683654936839"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "商业产品经理（达人营销平台-平台AI化方向）-国际化",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7548703046235572498"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['SFT(+3)'], product_score=4",
+      "title": "AI模型策略产品经理-飞书",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7620303964044085557"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI产品架构师-飞书（北京/杭州）",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7603620866456996101"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI智能产品经理-财经",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7587345213140568373"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI智能产品经理-国际支付",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7597312063425562933"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "AI智能客服产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7476409623312140552"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=1",
+      "title": "平台智能服务资深产品专家-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7599635973731109125"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=6",
+      "title": "AI用户体验产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631773805610273077"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['模型训练(+3)'], product_score=2",
+      "title": "AI大模型客服资深产品专家-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7563221563232749877"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631129293118638341"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631127110056675589"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631126933120370949"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631124636152154373"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI智能客服产品专家-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7644777172997130501"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI智能营销助手产品经理-中国商业产品与技术",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7551386667295230216"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "技术产品经理（AI基础与应用方向）-中国交易与广告",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7633378648969185541"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "技术产品经理（AI基础与应用方向）-中国交易与广告",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7633377201547299125"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "技术产品经理（AI基础与应用方向）-中国交易与广告",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7633344804030105861"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "平台产品专家（AI方向）-TikTok安全产品",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7627053750589360437"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=1",
+      "title": "智能内容产品解决方案架构师",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7426221162918660390"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "采购AI产品专家/高级产品专家-集团信息系统",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7566965299432835333"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AIGC平台产品经理 - 智能创作（广/深/北）",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7387004405244545289"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "智能座舱产品经理",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7424086288901556490"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "AI智能客服产品经理-TikTok Shop",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7553583501582616839"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI智能客服产品-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7621393043528829189"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI智能客服产品专家-TikTok Shop",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7207708041089157436"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "具身智能多模态交互产品专家-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7574648011273898245"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "智能体身份安全产品经理-云安全",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/6974604323511847181"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=2, 信号词=['PaaS(+2)'], product_score=5",
+      "title": "平台产品经理（智能化方向）-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7569505615120435461"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "大模型应用产品经理-火山引擎（上海/北京）",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7381443478787754290"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "大模型应用产品经理-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7551354060876826888"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=6",
+      "title": "办公安全智能体产品经理-飞连",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7410256299985864986"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "巨量千川智能营销策略产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7592443875426814213"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "商家增长智能化产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7483114204301363464"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "商家增长智能化产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7476314189801720072"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AIGC智能创作产品经理-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7429263750743673142"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "AI产品经理-豆包爱学",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7449313662403971336"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AIGC智能创作产品经理-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7429263994487867698"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['模型训练(+3)'], product_score=4",
+      "title": "资深产品经理（机器人/具身智能训练方向）-AI数据与安全",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7633273636128393477"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "智能审核策略产品经理-商业安全（北京/上海）",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7509747812536748295"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "CRM产品经理（AI方向）-中国广告产品",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7642570468751214901"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "智能私信产品Leader（线索广告）-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7639295050782705973"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "AI产品经理（AM智能运营）-TikTok Shop",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7579801931068573957"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "AI内容平台产品经理-火山引擎",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7404732223574247707"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "技术门槛可接受 | tech_score=3, 信号词=['SFT(+3)'], product_score=4",
+      "title": "AI模型策略产品经理-飞书",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7620305191552370949"
+    }
+  ],
+  "EXCLUDED_TECH": [
+    {
+      "decision": "EXCLUDED_TECH",
+      "stage": "技术门槛",
+      "reason": "极高技术门槛 | tech_score=17, 信号词=['模型训练(+3)', 'GPU资源(+3)', 'CUDA(+3)', '推理优化(+3)', 'IaaS(+3)', '基础设施(+2)'], product_score=4",
+      "title": "AI产品经理（异构计算方向）-基础设施",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7481502264948689170"
+    },
+    {
+      "decision": "EXCLUDED_TECH",
+      "stage": "技术门槛",
+      "reason": "极高技术门槛 | tech_score=17, 信号词=['模型训练(+3)', 'GPU资源(+3)', 'CUDA(+3)', '推理优化(+3)', 'IaaS(+3)', '基础设施(+2)'], product_score=4",
+      "title": "AI产品经理（异构计算方向）-基础设施",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7481501617917856018"
+    },
+    {
+      "decision": "EXCLUDED_TECH",
+      "stage": "技术门槛",
+      "reason": "极高技术门槛 | tech_score=8, 信号词=['RLHF(+3)', 'SFT(+3)', '基础设施(+2)'], product_score=6",
+      "title": "豆包AI大模型产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7597281321664465205"
+    },
+    {
+      "decision": "EXCLUDED_TECH",
+      "stage": "技术门槛",
+      "reason": "极高技术门槛 | tech_score=8, 信号词=['RLHF(+3)', 'SFT(+3)', '基础设施(+2)'], product_score=6",
+      "title": "豆包AI大模型产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7597281321664121141"
+    },
+    {
+      "decision": "EXCLUDED_TECH",
+      "stage": "技术门槛",
+      "reason": "极高技术门槛 | tech_score=8, 信号词=['RLHF(+3)', 'SFT(+3)', '基础设施(+2)'], product_score=6",
+      "title": "豆包AI大模型产品经理-火山方舟MaaS",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7597281119692032261"
+    },
+    {
+      "decision": "EXCLUDED_TECH",
+      "stage": "技术门槛",
+      "reason": "极高技术门槛 | tech_score=10, 信号词=['模型训练(+3)', 'IaaS(+3)', '基础设施(+2)', '模型压缩(+2)'], product_score=4",
+      "title": "AI Agent产品解决方案负责人-基础设施",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7494503784061946120"
+    },
+    {
+      "decision": "EXCLUDED_TECH",
+      "stage": "技术门槛",
+      "reason": "极高技术门槛 | tech_score=10, 信号词=['模型训练(+3)', 'IaaS(+3)', '基础设施(+2)', '模型压缩(+2)'], product_score=4",
+      "title": "AI Agent产品解决方案负责人-基础设施",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7494503784556251410"
+    },
+    {
+      "decision": "EXCLUDED_TECH",
+      "stage": "技术门槛",
+      "reason": "极高技术门槛 | tech_score=10, 信号词=['模型训练(+3)', 'IaaS(+3)', '基础设施(+2)', '模型压缩(+2)'], product_score=4",
+      "title": "AI Agent产品解决方案负责人-基础设施",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7494503784494041351"
+    },
+    {
+      "decision": "EXCLUDED_TECH",
+      "stage": "技术门槛",
+      "reason": "极高技术门槛 | tech_score=10, 信号词=['模型训练(+3)', 'IaaS(+3)', '基础设施(+2)', '模型压缩(+2)'], product_score=4",
+      "title": "AI Agent产品解决方案负责人-基础设施",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7488990399533615368"
+    }
+  ],
+  "EXCLUDED_HARD": [
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题含排除词「法务」",
+      "title": "法务AI产品经理-信息系统",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7428483612711946505"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题含排除词「财务」",
+      "title": "财务AI产品经理-集团信息系统",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7613677369900828933"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题含排除词「财务」",
+      "title": "财务AI产品经理-集团信息系统",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7613677357501925685"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：巨量千川广告产品经理-抖音电商",
+      "title": "巨量千川广告产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7524938546215520530"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：风控策略产品经理-TikTok",
+      "title": "风控策略产品经理-TikTok",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7081894962790484261"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：风控策略产品经理-TikTok",
+      "title": "风控策略产品经理-TikTok",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7081893487276476709"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：欧美商城人群营销产品经理-TikTok Shop",
+      "title": "欧美商城人群营销产品经理-TikTok Shop",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7610317430406154549"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：巨量千川流量策略产品经理-抖音电商",
+      "title": "巨量千川流量策略产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7589920276044499205"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：交易订单产品经理-抖音电商",
+      "title": "交易订单产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7580340466576034053"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：用户体验资深产品经理-抖音电商",
+      "title": "用户体验资深产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7369859082460809481"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：消息队列产品经理-Data",
+      "title": "消息队列产品经理-Data",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7627033329162078469"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：理财产品经理-财经业务",
+      "title": "理财产品经理-财经业务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7542443185839540498"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：餐饮行业产品经理-抖音生活服务",
+      "title": "餐饮行业产品经理-抖音生活服务",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7371352304585115931"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：抖音商城APP用户产品经理-抖音电商",
+      "title": "抖音商城APP用户产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7506154781893101831"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：互动策略产品经理-红果短剧",
+      "title": "互动策略产品经理-红果短剧",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7539816205835946248"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：保险商城产品经理-财经",
+      "title": "保险商城产品经理-财经",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7599961787258439989"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词：Seedance2.0创作导演-Data AML",
+      "title": "Seedance2.0创作导演-Data AML",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631458341814208773"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词：Seedance2.0创作导演-Data AML",
+      "title": "Seedance2.0创作导演-Data AML",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7631459863437445429"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "工程师岗：AI产品工程师-标注Agent产品",
+      "title": "AI产品工程师-标注Agent产品",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7628618214030772485"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "工程师岗：AI产品工程师-标注Agent产品",
+      "title": "AI产品工程师-标注Agent产品",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7295934830696368434"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：模型策略产品（创作方向）-豆包",
+      "title": "模型策略产品（创作方向）-豆包",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7547671712423446802"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：即梦App产品经理-剪映CapCut",
+      "title": "即梦App产品经理-剪映CapCut",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7622997901890816309"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：创新项目产品经理-豆包",
+      "title": "创新项目产品经理-豆包",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7636609006207568181"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：国际化产品经理-扣子",
+      "title": "国际化产品经理-扣子",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7643292883013323061"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：国际化产品经理-扣子",
+      "title": "国际化产品经理-扣子",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7643292302131169541"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：商业化产品经理-扣子",
+      "title": "商业化产品经理-扣子",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7629147126408612149"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：商家服务平台产品经理-抖音电商",
+      "title": "商家服务平台产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7629623290512181557"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：体验洞察数据产品经理-抖音电商",
+      "title": "体验洞察数据产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7560687413795899701"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词：售后通用服务方案负责人-抖音电商",
+      "title": "售后通用服务方案负责人-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7646315353171380485"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：商家服务赔付产品经理-抖音电商",
+      "title": "商家服务赔付产品经理-抖音电商",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7577721531213449525"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题含排除词「销售」",
+      "title": "AI智能销售产品经理-中国广告产品（北京/上海）",
+      "type": "社招",
+      "url": "https://jobs.bytedance.com/experienced/position/7493849140679395602"
+    }
+  ]
+}

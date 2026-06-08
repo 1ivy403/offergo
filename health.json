@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-06-08 18:13",
+  "refreshed_at": "2026-06-08 19:03",
   "scrapers": [
     {
       "name": "alibaba",
@@ -45,13 +45,13 @@
     },
     {
       "name": "bilibili_social",
-      "count": 31,
+      "count": 32,
       "prev_count": 31,
       "status": "ok"
     },
     {
       "name": "bytedance",
-      "count": 168,
+      "count": 167,
       "prev_count": 168,
       "status": "ok"
     },
@@ -171,13 +171,13 @@
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 65,
+      "count": 64,
       "prev_count": 65,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 242,
+      "count": 241,
       "prev_count": 242,
       "status": "ok"
     },
@@ -375,7 +375,7 @@
     },
     {
       "name": "tencent",
-      "count": 188,
+      "count": 186,
       "prev_count": 188,
       "status": "ok"
     },
@@ -417,7 +417,7 @@
     },
     {
       "name": "wangyi",
-      "count": 44,
+      "count": 43,
       "prev_count": 44,
       "status": "ok"
     },
@@ -509,6 +509,6 @@
     "zhipin_social: 本次 0 条，上次 0 条",
     "zte_campus: 本次 0 条，上次 0 条"
   ],
-  "actions_run_id": "",
+  "actions_run_id": "27131791061",
   "status": "ok"
 }
