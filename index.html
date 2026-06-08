@@ -623,6 +623,102 @@
       font-size: 11px;
     }
     .health-warn-panel.open { display: block; }
+    .manual-hint {
+      color: #c2410c;
+      cursor: pointer;
+      margin-left: 0.35rem;
+      font-size: 12px;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .manual-modal {
+      box-sizing: border-box;
+      width: min(96vw, 500px);
+      max-width: calc(100vw - 1rem);
+      padding: 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: 0 20px 50px rgba(28, 35, 51, 0.18);
+      background: var(--surface);
+    }
+    .manual-modal::backdrop { background: rgba(28, 35, 51, 0.35); }
+    .manual-modal-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .manual-modal-head h4 { margin: 0; font-size: 1rem; }
+    .manual-modal-close {
+      border: none;
+      background: none;
+      font-size: 1.25rem;
+      line-height: 1;
+      cursor: pointer;
+      color: var(--muted);
+      padding: 0.15rem 0.35rem;
+    }
+    .manual-modal-body { padding: 1rem 1.1rem 1.15rem; max-height: min(80vh, 640px); overflow: auto; }
+    .manual-step {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.75rem 0.85rem;
+      margin-bottom: 0.75rem;
+      background: #fafbfd;
+    }
+    .manual-step.done { opacity: 0.65; background: #f3f4f6; }
+    .manual-step-head {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 600;
+      font-size: 0.88rem;
+      margin-bottom: 0.45rem;
+    }
+    .manual-step-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.35rem;
+      height: 1.35rem;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.75rem;
+      flex-shrink: 0;
+    }
+    .manual-step.done .manual-step-num { background: #e5e7eb; color: #6b7280; }
+    .manual-step.done .manual-step-status { color: #6b7280; }
+    .manual-step-status { margin-left: auto; font-size: 0.75rem; color: var(--muted); font-weight: 500; }
+    .manual-step p { margin: 0.35rem 0; font-size: 0.82rem; color: #4b5563; }
+    .manual-step-actions { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.5rem; }
+    .manual-btn {
+      border: 1px solid var(--border);
+      background: #fff;
+      border-radius: 6px;
+      padding: 0.35rem 0.65rem;
+      font-size: 0.78rem;
+      cursor: pointer;
+      font-family: inherit;
+      color: var(--text);
+    }
+    .manual-btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .manual-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+    .manual-cmd {
+      margin-top: 0.5rem;
+      padding: 0.55rem 0.65rem;
+      background: #1e293b;
+      color: #e2e8f0;
+      border-radius: 6px;
+      font-size: 0.68rem;
+      line-height: 1.45;
+      white-space: pre-wrap;
+      word-break: break-all;
+      position: relative;
+    }
+    .manual-verify-ok { color: #15803d; font-size: 0.82rem; margin-top: 0.45rem; }
+    .manual-verify-fail { color: #b91c1c; font-size: 0.82rem; margin-top: 0.45rem; }
   </style>
 </head>
 <body>
@@ -668,6 +764,7 @@
           </div>
           <div id="refreshMetaRow" class="refresh-meta" style="display:none">
             <span id="refreshMeta"></span><span id="healthWarn" class="health-warn" style="display:none"></span>
+            <span id="manualHint" class="manual-hint" style="display:none"></span>
             <ul id="healthWarnList" class="health-warn-panel"></ul>
           </div>
         </div>
@@ -713,6 +810,47 @@
           <button type="button" class="jd-modal-close" id="jdDialogClose">关闭</button>
         </div>
         <div class="jd-modal-body" id="jdDialogBody"></div>
+      </dialog>
+      <dialog id="manualRefreshDialog" class="manual-modal" aria-labelledby="manualRefreshTitle">
+        <div class="manual-modal-head">
+          <h4 id="manualRefreshTitle">阿里 / 淘天 季度补跑指引</h4>
+          <button type="button" class="manual-modal-close" id="manualRefreshClose" aria-label="关闭">×</button>
+        </div>
+        <div class="manual-modal-body">
+          <div class="manual-step" id="manualStep1">
+            <div class="manual-step-head"><span class="manual-step-num">1</span>登录阿里招聘网站<span class="manual-step-status" id="manualStep1Status">待完成</span></div>
+            <p>在浏览器中登录控股集团社招站点（需 Cookie 才能跑爬虫）。</p>
+            <div class="manual-step-actions">
+              <a class="manual-btn primary" href="https://talent-holding.alibaba.com/" target="_blank" rel="noopener">打开 talent-holding.alibaba.com</a>
+              <button type="button" class="manual-btn" id="manualStep1Done">✅ 已登录</button>
+            </div>
+          </div>
+          <div class="manual-step" id="manualStep2">
+            <div class="manual-step-head"><span class="manual-step-num">2</span>登录淘天招聘网站<span class="manual-step-status" id="manualStep2Status">待完成</span></div>
+            <p>在浏览器中登录校招 / 淘天站点（与阿里共用 Cookie 会话）。</p>
+            <div class="manual-step-actions">
+              <a class="manual-btn primary" href="https://campus-talent.alibaba.com/" target="_blank" rel="noopener">打开 campus-talent.alibaba.com</a>
+              <button type="button" class="manual-btn" id="manualStep2Done">✅ 已登录</button>
+            </div>
+          </div>
+          <div class="manual-step" id="manualStep3">
+            <div class="manual-step-head"><span class="manual-step-num">3</span>在终端运行命令<span class="manual-step-status" id="manualStep3Status">待完成</span></div>
+            <p>复制以下命令到终端，依次跑爬虫、合并并推送到 GitHub Pages 仓库。</p>
+            <pre class="manual-cmd" id="manualCmdBlock"></pre>
+            <div class="manual-step-actions">
+              <button type="button" class="manual-btn" id="manualCopyCmd">📋 一键复制</button>
+              <button type="button" class="manual-btn" id="manualStep3Done">✅ 命令已跑完</button>
+            </div>
+          </div>
+          <div class="manual-step" id="manualStep4">
+            <div class="manual-step-head"><span class="manual-step-num">4</span>验证结果<span class="manual-step-status" id="manualStep4Status">待完成</span></div>
+            <p>确认 meta.json 中的手动刷新日期已更新为今天。</p>
+            <div class="manual-step-actions">
+              <button type="button" class="manual-btn primary" id="manualVerifyBtn">🔍 检查是否更新成功</button>
+            </div>
+            <div id="manualVerifyResult"></div>
+          </div>
+        </div>
       </dialog>
     </main>
   </div>
@@ -1750,6 +1888,127 @@
     }
 
 
+    const MANUAL_CMD = [
+      "python3 ~/Desktop/求职/岗位搜集-workbench/alibaba_scraper.py && \\",
+      "python3 ~/Desktop/求职/岗位搜集-workbench/taotian_scraper.py && \\",
+      "cp ~/Desktop/求职/岗位搜集-workbench/jobs/alibaba_jobs.json \\",
+      "   ~/Desktop/求职/岗位搜集-workbench/jobs/taotian_jobs.json \\",
+      '   "/Users/Shared/求职/offer go/意向岗位/jobs/" && \\',
+      'python3 "/Users/Shared/求职/offer go/意向岗位/scripts/merge_to_offergo.py" --manual-alibaba-taotian && \\',
+      'cd "/Users/Shared/求职/offer go/意向岗位" && \\',
+      'git add jobs/alibaba_jobs.json jobs/taotian_jobs.json jobs.json meta.json health.json && \\',
+      'git commit -m "data: manual refresh alibaba/taotian $(date +%Y-%m-%d)" && git push',
+    ].join("\n");
+
+    let cachedMeta = null;
+    const manualStepDone = [false, false, false, false];
+
+    function todayLocalISO() {
+      const d = new Date();
+      const y = d.getFullYear();
+      const m = String(d.getMonth() + 1).padStart(2, "0");
+      const day = String(d.getDate()).padStart(2, "0");
+      return y + "-" + m + "-" + day;
+    }
+
+    function daysSinceDate(dateStr) {
+      if (!dateStr) return 9999;
+      const parts = dateStr.split("-");
+      if (parts.length < 3) return 9999;
+      const then = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+      const now = new Date();
+      const ms = now.setHours(0, 0, 0, 0) - then.setHours(0, 0, 0, 0);
+      return Math.floor(ms / 86400000);
+    }
+
+    function resetManualWizard() {
+      manualStepDone.fill(false);
+      for (let i = 1; i <= 4; i++) {
+        const step = document.getElementById("manualStep" + i);
+        const status = document.getElementById("manualStep" + i + "Status");
+        if (step) step.classList.remove("done");
+        if (status) status.textContent = "待完成";
+        const btns = step ? step.querySelectorAll("button.manual-btn:not(.primary)") : [];
+        btns.forEach(function (b) { b.disabled = false; });
+      }
+      const verify = document.getElementById("manualVerifyResult");
+      if (verify) verify.innerHTML = "";
+      const cmdBlock = document.getElementById("manualCmdBlock");
+      if (cmdBlock) cmdBlock.textContent = MANUAL_CMD;
+    }
+
+    function markManualStep(n) {
+      if (manualStepDone[n - 1]) return;
+      manualStepDone[n - 1] = true;
+      const step = document.getElementById("manualStep" + n);
+      const status = document.getElementById("manualStep" + n + "Status");
+      if (step) step.classList.add("done");
+      if (status) status.textContent = "已完成";
+      if (step) {
+        step.querySelectorAll("button.manual-btn").forEach(function (b) {
+          if (b.id !== "manualVerifyBtn" && b.id !== "manualCopyCmd") b.disabled = true;
+        });
+      }
+    }
+
+    function openManualModal() {
+      const dlg = document.getElementById("manualRefreshDialog");
+      if (!dlg) return;
+      resetManualWizard();
+      if (typeof dlg.showModal === "function") dlg.showModal();
+      else dlg.setAttribute("open", "open");
+    }
+
+    function initManualRefreshUI() {
+      const dlg = document.getElementById("manualRefreshDialog");
+      const closeBtn = document.getElementById("manualRefreshClose");
+      if (closeBtn && dlg) closeBtn.addEventListener("click", function () { dlg.close(); });
+      document.getElementById("manualStep1Done")?.addEventListener("click", function () { markManualStep(1); });
+      document.getElementById("manualStep2Done")?.addEventListener("click", function () { markManualStep(2); });
+      document.getElementById("manualStep3Done")?.addEventListener("click", function () { markManualStep(3); });
+      document.getElementById("manualCopyCmd")?.addEventListener("click", function () {
+        navigator.clipboard.writeText(MANUAL_CMD).catch(function () {});
+      });
+      document.getElementById("manualVerifyBtn")?.addEventListener("click", async function () {
+        const box = document.getElementById("manualVerifyResult");
+        if (!box) return;
+        box.innerHTML = "<span style='color:#666;font-size:0.82rem'>检查中…</span>";
+        try {
+          const resp = await fetch("meta.json?_=" + Date.now());
+          if (!resp.ok) throw new Error("HTTP " + resp.status);
+          const meta = await resp.json();
+          cachedMeta = meta;
+          const mr = meta.manual_refresh || {};
+          const last = mr.alibaba_taotian_last || "";
+          const today = todayLocalISO();
+          if (last === today) {
+            box.innerHTML = "<div class='manual-verify-ok'>✅ 更新成功！阿里 " +
+              (mr.alibaba_count || 0) + " 条 / 淘天 " + (mr.taotian_count || 0) + " 条</div>";
+            markManualStep(4);
+            updateManualReminder(meta);
+          } else {
+            box.innerHTML = "<div class='manual-verify-fail'>❌ 数据未更新，可能命令未跑完或推送失败，请重试第 3 步</div>";
+          }
+        } catch (e) {
+          box.innerHTML = "<div class='manual-verify-fail'>❌ 检查失败：" + e.message + "</div>";
+        }
+      });
+    }
+
+    function updateManualReminder(meta) {
+      const hint = document.getElementById("manualHint");
+      if (!hint) return;
+      const mr = (meta && meta.manual_refresh) || {};
+      const days = daysSinceDate(mr.alibaba_taotian_last);
+      if (days <= 60) {
+        hint.style.display = "none";
+        return;
+      }
+      hint.textContent = "📋 阿里/淘天数据已 " + days + " 天未更新，点击查看补跑指引";
+      hint.style.display = "inline";
+      hint.onclick = openManualModal;
+    }
+
     async function loadRefreshMeta() {
       const row = document.getElementById("refreshMetaRow");
       const el = document.getElementById("refreshMeta");
@@ -1763,9 +2022,11 @@
         ]);
         if (!metaResp.ok) return;
         const meta = await metaResp.json();
+        cachedMeta = meta;
         if (meta.status === "failed") {
           el.textContent = "上次刷新失败 · " + (meta.refreshed_at || "");
           row.style.display = "block";
+          updateManualReminder(meta);
           return;
         }
         el.textContent =
@@ -1774,6 +2035,7 @@
           " · 本次新增 " + (meta.added || 0) + " 个" +
           " · 失效下架 " + (meta.expired || 0) + " 个";
         row.style.display = "block";
+        updateManualReminder(meta);
 
         if (healthResp.ok && warnEl && warnList) {
           const health = await healthResp.json();
@@ -1817,6 +2079,7 @@
       }
     }
 
+    initManualRefreshUI();
     loadRefreshMeta();
     loadJobs();
   </script>

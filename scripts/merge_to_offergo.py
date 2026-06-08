@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """合并 jobs/*_jobs.json → jobs.json，并生成 meta.json / health.json。"""
+import argparse
 import json
 import os
 import re
@@ -198,13 +199,47 @@ def build_health() -> dict:
     }
 
 
-def write_meta(total: int, expired_total: int):
+def today_beijing() -> str:
+    return datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d")
+
+
+def load_job_file_count(stem: str) -> int:
+    fp = SRC / f"{stem}_jobs.json"
+    if not fp.exists():
+        return 0
+    with fp.open(encoding="utf-8") as f:
+        data = json.load(f)
+    return len(data) if isinstance(data, list) else 0
+
+
+def build_manual_refresh(prev_meta: dict, force: bool = False) -> dict:
+    prev_mr = prev_meta.get("manual_refresh") or {}
+    alibaba_count = load_job_file_count("alibaba")
+    taotian_count = load_job_file_count("taotian")
+    prev_last = prev_mr.get("alibaba_taotian_last") or ""
+    prev_ali = prev_mr.get("alibaba_count", 0)
+    prev_tao = prev_mr.get("taotian_count", 0)
+
+    if force or alibaba_count != prev_ali or taotian_count != prev_tao:
+        last = today_beijing()
+    else:
+        last = prev_last
+
+    return {
+        "alibaba_taotian_last": last,
+        "alibaba_count": alibaba_count,
+        "taotian_count": taotian_count,
+    }
+
+
+def write_meta(total: int, expired_total: int, manual_force: bool = False):
     prev_meta = load_json(OFFERGO_META_JSON, {})
     prev_total = prev_meta.get("total", 0)
     prev_expired_total = prev_meta.get("expired_total")
     if prev_expired_total is None:
         prev_expired_total = prev_meta.get("expired", 0)
     new_expired = max(0, expired_total - prev_expired_total)
+    manual_refresh = build_manual_refresh(prev_meta, force=manual_force)
     meta = {
         "refreshed_at": now_beijing(),
         "total": total,
@@ -212,15 +247,25 @@ def write_meta(total: int, expired_total: int):
         "expired": new_expired,
         "expired_total": expired_total,
         "status": "ok",
+        "manual_refresh": manual_refresh,
     }
     OFFERGO_META_JSON.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print(
         f"meta -> {OFFERGO_META_JSON} total={total} added={meta['added']} "
-        f"expired_new={new_expired} expired_total={expired_total}"
+        f"expired_new={new_expired} expired_total={expired_total} "
+        f"manual_last={manual_refresh['alibaba_taotian_last']}"
     )
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Merge job JSON files and update meta/health.")
+    parser.add_argument(
+        "--manual-alibaba-taotian",
+        action="store_true",
+        help="Mark alibaba/taotian manual refresh date as today (use after local Cookie scrapers).",
+    )
+    args = parser.parse_args()
+
     files = sorted(glob(str(SRC / "*_jobs.json")))
     merged = []
     seen = set()
@@ -252,7 +297,7 @@ def main():
         json.dump(merged, f, ensure_ascii=False, indent=2)
 
     expired = count_expired_in_jobs()
-    write_meta(len(merged), expired)
+    write_meta(len(merged), expired, manual_force=args.manual_alibaba_taotian)
 
     health = build_health()
     OFFERGO_HEALTH_JSON.write_text(json.dumps(health, ensure_ascii=False, indent=2), encoding="utf-8")

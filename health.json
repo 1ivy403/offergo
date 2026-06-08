@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-06-08 21:08",
+  "refreshed_at": "2026-06-08 21:41",
   "scrapers": [
     {
       "name": "alibaba",
@@ -177,7 +177,7 @@
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 243,
+      "count": 241,
       "prev_count": 241,
       "status": "ok"
     },
@@ -417,7 +417,7 @@
     },
     {
       "name": "wangyi",
-      "count": 41,
+      "count": 43,
       "prev_count": 43,
       "status": "ok"
     },
@@ -495,6 +495,6 @@
     }
   ],
   "warnings": [],
-  "actions_run_id": "27138069092",
+  "actions_run_id": "",
   "status": "ok"
 }
