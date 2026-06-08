@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated_at": "2026-06-08 10:51:43",
-    "duration_sec": 43.1,
+    "generated_at": "2026-06-08 12:55:42",
+    "duration_sec": 69.8,
     "total_raw": 133,
     "after_dedup": 121,
     "kept": 20,
@@ -848,22 +848,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：「商业产品」通用岗位",
-      "title": "「商业产品」通用岗位",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/13461",
-      "positionId": "13461"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：Android音视频开发工程师/架构师）",
       "title": "Android音视频开发工程师/架构师",
       "type": "社招",
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/7567",
       "positionId": "7567"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：「商业产品」通用岗位",
+      "title": "「商业产品」通用岗位",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/13461",
+      "positionId": "13461"
     },
     {
       "decision": "EXCLUDED_HARD",
