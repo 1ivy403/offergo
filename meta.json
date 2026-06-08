@@ -1,7 +1,8 @@
 {
-  "refreshed_at": "2026-06-08 19:03",
+  "refreshed_at": "2026-06-08 20:35",
   "total": 1910,
   "added": 0,
-  "expired": 47,
+  "expired": 0,
+  "expired_total": 47,
   "status": "ok"
 }

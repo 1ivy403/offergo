@@ -156,7 +156,7 @@ def count_expired_in_jobs() -> int:
 
 
 def scraper_status(count: int, prev_count: int) -> str:
-    if count == 0:
+    if count == 0 and prev_count > 0:
         return "warn_zero"
     if prev_count > 0 and count < prev_count * 0.5:
         return "warn_drop"
@@ -198,18 +198,26 @@ def build_health() -> dict:
     }
 
 
-def write_meta(total: int, expired: int):
+def write_meta(total: int, expired_total: int):
     prev_meta = load_json(OFFERGO_META_JSON, {})
     prev_total = prev_meta.get("total", 0)
+    prev_expired_total = prev_meta.get("expired_total")
+    if prev_expired_total is None:
+        prev_expired_total = prev_meta.get("expired", 0)
+    new_expired = max(0, expired_total - prev_expired_total)
     meta = {
         "refreshed_at": now_beijing(),
         "total": total,
         "added": max(0, total - prev_total),
-        "expired": expired,
+        "expired": new_expired,
+        "expired_total": expired_total,
         "status": "ok",
     }
     OFFERGO_META_JSON.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"meta -> {OFFERGO_META_JSON} total={total} added={meta['added']} expired={expired}")
+    print(
+        f"meta -> {OFFERGO_META_JSON} total={total} added={meta['added']} "
+        f"expired_new={new_expired} expired_total={expired_total}"
+    )
 
 
 def main():

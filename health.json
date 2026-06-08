@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-06-08 19:03",
+  "refreshed_at": "2026-06-08 20:35",
   "scrapers": [
     {
       "name": "alibaba",
@@ -41,25 +41,25 @@
       "name": "bilibili_intern",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "bilibili_social",
       "count": 32,
-      "prev_count": 31,
+      "prev_count": 32,
       "status": "ok"
     },
     {
       "name": "bytedance",
       "count": 167,
-      "prev_count": 168,
+      "prev_count": 167,
       "status": "ok"
     },
     {
       "name": "ctrip_campus",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "ctrip_social",
@@ -131,7 +131,7 @@
       "name": "iflytek_campus",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "iflytek_social",
@@ -172,13 +172,13 @@
     {
       "name": "kuaishou_zhaopin_intern",
       "count": 64,
-      "prev_count": 65,
+      "prev_count": 64,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
       "count": 241,
-      "prev_count": 242,
+      "prev_count": 241,
       "status": "ok"
     },
     {
@@ -197,7 +197,7 @@
       "name": "lixiang_campus",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "lixiang_social",
@@ -239,7 +239,7 @@
       "name": "modelbest_campus",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "modelbest_social",
@@ -263,7 +263,7 @@
       "name": "netease_campus_163",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "netease_game_campus",
@@ -305,7 +305,7 @@
       "name": "pdd_campus_grad",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "pdd_social",
@@ -341,7 +341,7 @@
       "name": "sensetime_intern",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "sensetime_social",
@@ -376,14 +376,14 @@
     {
       "name": "tencent",
       "count": 186,
-      "prev_count": 188,
+      "prev_count": 186,
       "status": "ok"
     },
     {
       "name": "tongcheng_campus",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "tongcheng_social",
@@ -395,7 +395,7 @@
       "name": "vivo_campus",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "vivo_daily_intern",
@@ -418,7 +418,7 @@
     {
       "name": "wangyi",
       "count": 43,
-      "prev_count": 44,
+      "prev_count": 43,
       "status": "ok"
     },
     {
@@ -449,7 +449,7 @@
       "name": "xpeng_intern",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "xpeng_social",
@@ -467,7 +467,7 @@
       "name": "zhipin_social",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "zhipu_campus",
@@ -485,7 +485,7 @@
       "name": "zte_campus",
       "count": 0,
       "prev_count": 0,
-      "status": "warn_zero"
+      "status": "ok"
     },
     {
       "name": "zte_social",
@@ -494,21 +494,7 @@
       "status": "ok"
     }
   ],
-  "warnings": [
-    "bilibili_intern: 本次 0 条，上次 0 条",
-    "ctrip_campus: 本次 0 条，上次 0 条",
-    "iflytek_campus: 本次 0 条，上次 0 条",
-    "lixiang_campus: 本次 0 条，上次 0 条",
-    "modelbest_campus: 本次 0 条，上次 0 条",
-    "netease_campus_163: 本次 0 条，上次 0 条",
-    "pdd_campus_grad: 本次 0 条，上次 0 条",
-    "sensetime_intern: 本次 0 条，上次 0 条",
-    "tongcheng_campus: 本次 0 条，上次 0 条",
-    "vivo_campus: 本次 0 条，上次 0 条",
-    "xpeng_intern: 本次 0 条，上次 0 条",
-    "zhipin_social: 本次 0 条，上次 0 条",
-    "zte_campus: 本次 0 条，上次 0 条"
-  ],
-  "actions_run_id": "27131791061",
+  "warnings": [],
+  "actions_run_id": "",
   "status": "ok"
 }
