@@ -1,0 +1,63 @@
+name: Weekly Job Refresh
+
+on:
+  schedule:
+    - cron: "0 2 * * 1"  # 每周一 UTC 02:00 = 北京时间 10:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      OFFERGO_JOBS_DIR: ${{ github.workspace }}/jobs
+      GITHUB_JOB_STATUS: ${{ job.status }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium --with-deps
+
+      - name: Phase 1 — run scrapers
+        run: python3 scripts/run_phase1.py
+        continue-on-error: true
+
+      - name: Phase 2 — URL check
+        run: python3 scripts/phase2_url_check.py
+        continue-on-error: true
+
+      - name: Merge and generate meta/health
+        run: python3 scripts/merge_to_offergo.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add jobs/ jobs.json meta.json health.json scripts/phase2_url_report.json scripts/phase1_report.json
+          git diff --staged --quiet || git commit -m "data: weekly refresh $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Mark refresh failed
+        if: failure()
+        env:
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_JOB_STATUS: ${{ job.status }}
+        run: |
+          python3 scripts/mark_failure.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add meta.json health.json
+          git diff --staged --quiet || git commit -m "data: mark refresh failed $(date -u +%Y-%m-%d)"
+          git push || true

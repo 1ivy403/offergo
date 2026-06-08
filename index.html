@@ -600,6 +600,29 @@
       margin-bottom: 0.75rem;
     }
     .panel-title-row h2 { margin: 0; }
+    .refresh-meta {
+      color: #999;
+      font-size: 12px;
+      margin-top: 0.45rem;
+      line-height: 1.5;
+    }
+    .health-warn {
+      color: #b45309;
+      cursor: pointer;
+      margin-left: 0.35rem;
+      font-size: 12px;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .health-warn-panel {
+      display: none;
+      list-style: disc;
+      margin: 0.35rem 0 0 1.1rem;
+      padding: 0;
+      color: #888;
+      font-size: 11px;
+    }
+    .health-warn-panel.open { display: block; }
   </style>
 </head>
 <body>
@@ -642,6 +665,10 @@
             <label class="chip-toggle"><input type="checkbox" id="kwAgent" /> Agent</label>
             <label class="chip-toggle"><input type="checkbox" id="kwVoice" /> 语音</label>
             <label class="chip-toggle"><input type="checkbox" id="kwPlatform" /> 平台</label>
+          </div>
+          <div id="refreshMetaRow" class="refresh-meta" style="display:none">
+            <span id="refreshMeta"></span><span id="healthWarn" class="health-warn" style="display:none"></span>
+            <ul id="healthWarnList" class="health-warn-panel"></ul>
           </div>
         </div>
       </div>
@@ -1723,6 +1750,48 @@
     }
 
 
+    async function loadRefreshMeta() {
+      const row = document.getElementById("refreshMetaRow");
+      const el = document.getElementById("refreshMeta");
+      const warnEl = document.getElementById("healthWarn");
+      const warnList = document.getElementById("healthWarnList");
+      if (!row || !el) return;
+      try {
+        const [metaResp, healthResp] = await Promise.all([
+          fetch("meta.json"),
+          fetch("health.json"),
+        ]);
+        if (!metaResp.ok) return;
+        const meta = await metaResp.json();
+        if (meta.status === "failed") {
+          el.textContent = "上次刷新失败 · " + (meta.refreshed_at || "");
+          row.style.display = "block";
+          return;
+        }
+        el.textContent =
+          "最近更新：" + meta.refreshed_at +
+          " · 共 " + meta.total + " 个岗位" +
+          " · 本次新增 " + (meta.added || 0) + " 个" +
+          " · 失效下架 " + (meta.expired || 0) + " 个";
+        row.style.display = "block";
+
+        if (healthResp.ok && warnEl && warnList) {
+          const health = await healthResp.json();
+          const warnings = health.warnings || [];
+          if (warnings.length) {
+            warnEl.textContent = "⚠️ 部分数据源异常";
+            warnEl.style.display = "inline";
+            warnList.innerHTML = warnings.map(function (w) {
+              return "<li>" + w.replace(/</g, "&lt;") + "</li>";
+            }).join("");
+            warnEl.onclick = function () {
+              warnList.classList.toggle("open");
+            };
+          }
+        }
+      } catch (_) { /* 静默失败 */ }
+    }
+
     async function loadJobs() {
       const loadEl = document.getElementById("loadingState");
       try {
@@ -1748,6 +1817,7 @@
       }
     }
 
+    loadRefreshMeta();
     loadJobs();
   </script>
 </body>

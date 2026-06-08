@@ -1,0 +1,514 @@
+{
+  "refreshed_at": "2026-06-08 18:13",
+  "scrapers": [
+    {
+      "name": "alibaba",
+      "count": 5,
+      "prev_count": 5,
+      "status": "ok"
+    },
+    {
+      "name": "alibaba_offcampus",
+      "count": 12,
+      "prev_count": 12,
+      "status": "ok"
+    },
+    {
+      "name": "antgroup_social",
+      "count": 51,
+      "prev_count": 51,
+      "status": "ok"
+    },
+    {
+      "name": "baichuan",
+      "count": 5,
+      "prev_count": 5,
+      "status": "ok"
+    },
+    {
+      "name": "baidu_campus_manual",
+      "count": 37,
+      "prev_count": 37,
+      "status": "ok"
+    },
+    {
+      "name": "bilibili_campus",
+      "count": 6,
+      "prev_count": 6,
+      "status": "ok"
+    },
+    {
+      "name": "bilibili_intern",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "bilibili_social",
+      "count": 31,
+      "prev_count": 31,
+      "status": "ok"
+    },
+    {
+      "name": "bytedance",
+      "count": 168,
+      "prev_count": 168,
+      "status": "ok"
+    },
+    {
+      "name": "ctrip_campus",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "ctrip_social",
+      "count": 17,
+      "prev_count": 17,
+      "status": "ok"
+    },
+    {
+      "name": "didi_campus",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "didi_intern",
+      "count": 3,
+      "prev_count": 3,
+      "status": "ok"
+    },
+    {
+      "name": "didi_social",
+      "count": 21,
+      "prev_count": 21,
+      "status": "ok"
+    },
+    {
+      "name": "dji_social",
+      "count": 4,
+      "prev_count": 4,
+      "status": "ok"
+    },
+    {
+      "name": "duxiaoman_campus",
+      "count": 5,
+      "prev_count": 5,
+      "status": "ok"
+    },
+    {
+      "name": "eleme",
+      "count": 4,
+      "prev_count": 4,
+      "status": "ok"
+    },
+    {
+      "name": "fliggy",
+      "count": 3,
+      "prev_count": 3,
+      "status": "ok"
+    },
+    {
+      "name": "highflyer",
+      "count": 3,
+      "prev_count": 3,
+      "status": "ok"
+    },
+    {
+      "name": "honor_intern",
+      "count": 4,
+      "prev_count": 4,
+      "status": "ok"
+    },
+    {
+      "name": "honor_social",
+      "count": 5,
+      "prev_count": 5,
+      "status": "ok"
+    },
+    {
+      "name": "iflytek_campus",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "iflytek_social",
+      "count": 256,
+      "prev_count": 256,
+      "status": "ok"
+    },
+    {
+      "name": "jd_campus",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "jd_intern",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "jd_social",
+      "count": 30,
+      "prev_count": 30,
+      "status": "ok"
+    },
+    {
+      "name": "kuaishou_campus_fulltime",
+      "count": 7,
+      "prev_count": 7,
+      "status": "ok"
+    },
+    {
+      "name": "kuaishou_campus_intern",
+      "count": 6,
+      "prev_count": 6,
+      "status": "ok"
+    },
+    {
+      "name": "kuaishou_zhaopin_intern",
+      "count": 65,
+      "prev_count": 65,
+      "status": "ok"
+    },
+    {
+      "name": "kuaishou_zhaopin_social",
+      "count": 242,
+      "prev_count": 242,
+      "status": "ok"
+    },
+    {
+      "name": "lenovo_campus",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "lenovo_social",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "lixiang_campus",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "lixiang_social",
+      "count": 12,
+      "prev_count": 12,
+      "status": "ok"
+    },
+    {
+      "name": "meituan_campus",
+      "count": 34,
+      "prev_count": 34,
+      "status": "ok"
+    },
+    {
+      "name": "meituan",
+      "count": 76,
+      "prev_count": 76,
+      "status": "ok"
+    },
+    {
+      "name": "meituan_social",
+      "count": 46,
+      "prev_count": 46,
+      "status": "ok"
+    },
+    {
+      "name": "minimax_campus",
+      "count": 4,
+      "prev_count": 4,
+      "status": "ok"
+    },
+    {
+      "name": "minimax_social",
+      "count": 4,
+      "prev_count": 4,
+      "status": "ok"
+    },
+    {
+      "name": "modelbest_campus",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "modelbest_social",
+      "count": 3,
+      "prev_count": 3,
+      "status": "ok"
+    },
+    {
+      "name": "moonshot_campus",
+      "count": 11,
+      "prev_count": 11,
+      "status": "ok"
+    },
+    {
+      "name": "moonshot_social",
+      "count": 15,
+      "prev_count": 15,
+      "status": "ok"
+    },
+    {
+      "name": "netease_campus_163",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "netease_game_campus",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "netease_social",
+      "count": 38,
+      "prev_count": 38,
+      "status": "ok"
+    },
+    {
+      "name": "nio_campus",
+      "count": 129,
+      "prev_count": 129,
+      "status": "ok"
+    },
+    {
+      "name": "nio_social",
+      "count": 130,
+      "prev_count": 130,
+      "status": "ok"
+    },
+    {
+      "name": "oppo_campus",
+      "count": 6,
+      "prev_count": 6,
+      "status": "ok"
+    },
+    {
+      "name": "oppo_social",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "pdd_campus_grad",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "pdd_social",
+      "count": 8,
+      "prev_count": 8,
+      "status": "ok"
+    },
+    {
+      "name": "pingan_campus",
+      "count": 10,
+      "prev_count": 10,
+      "status": "ok"
+    },
+    {
+      "name": "pingan_intern",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "pingan_social",
+      "count": 6,
+      "prev_count": 6,
+      "status": "ok"
+    },
+    {
+      "name": "qunar",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "sensetime_intern",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "sensetime_social",
+      "count": 10,
+      "prev_count": 10,
+      "status": "ok"
+    },
+    {
+      "name": "shein",
+      "count": 7,
+      "prev_count": 7,
+      "status": "ok"
+    },
+    {
+      "name": "step_campus",
+      "count": 2,
+      "prev_count": 2,
+      "status": "ok"
+    },
+    {
+      "name": "step_social",
+      "count": 7,
+      "prev_count": 7,
+      "status": "ok"
+    },
+    {
+      "name": "taotian",
+      "count": 4,
+      "prev_count": 4,
+      "status": "ok"
+    },
+    {
+      "name": "tencent",
+      "count": 188,
+      "prev_count": 188,
+      "status": "ok"
+    },
+    {
+      "name": "tongcheng_campus",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "tongcheng_social",
+      "count": 3,
+      "prev_count": 3,
+      "status": "ok"
+    },
+    {
+      "name": "vivo_campus",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "vivo_daily_intern",
+      "count": 14,
+      "prev_count": 14,
+      "status": "ok"
+    },
+    {
+      "name": "vivo_social",
+      "count": 17,
+      "prev_count": 17,
+      "status": "ok"
+    },
+    {
+      "name": "vivo_summer_intern",
+      "count": 7,
+      "prev_count": 7,
+      "status": "ok"
+    },
+    {
+      "name": "wangyi",
+      "count": 44,
+      "prev_count": 44,
+      "status": "ok"
+    },
+    {
+      "name": "xiaohongshu",
+      "count": 20,
+      "prev_count": 20,
+      "status": "ok"
+    },
+    {
+      "name": "xiaomi_campus",
+      "count": 3,
+      "prev_count": 3,
+      "status": "ok"
+    },
+    {
+      "name": "xiaomi_intern",
+      "count": 13,
+      "prev_count": 13,
+      "status": "ok"
+    },
+    {
+      "name": "xiaomi_social",
+      "count": 26,
+      "prev_count": 26,
+      "status": "ok"
+    },
+    {
+      "name": "xpeng_intern",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "xpeng_social",
+      "count": 10,
+      "prev_count": 10,
+      "status": "ok"
+    },
+    {
+      "name": "yiwan",
+      "count": 3,
+      "prev_count": 3,
+      "status": "ok"
+    },
+    {
+      "name": "zhipin_social",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "zhipu_campus",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    },
+    {
+      "name": "zhipu_social",
+      "count": 11,
+      "prev_count": 11,
+      "status": "ok"
+    },
+    {
+      "name": "zte_campus",
+      "count": 0,
+      "prev_count": 0,
+      "status": "warn_zero"
+    },
+    {
+      "name": "zte_social",
+      "count": 1,
+      "prev_count": 1,
+      "status": "ok"
+    }
+  ],
+  "warnings": [
+    "bilibili_intern: 本次 0 条，上次 0 条",
+    "ctrip_campus: 本次 0 条，上次 0 条",
+    "iflytek_campus: 本次 0 条，上次 0 条",
+    "lixiang_campus: 本次 0 条，上次 0 条",
+    "modelbest_campus: 本次 0 条，上次 0 条",
+    "netease_campus_163: 本次 0 条，上次 0 条",
+    "pdd_campus_grad: 本次 0 条，上次 0 条",
+    "sensetime_intern: 本次 0 条，上次 0 条",
+    "tongcheng_campus: 本次 0 条，上次 0 条",
+    "vivo_campus: 本次 0 条，上次 0 条",
+    "xpeng_intern: 本次 0 条，上次 0 条",
+    "zhipin_social: 本次 0 条，上次 0 条",
+    "zte_campus: 本次 0 条，上次 0 条"
+  ],
+  "actions_run_id": "",
+  "status": "ok"
+}
