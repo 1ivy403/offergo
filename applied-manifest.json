@@ -1,0 +1,705 @@
+{
+  "updated_at": "2026-06-15",
+  "note": "今日投递成功岗位；不修改 jobs.json，通过 seedApply + extraJobs 注入看板",
+  "total": 38,
+  "seedApply": {
+    "500001": "applied",
+    "66": "applied",
+    "62": "applied",
+    "500002": "applied",
+    "500003": "applied",
+    "500004": "applied",
+    "500005": "applied",
+    "500006": "applied",
+    "500007": "applied",
+    "500008": "applied",
+    "500009": "applied",
+    "500010": "applied",
+    "500011": "applied",
+    "500012": "applied",
+    "500013": "applied",
+    "500014": "applied",
+    "500015": "applied",
+    "500016": "applied",
+    "500017": "applied",
+    "770": "applied",
+    "317": "applied",
+    "500018": "applied",
+    "500019": "applied",
+    "328": "applied",
+    "1615": "applied",
+    "1578": "applied",
+    "1575": "applied",
+    "1606": "applied",
+    "500020": "applied",
+    "1142": "applied",
+    "1143": "applied",
+    "1144": "applied",
+    "500021": "applied",
+    "500022": "applied",
+    "500023": "applied",
+    "500024": "applied",
+    "500025": "applied",
+    "500026": "applied"
+  },
+  "extraJobs": [
+    {
+      "id": 500001,
+      "company": "vivo",
+      "bu": "已投递补录",
+      "title": "已投递岗位（95886635）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://hr-campus.vivo.com/form/friendly?fromPage=job&CategoryId=3&submissionId=95886635",
+      "url": "https://hr-campus.vivo.com/form/friendly?fromPage=job&CategoryId=3&submissionId=95886635",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500002,
+      "company": "OPPO",
+      "bu": "已投递补录",
+      "title": "已投递岗位（1725）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://careers.oppo.com/university/oppo/campus/post/1725?recruitType=Graduate",
+      "url": "https://careers.oppo.com/university/oppo/campus/post/1725?recruitType=Graduate",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500003,
+      "company": "B站",
+      "bu": "已投递补录",
+      "title": "已投递岗位（28582）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bilibili.com/campus/positions/28582",
+      "url": "https://jobs.bilibili.com/campus/positions/28582",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500004,
+      "company": "B站",
+      "bu": "已投递补录",
+      "title": "已投递岗位（28157）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bilibili.com/campus/positions/28157",
+      "url": "https://jobs.bilibili.com/campus/positions/28157",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500005,
+      "company": "B站",
+      "bu": "已投递补录",
+      "title": "已投递岗位（26074）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bilibili.com/campus/positions/26074",
+      "url": "https://jobs.bilibili.com/campus/positions/26074",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500006,
+      "company": "字节跳动",
+      "bu": "已投递补录",
+      "title": "已投递岗位（751680178011…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bytedance.com/campus/position/7516801780115982610/detail",
+      "url": "https://jobs.bytedance.com/campus/position/7516801780115982610/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500007,
+      "company": "字节跳动",
+      "bu": "已投递补录",
+      "title": "已投递岗位（760253102866…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bytedance.com/campus/position/7602531028664600837/detail",
+      "url": "https://jobs.bytedance.com/campus/position/7602531028664600837/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500008,
+      "company": "字节跳动",
+      "bu": "已投递补录",
+      "title": "已投递岗位（760480804879…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bytedance.com/campus/position/7604808048792766773/detail",
+      "url": "https://jobs.bytedance.com/campus/position/7604808048792766773/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500009,
+      "company": "字节跳动",
+      "bu": "已投递补录",
+      "title": "已投递岗位（761814826583…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bytedance.com/campus/position/7618148265837611317/detail",
+      "url": "https://jobs.bytedance.com/campus/position/7618148265837611317/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500010,
+      "company": "字节跳动",
+      "bu": "已投递补录",
+      "title": "已投递岗位（759247518598…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bytedance.com/campus/position/7592475185988290821/detail",
+      "url": "https://jobs.bytedance.com/campus/position/7592475185988290821/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500011,
+      "company": "字节跳动",
+      "bu": "已投递补录",
+      "title": "已投递岗位（763711215786…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bytedance.com/campus/position/7637112157868345605/detail",
+      "url": "https://jobs.bytedance.com/campus/position/7637112157868345605/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500012,
+      "company": "字节跳动",
+      "bu": "已投递补录",
+      "title": "已投递岗位（755944360713…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bytedance.com/campus/position/7559443607137323271/detail",
+      "url": "https://jobs.bytedance.com/campus/position/7559443607137323271/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500013,
+      "company": "字节跳动",
+      "bu": "已投递补录",
+      "title": "已投递岗位（760033987736…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://jobs.bytedance.com/campus/position/7600339877369366837/detail",
+      "url": "https://jobs.bytedance.com/campus/position/7600339877369366837/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500014,
+      "company": "智谱AI",
+      "bu": "已投递补录",
+      "title": "已投递岗位（753349909738…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://zhipu-ai.jobs.feishu.cn/zhipucampus/position/7533499097384569130/detail",
+      "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/7533499097384569130/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500015,
+      "company": "智谱AI",
+      "bu": "已投递补录",
+      "title": "已投递岗位（751488343609…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://zhipu-ai.jobs.feishu.cn/zhipucampus/position/7514883436093098290/detail",
+      "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/7514883436093098290/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500016,
+      "company": "智谱AI",
+      "bu": "已投递补录",
+      "title": "已投递岗位（756137610846…）",
+      "city": "未注明",
+      "type": "实习",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://zhipu-ai.jobs.feishu.cn/zhipucampus/resume/7561376108466751780",
+      "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/resume/7561376108466751780",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500017,
+      "company": "月之暗面",
+      "bu": "已投递补录",
+      "title": "已投递岗位（646a6e5d-e99…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://app.mokahr.com/campus-recruitment/moonshot/148507?sourceToken=36ae0fe79b871e0600f2b2cfe0a81ebb#/job/646a6e5d-e998-4680-92b0-65b4087c1f7c",
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507?sourceToken=36ae0fe79b871e0600f2b2cfe0a81ebb#/job/646a6e5d-e998-4680-92b0-65b4087c1f7c",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500018,
+      "company": "小米",
+      "bu": "已投递补录",
+      "title": "已投递岗位（762107387332…）",
+      "city": "未注明",
+      "type": "实习",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://xiaomi.jobs.f.mioffice.cn/internship/position/7621073873320478995/detail?spread=6AA3R7B",
+      "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/7621073873320478995/detail?spread=6AA3R7B",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500019,
+      "company": "小米",
+      "bu": "已投递补录",
+      "title": "已投递岗位（763147964119…）",
+      "city": "未注明",
+      "type": "实习",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://xiaomi.jobs.f.mioffice.cn/internship/position/7631479641194613042/detail?spread=6AA3R7B",
+      "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/7631479641194613042/detail?spread=6AA3R7B",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500020,
+      "company": "网易",
+      "bu": "已投递补录",
+      "title": "已投递岗位（3718）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://campus.163.com/app/detail/index?id=3718&projectId=76",
+      "url": "https://campus.163.com/app/detail/index?id=3718&projectId=76",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500021,
+      "company": "网易",
+      "bu": "已投递补录",
+      "title": "已投递岗位（76728）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://hr.163.com/job-detail.html?id=76728&lang=zh",
+      "url": "https://hr.163.com/job-detail.html?id=76728&lang=zh",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500022,
+      "company": "商汤科技",
+      "bu": "已投递补录",
+      "title": "已投递岗位（69c5f53dbe90…）",
+      "city": "未注明",
+      "type": "实习",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=69c5f53dbe908548be4c6784&postType=intern",
+      "url": "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=69c5f53dbe908548be4c6784&postType=intern",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500023,
+      "company": "平安",
+      "bu": "已投递补录",
+      "title": "已投递岗位（925e7df4167a…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://campus.pingan.com/positionDetail?positionId=925e7df4167a359c89214962e7c67f3e",
+      "url": "https://campus.pingan.com/positionDetail?positionId=925e7df4167a359c89214962e7c67f3e",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500024,
+      "company": "平安",
+      "bu": "已投递补录",
+      "title": "已投递岗位（772c0abbffc1…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://campus.pingan.com/positionDetail?positionId=772c0abbffc13c96bc94cf5359420b57",
+      "url": "https://campus.pingan.com/positionDetail?positionId=772c0abbffc13c96bc94cf5359420b57",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500025,
+      "company": "平安",
+      "bu": "已投递补录",
+      "title": "已投递岗位（2f554707b51c…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://campus.pingan.com/positionDetail?positionId=2f554707b51c3860a2ea28f001b55836",
+      "url": "https://campus.pingan.com/positionDetail?positionId=2f554707b51c3860a2ea28f001b55836",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500026,
+      "company": "平安",
+      "bu": "已投递补录",
+      "title": "已投递岗位（c2d73843b0e8…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://campus.pingan.com/positionDetail?positionId=c2d73843b0e83eb38b64e1991bf70cdd",
+      "url": "https://campus.pingan.com/positionDetail?positionId=c2d73843b0e83eb38b64e1991bf70cdd",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    }
+  ],
+  "entries": [
+    {
+      "url": "https://hr-campus.vivo.com/form/friendly?fromPage=job&CategoryId=3&submissionId=95886635",
+      "company": "vivo",
+      "title": "已投递岗位（95886635）",
+      "id": 500001,
+      "source": "extra"
+    },
+    {
+      "url": "https://hr-campus.vivo.com/intern/detail?jobAdId=73d1af9f-17fc-4a00-ac02-72a2f7f8ec15",
+      "company": "vivo",
+      "title": "AI产品经理-杭州实习",
+      "id": 66,
+      "source": "existing"
+    },
+    {
+      "url": "https://hr-campus.vivo.com/form?fromPage=job&jobAdId=4c86514f-0bb8-4753-b98b-b2127a3cf15f&userId=85217342",
+      "company": "vivo",
+      "title": "AI产品经理(平台产品方向)-实习",
+      "id": 62,
+      "source": "existing"
+    },
+    {
+      "url": "https://careers.oppo.com/university/oppo/campus/post/1725?recruitType=Graduate",
+      "company": "OPPO",
+      "title": "已投递岗位（1725）",
+      "id": 500002,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bilibili.com/campus/positions/28582",
+      "company": "B站",
+      "title": "已投递岗位（28582）",
+      "id": 500003,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bilibili.com/campus/positions/28157",
+      "company": "B站",
+      "title": "已投递岗位（28157）",
+      "id": 500004,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bilibili.com/campus/positions/26074",
+      "company": "B站",
+      "title": "已投递岗位（26074）",
+      "id": 500005,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bytedance.com/campus/position/7516801780115982610/detail",
+      "company": "字节跳动",
+      "title": "已投递岗位（751680178011…）",
+      "id": 500006,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bytedance.com/campus/position/7602531028664600837/detail",
+      "company": "字节跳动",
+      "title": "已投递岗位（760253102866…）",
+      "id": 500007,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bytedance.com/campus/position/7604808048792766773/detail",
+      "company": "字节跳动",
+      "title": "已投递岗位（760480804879…）",
+      "id": 500008,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bytedance.com/campus/position/7618148265837611317/detail",
+      "company": "字节跳动",
+      "title": "已投递岗位（761814826583…）",
+      "id": 500009,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bytedance.com/campus/position/7592475185988290821/detail",
+      "company": "字节跳动",
+      "title": "已投递岗位（759247518598…）",
+      "id": 500010,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bytedance.com/campus/position/7637112157868345605/detail",
+      "company": "字节跳动",
+      "title": "已投递岗位（763711215786…）",
+      "id": 500011,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bytedance.com/campus/position/7559443607137323271/detail",
+      "company": "字节跳动",
+      "title": "已投递岗位（755944360713…）",
+      "id": 500012,
+      "source": "extra"
+    },
+    {
+      "url": "https://jobs.bytedance.com/campus/position/7600339877369366837/detail",
+      "company": "字节跳动",
+      "title": "已投递岗位（760033987736…）",
+      "id": 500013,
+      "source": "extra"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/7533499097384569130/detail",
+      "company": "智谱AI",
+      "title": "已投递岗位（753349909738…）",
+      "id": 500014,
+      "source": "extra"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/7514883436093098290/detail",
+      "company": "智谱AI",
+      "title": "已投递岗位（751488343609…）",
+      "id": 500015,
+      "source": "extra"
+    },
+    {
+      "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/resume/7561376108466751780",
+      "company": "智谱AI",
+      "title": "已投递岗位（756137610846…）",
+      "id": 500016,
+      "source": "extra"
+    },
+    {
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507?sourceToken=36ae0fe79b871e0600f2b2cfe0a81ebb#/job/646a6e5d-e998-4680-92b0-65b4087c1f7c",
+      "company": "月之暗面",
+      "title": "已投递岗位（646a6e5d-e99…）",
+      "id": 500017,
+      "source": "extra"
+    },
+    {
+      "url": "https://app.mokahr.com/campus-recruitment/moonshot/148507?sourceToken=36ae0fe79b871e0600f2b2cfe0a81ebb#/job/56c68aef-8f49-4ca9-84d7-f0a581f51fd4",
+      "company": "月之暗面",
+      "title": "AI Native产品实习生",
+      "id": 770,
+      "source": "existing"
+    },
+    {
+      "url": "https://xiaomi.jobs.f.mioffice.cn/internship/resume/7621512530250713382/apply?spread=6AA3R7B",
+      "company": "小米",
+      "title": "AI产品经理实习生",
+      "id": 317,
+      "source": "existing"
+    },
+    {
+      "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/7621073873320478995/detail?spread=6AA3R7B",
+      "company": "小米",
+      "title": "已投递岗位（762107387332…）",
+      "id": 500018,
+      "source": "extra"
+    },
+    {
+      "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/7631479641194613042/detail?spread=6AA3R7B",
+      "company": "小米",
+      "title": "已投递岗位（763147964119…）",
+      "id": 500019,
+      "source": "extra"
+    },
+    {
+      "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/7646306013033892138/detail?spread=6AA3R7B",
+      "company": "小米",
+      "title": "手机AI助手产品经理",
+      "id": 328,
+      "source": "existing"
+    },
+    {
+      "url": "https://nio.jobs.feishu.cn/campus/resume/7610630497400113459/",
+      "company": "蔚来",
+      "title": "校招-产品经理（AI应用）",
+      "id": 1615,
+      "source": "existing"
+    },
+    {
+      "url": "https://nio.jobs.feishu.cn/campus/position/7633337700573186346/detail",
+      "company": "蔚来",
+      "title": "实习-AI平台产品经理",
+      "id": 1578,
+      "source": "existing"
+    },
+    {
+      "url": "https://nio.jobs.feishu.cn/campus/position/7633341626643450155/detail",
+      "company": "蔚来",
+      "title": "实习-AI产品经理",
+      "id": 1575,
+      "source": "existing"
+    },
+    {
+      "url": "https://nio.jobs.feishu.cn/campus/position/7633337685424687401/detail",
+      "company": "蔚来",
+      "title": "实习-领域应用产品经理",
+      "id": 1606,
+      "source": "existing"
+    },
+    {
+      "url": "https://campus.163.com/app/detail/index?id=3718&projectId=76",
+      "company": "网易",
+      "title": "已投递岗位（3718）",
+      "id": 500020,
+      "source": "extra"
+    },
+    {
+      "url": "https://hr.163.com/job-detail.html?id=76653",
+      "company": "网易",
+      "title": "AI产品经理",
+      "id": 1142,
+      "source": "existing"
+    },
+    {
+      "url": "https://hr.163.com/job-detail.html?id=53179&lang=zh",
+      "company": "网易",
+      "title": "AI产品经理",
+      "id": 1143,
+      "source": "existing"
+    },
+    {
+      "url": "https://hr.163.com/job-detail.html?id=76542&lang=zh",
+      "company": "网易",
+      "title": "AI创新产品经理",
+      "id": 1144,
+      "source": "existing"
+    },
+    {
+      "url": "https://hr.163.com/job-detail.html?id=76728&lang=zh",
+      "company": "网易",
+      "title": "已投递岗位（76728）",
+      "id": 500021,
+      "source": "extra"
+    },
+    {
+      "url": "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=69c5f53dbe908548be4c6784&postType=intern",
+      "company": "商汤科技",
+      "title": "已投递岗位（69c5f53dbe90…）",
+      "id": 500022,
+      "source": "extra"
+    },
+    {
+      "url": "https://campus.pingan.com/positionDetail?positionId=925e7df4167a359c89214962e7c67f3e",
+      "company": "平安",
+      "title": "已投递岗位（925e7df4167a…）",
+      "id": 500023,
+      "source": "extra"
+    },
+    {
+      "url": "https://campus.pingan.com/positionDetail?positionId=772c0abbffc13c96bc94cf5359420b57",
+      "company": "平安",
+      "title": "已投递岗位（772c0abbffc1…）",
+      "id": 500024,
+      "source": "extra"
+    },
+    {
+      "url": "https://campus.pingan.com/positionDetail?positionId=2f554707b51c3860a2ea28f001b55836",
+      "company": "平安",
+      "title": "已投递岗位（2f554707b51c…）",
+      "id": 500025,
+      "source": "extra"
+    },
+    {
+      "url": "https://campus.pingan.com/positionDetail?positionId=c2d73843b0e83eb38b64e1991bf70cdd",
+      "company": "平安",
+      "title": "已投递岗位（c2d73843b0e8…）",
+      "id": 500026,
+      "source": "extra"
+    }
+  ]
+}

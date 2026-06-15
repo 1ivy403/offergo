@@ -890,6 +890,17 @@
     }
 
     let applyMap = loadApplyMap();
+    let appliedManifest = null;
+
+    function mergeSeedApply(seed) {
+      if (!seed || typeof seed !== "object") return;
+      for (const [k, v] of Object.entries(seed)) {
+        if (v !== "applied" && v !== "interview") continue;
+        if (applyMap[k] === "interview" || applyMap[k] === "applied") continue;
+        applyMap[k] = v;
+      }
+      saveApplyMap(applyMap);
+    }
 
     function loadSet(key) {
       try {
@@ -2054,13 +2065,29 @@
       } catch (_) { /* 静默失败 */ }
     }
 
+    async function loadAppliedManifest() {
+      try {
+        const resp = await fetch("applied-manifest.json?_=" + Date.now());
+        if (!resp.ok) return null;
+        appliedManifest = await resp.json();
+        mergeSeedApply(appliedManifest.seedApply);
+        return appliedManifest;
+      } catch {
+        return null;
+      }
+    }
+
     async function loadJobs() {
       const loadEl = document.getElementById("loadingState");
       try {
-        const resp = await fetch("jobs.json");
-        if (!resp.ok) throw new Error("HTTP " + resp.status);
-        const JOBS = await resp.json();
-        jobsEnriched = JOBS.map((j) => ({
+        const [jobsResp, manifest] = await Promise.all([
+          fetch("jobs.json"),
+          loadAppliedManifest(),
+        ]);
+        if (!jobsResp.ok) throw new Error("HTTP " + jobsResp.status);
+        const JOBS = await jobsResp.json();
+        const extra = (manifest && Array.isArray(manifest.extraJobs)) ? manifest.extraJobs : [];
+        jobsEnriched = JOBS.concat(extra).map((j) => ({
           ...j,
           url: j.url || "",
           cats: assignCategories(j),
