@@ -2065,16 +2065,27 @@
       } catch (_) { /* 静默失败 */ }
     }
 
-    async function loadAppliedManifest() {
+    async function loadApplySeeds() {
+      const ts = Date.now();
+      let manifest = null;
       try {
-        const resp = await fetch("applied-manifest.json?_=" + Date.now());
-        if (!resp.ok) return null;
-        appliedManifest = await resp.json();
-        mergeSeedApply(appliedManifest.seedApply);
-        return appliedManifest;
+        const [baselineResp, manifestResp] = await Promise.all([
+          fetch("apply-baseline.json?_=" + ts),
+          fetch("applied-manifest.json?_=" + ts),
+        ]);
+        if (baselineResp.ok) {
+          const baseline = await baselineResp.json();
+          mergeSeedApply(baseline.seedApply);
+        }
+        if (manifestResp.ok) {
+          manifest = await manifestResp.json();
+          mergeSeedApply(manifest.seedApply);
+          appliedManifest = manifest;
+        }
       } catch {
-        return null;
+        /* 静默失败 */
       }
+      return manifest;
     }
 
     async function loadJobs() {
@@ -2082,7 +2093,7 @@
       try {
         const [jobsResp, manifest] = await Promise.all([
           fetch("jobs.json"),
-          loadAppliedManifest(),
+          loadApplySeeds(),
         ]);
         if (!jobsResp.ok) throw new Error("HTTP " + jobsResp.status);
         const JOBS = await jobsResp.json();
