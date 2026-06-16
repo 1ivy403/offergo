@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-06-15",
-  "note": "今日投递成功岗位；不修改 jobs.json，通过 seedApply + extraJobs 注入看板",
-  "total": 38,
+  "note": "已投递岗位清单（不修改 jobs.json）；含多批投递补录",
+  "total": 40,
   "seedApply": {
     "500001": "applied",
     "66": "applied",
@@ -40,7 +40,47 @@
     "500023": "applied",
     "500024": "applied",
     "500025": "applied",
-    "500026": "applied"
+    "500026": "applied",
+    "500027": "applied",
+    "500028": "applied",
+    "1902": "applied",
+    "500029": "applied",
+    "500030": "applied",
+    "429": "applied",
+    "511": "applied",
+    "512": "applied",
+    "672": "applied",
+    "454": "applied",
+    "673": "applied",
+    "439": "applied",
+    "440": "applied",
+    "433": "applied",
+    "432": "applied",
+    "417": "applied",
+    "427": "applied",
+    "488": "applied",
+    "500031": "applied",
+    "671": "applied",
+    "428": "applied",
+    "446": "applied",
+    "500032": "applied",
+    "565": "applied",
+    "425": "applied",
+    "449": "applied",
+    "430": "applied",
+    "442": "applied",
+    "407": "applied",
+    "406": "applied",
+    "408": "applied",
+    "500033": "applied",
+    "500034": "applied",
+    "500035": "applied",
+    "500036": "applied",
+    "500037": "applied",
+    "500038": "applied",
+    "833": "applied",
+    "1885": "applied",
+    "500039": "applied"
   },
   "extraJobs": [
     {
@@ -432,6 +472,201 @@
       "url": "https://campus.pingan.com/positionDetail?positionId=c2d73843b0e83eb38b64e1991bf70cdd",
       "summary": "已投递补录岗位",
       "keywords": []
+    },
+    {
+      "id": 500027,
+      "company": "蚂蚁集团",
+      "bu": "已投递补录",
+      "title": "已投递岗位（260303089403…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://talent.antgroup.com/campus-position?positionId=26030308940392&tid=2196662f17815815948014389e4522",
+      "url": "https://talent.antgroup.com/campus-position?positionId=26030308940392&tid=2196662f17815815948014389e4522",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500028,
+      "company": "零一万物",
+      "bu": "已投递补录",
+      "title": "已投递岗位（764715709018…）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://01ai.jobs.feishu.cn/index/position/7647157090187905343/detail",
+      "url": "https://01ai.jobs.feishu.cn/index/position/7647157090187905343/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500029,
+      "company": "理想汽车",
+      "bu": "已投递补录",
+      "title": "已投递岗位（17371）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://www.lixiang.com/employ/detail/17371.html?jobCode=A02567&fromJob=1",
+      "url": "https://www.lixiang.com/employ/detail/17371.html?jobCode=A02567&fromJob=1",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500030,
+      "company": "快手",
+      "bu": "已投递补录",
+      "title": "已投递岗位（11453）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://campus.kuaishou.cn/recruit/campus/e/#/campus/job-info/11453",
+      "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/job-info/11453",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500031,
+      "company": "快手",
+      "bu": "已投递补录",
+      "title": "已投递岗位（30559）",
+      "city": "未注明",
+      "type": "实习",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30559",
+      "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30559",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500032,
+      "company": "快手",
+      "bu": "已投递补录",
+      "title": "已投递岗位（25937）",
+      "city": "未注明",
+      "type": "实习",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/25937",
+      "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/25937",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500033,
+      "company": "度小满",
+      "bu": "已投递补录",
+      "title": "已投递岗位（051736）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://campus.duxiaoman.com/051736/position/7649303782597691694/detail",
+      "url": "https://campus.duxiaoman.com/051736/position/7649303782597691694/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500034,
+      "company": "度小满",
+      "bu": "已投递补录",
+      "title": "已投递岗位（051736）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://campus.duxiaoman.com/051736/position/7615934023782123803/detail",
+      "url": "https://campus.duxiaoman.com/051736/position/7615934023782123803/detail",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500035,
+      "company": "滴滴",
+      "bu": "已投递补录",
+      "title": "已投递岗位（6222）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://app.mokahr.com/apply/didiglobal/6222#/job/662799be-79e4-45a3-87e8-ecddb6d52658",
+      "url": "https://app.mokahr.com/apply/didiglobal/6222#/job/662799be-79e4-45a3-87e8-ecddb6d52658",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500036,
+      "company": "百度",
+      "bu": "已投递补录",
+      "title": "已投递岗位（c55378f8-c1b…）",
+      "city": "未注明",
+      "type": "实习",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://talent.baidu.com/jobs/detail/INTERN/c55378f8-c1b7-4afb-baf3-7fe6a269da9a",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/c55378f8-c1b7-4afb-baf3-7fe6a269da9a",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500037,
+      "company": "百度",
+      "bu": "已投递补录",
+      "title": "已投递岗位（55ec188b-251…）",
+      "city": "未注明",
+      "type": "实习",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://talent.baidu.com/jobs/detail/INTERN/55ec188b-2518-4b89-b21c-faf4ecf6fa25",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/55ec188b-2518-4b89-b21c-faf4ecf6fa25",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500038,
+      "company": "百度",
+      "bu": "已投递补录",
+      "title": "已投递岗位（ec517c43-61b…）",
+      "city": "未注明",
+      "type": "实习",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://talent.baidu.com/jobs/detail/INTERN/ec517c43-61ba-4d54-8133-9ab733d85ae9",
+      "url": "https://talent.baidu.com/jobs/detail/INTERN/ec517c43-61ba-4d54-8133-9ab733d85ae9",
+      "summary": "已投递补录岗位",
+      "keywords": []
+    },
+    {
+      "id": 500039,
+      "company": "淘天/阿里控股",
+      "bu": "已投递补录",
+      "title": "已投递岗位（199904600003）",
+      "city": "未注明",
+      "type": "校招",
+      "tags": [
+        "已投递"
+      ],
+      "jd": "本岗位由投递链接补录，未改动 jobs.json 主库。\n\n投递链接：\nhttps://campus-talent.alibaba.com/campus/position/199904600003?deptCodes=",
+      "url": "https://campus-talent.alibaba.com/campus/position/199904600003?deptCodes=",
+      "summary": "已投递补录岗位",
+      "keywords": []
     }
   ],
   "entries": [
@@ -701,5 +936,304 @@
       "id": 500026,
       "source": "extra"
     }
-  ]
+  ],
+  "batch2": {
+    "date": "2026-06-15",
+    "urls_total": 43,
+    "urls_unique": 40,
+    "by_company": {
+      "蚂蚁集团": 1,
+      "零一万物": 2,
+      "理想汽车": 1,
+      "快手": 24,
+      "幻方量化": 3,
+      "度小满": 2,
+      "滴滴": 1,
+      "百度": 3,
+      "百川智能": 1,
+      "淘天/阿里控股": 2
+    },
+    "entries": [
+      {
+        "url": "https://talent.antgroup.com/campus-position?positionId=26030308940392&tid=2196662f17815815948014389e4522",
+        "company": "蚂蚁集团",
+        "title": "已投递岗位（260303089403…）",
+        "id": 500027,
+        "source": "extra"
+      },
+      {
+        "url": "https://01ai.jobs.feishu.cn/index/position/7647157090187905343/detail",
+        "company": "零一万物",
+        "title": "已投递岗位（764715709018…）",
+        "id": 500028,
+        "source": "extra"
+      },
+      {
+        "url": "https://01ai.jobs.feishu.cn/index/position/7503487638671591717/detail",
+        "company": "零一万物",
+        "title": "AI产品经理（国际项目）",
+        "id": 1902,
+        "source": "existing"
+      },
+      {
+        "url": "https://www.lixiang.com/employ/detail/17371.html?jobCode=A02567&fromJob=1",
+        "company": "理想汽车",
+        "title": "已投递岗位（17371）",
+        "id": 500029,
+        "source": "extra"
+      },
+      {
+        "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/job-info/11453",
+        "company": "快手",
+        "title": "已投递岗位（11453）",
+        "id": 500030,
+        "source": "extra"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30944",
+        "company": "快手",
+        "title": "AI产品实习生（agent方向）-【生活服务】",
+        "id": 429,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/29757",
+        "company": "快手",
+        "title": "商业化AI应用PM实习生-【生活服务】",
+        "id": 511,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30514",
+        "company": "快手",
+        "title": "商业化AI应用产品实习生（商业私信方向）",
+        "id": 512,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/27355",
+        "company": "快手",
+        "title": "策略产品实习生（AIGC方向）-【生活服务】",
+        "id": 672,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/28315",
+        "company": "快手",
+        "title": "AI直播产品组实习生",
+        "id": 454,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/27829",
+        "company": "快手",
+        "title": "策略产品实习生（AIGC方向）-【生活服务】",
+        "id": 673,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/28317",
+        "company": "快手",
+        "title": "AI内容产品组实习生",
+        "id": 439,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30910",
+        "company": "快手",
+        "title": "AI图片模型产品实习生（AIGC 生图方向）",
+        "id": 440,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/29713",
+        "company": "快手",
+        "title": "AI产品经理实习生（导购方向）-【电商】",
+        "id": 433,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30247",
+        "company": "快手",
+        "title": "AI产品经理实习生-【电商】",
+        "id": 432,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/29096",
+        "company": "快手",
+        "title": "AIGC产品实习生-【商业化】",
+        "id": 417,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30928",
+        "company": "快手",
+        "title": "AI产品实习生-【电商】",
+        "id": 427,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/28594",
+        "company": "快手",
+        "title": "产品运营实习生（AIGC方向）-【商业化】",
+        "id": 488,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30559",
+        "company": "快手",
+        "title": "已投递岗位（30559）",
+        "id": 500031,
+        "source": "extra"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/26341",
+        "company": "快手",
+        "title": "策略产品实习生（AIGC方向）-【商业化】",
+        "id": 671,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30269",
+        "company": "快手",
+        "title": "AI产品实习生（AI直播互动方向）-【AI直播】",
+        "id": 428,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/30248",
+        "company": "快手",
+        "title": "AI平台产品经理实习生（可灵AI专项）",
+        "id": 446,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/25937",
+        "company": "快手",
+        "title": "已投递岗位（25937）",
+        "id": 500032,
+        "source": "extra"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/24247",
+        "company": "快手",
+        "title": "快手AI战略实习生",
+        "id": 565,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/27919",
+        "company": "快手",
+        "title": "AI产品实习生",
+        "id": 425,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/26995",
+        "company": "快手",
+        "title": "AI应用产品实习生 -【综效线-企业应用部】",
+        "id": 449,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/26152",
+        "company": "快手",
+        "title": "AI产品实习生（直播）-【主站】",
+        "id": 430,
+        "source": "existing"
+      },
+      {
+        "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/21452",
+        "company": "快手",
+        "title": "AI平台产品实习",
+        "id": 442,
+        "source": "existing"
+      },
+      {
+        "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/a0845638-d3e0-45cf-b213-31a7e684c5d4",
+        "company": "幻方量化",
+        "title": "产品经理（北京/杭州）",
+        "id": 407,
+        "source": "existing"
+      },
+      {
+        "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/54f386a9-913b-4626-9bf4-e1709b62fcda",
+        "company": "幻方量化",
+        "title": "Agent Harness 产品经理",
+        "id": 406,
+        "source": "existing"
+      },
+      {
+        "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/bae90e40-d815-477a-913b-72ca1eeb057b",
+        "company": "幻方量化",
+        "title": "模型策略产品经理",
+        "id": 408,
+        "source": "existing"
+      },
+      {
+        "url": "https://campus.duxiaoman.com/051736/position/7649303782597691694/detail",
+        "company": "度小满",
+        "title": "已投递岗位（051736）",
+        "id": 500033,
+        "source": "extra"
+      },
+      {
+        "url": "https://campus.duxiaoman.com/051736/position/7615934023782123803/detail",
+        "company": "度小满",
+        "title": "已投递岗位（051736）",
+        "id": 500034,
+        "source": "extra"
+      },
+      {
+        "url": "https://app.mokahr.com/apply/didiglobal/6222#/job/662799be-79e4-45a3-87e8-ecddb6d52658",
+        "company": "滴滴",
+        "title": "已投递岗位（6222）",
+        "id": 500035,
+        "source": "extra"
+      },
+      {
+        "url": "https://talent.baidu.com/jobs/detail/INTERN/c55378f8-c1b7-4afb-baf3-7fe6a269da9a",
+        "company": "百度",
+        "title": "已投递岗位（c55378f8-c1b…）",
+        "id": 500036,
+        "source": "extra"
+      },
+      {
+        "url": "https://talent.baidu.com/jobs/detail/INTERN/55ec188b-2518-4b89-b21c-faf4ecf6fa25",
+        "company": "百度",
+        "title": "已投递岗位（55ec188b-251…）",
+        "id": 500037,
+        "source": "extra"
+      },
+      {
+        "url": "https://talent.baidu.com/jobs/detail/INTERN/ec517c43-61ba-4d54-8133-9ab733d85ae9",
+        "company": "百度",
+        "title": "已投递岗位（ec517c43-61b…）",
+        "id": 500038,
+        "source": "extra"
+      },
+      {
+        "url": "https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/position/7368438041948899621/detail",
+        "company": "百川AI",
+        "title": "百川智能-大模型产品实习生",
+        "id": 833,
+        "source": "existing"
+      },
+      {
+        "url": "https://campus-talent.alibaba.com/campus/position/199903240028",
+        "company": "阿里巴巴",
+        "title": "AI产品经理",
+        "id": 1885,
+        "source": "existing"
+      },
+      {
+        "url": "https://campus-talent.alibaba.com/campus/position/199904600003?deptCodes=",
+        "company": "淘天/阿里控股",
+        "title": "已投递岗位（199904600003）",
+        "id": 500039,
+        "source": "extra"
+      }
+    ]
+  }
 }
