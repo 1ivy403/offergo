@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-06-15 15:43",
+  "refreshed_at": "2026-06-22 15:46",
   "scrapers": [
     {
       "name": "alibaba",
@@ -34,7 +34,7 @@
     {
       "name": "bilibili_campus",
       "count": 5,
-      "prev_count": 6,
+      "prev_count": 5,
       "status": "ok"
     },
     {
@@ -45,14 +45,14 @@
     },
     {
       "name": "bilibili_social",
-      "count": 34,
-      "prev_count": 32,
+      "count": 33,
+      "prev_count": 34,
       "status": "ok"
     },
     {
       "name": "bytedance",
-      "count": 168,
-      "prev_count": 167,
+      "count": 170,
+      "prev_count": 168,
       "status": "ok"
     },
     {
@@ -171,14 +171,14 @@
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 63,
-      "prev_count": 64,
+      "count": 61,
+      "prev_count": 63,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 239,
-      "prev_count": 241,
+      "count": 240,
+      "prev_count": 239,
       "status": "ok"
     },
     {
@@ -310,7 +310,7 @@
     {
       "name": "pdd_social",
       "count": 7,
-      "prev_count": 8,
+      "prev_count": 7,
       "status": "ok"
     },
     {
@@ -375,8 +375,8 @@
     },
     {
       "name": "tencent",
-      "count": 184,
-      "prev_count": 186,
+      "count": 175,
+      "prev_count": 184,
       "status": "ok"
     },
     {
@@ -417,14 +417,14 @@
     },
     {
       "name": "wangyi",
-      "count": 45,
-      "prev_count": 43,
+      "count": 43,
+      "prev_count": 45,
       "status": "ok"
     },
     {
       "name": "xiaohongshu",
-      "count": 19,
-      "prev_count": 20,
+      "count": 18,
+      "prev_count": 19,
       "status": "ok"
     },
     {
@@ -435,8 +435,8 @@
     },
     {
       "name": "xiaomi_intern",
-      "count": 15,
-      "prev_count": 13,
+      "count": 18,
+      "prev_count": 15,
       "status": "ok"
     },
     {
@@ -495,6 +495,6 @@
     }
   ],
   "warnings": [],
-  "actions_run_id": "27530120768",
+  "actions_run_id": "27936123292",
   "status": "ok"
 }
