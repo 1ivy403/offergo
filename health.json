@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-06-29 15:11",
+  "refreshed_at": "2026-07-06 14:51",
   "scrapers": [
     {
       "name": "alibaba",
@@ -33,7 +33,7 @@
     },
     {
       "name": "bilibili_campus",
-      "count": 5,
+      "count": 3,
       "prev_count": 5,
       "status": "ok"
     },
@@ -45,14 +45,14 @@
     },
     {
       "name": "bilibili_social",
-      "count": 33,
+      "count": 34,
       "prev_count": 33,
       "status": "ok"
     },
     {
       "name": "bytedance",
-      "count": 165,
-      "prev_count": 170,
+      "count": 178,
+      "prev_count": 165,
       "status": "ok"
     },
     {
@@ -171,14 +171,14 @@
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 63,
-      "prev_count": 61,
+      "count": 67,
+      "prev_count": 63,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 242,
-      "prev_count": 240,
+      "count": 240,
+      "prev_count": 242,
       "status": "ok"
     },
     {
@@ -310,7 +310,7 @@
     {
       "name": "pdd_social",
       "count": 9,
-      "prev_count": 7,
+      "prev_count": 9,
       "status": "ok"
     },
     {
@@ -375,8 +375,8 @@
     },
     {
       "name": "tencent",
-      "count": 170,
-      "prev_count": 175,
+      "count": 149,
+      "prev_count": 170,
       "status": "ok"
     },
     {
@@ -417,13 +417,13 @@
     },
     {
       "name": "wangyi",
-      "count": 40,
-      "prev_count": 43,
+      "count": 38,
+      "prev_count": 40,
       "status": "ok"
     },
     {
       "name": "xiaohongshu",
-      "count": 18,
+      "count": 17,
       "prev_count": 18,
       "status": "ok"
     },
@@ -435,8 +435,8 @@
     },
     {
       "name": "xiaomi_intern",
-      "count": 16,
-      "prev_count": 18,
+      "count": 15,
+      "prev_count": 16,
       "status": "ok"
     },
     {
@@ -495,6 +495,6 @@
     }
   ],
   "warnings": [],
-  "actions_run_id": "28353558473",
+  "actions_run_id": "28772121748",
   "status": "ok"
 }

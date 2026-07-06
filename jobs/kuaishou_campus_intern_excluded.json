@@ -93,10 +93,34 @@
     "stage2_reason": "no-prod-no-ai-signal"
   },
   {
+    "id": "11301",
+    "code": "27ab82998e5a4ba3aad7a9b7ed75979d",
+    "title": "【留用实习】策略产品经理-商业化方向",
+    "location": "北京",
+    "category": "J1021",
+    "type": "实习",
+    "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs/27ab82998e5a4ba3aad7a9b7ed75979d",
+    "keywords": [
+      "产品规划",
+      "商业化",
+      "产品",
+      "策略",
+      "数据"
+    ],
+    "summary": "负责快手商业化产品的策略设计和落地，包括但不限于品牌广告、效果广告等广告类型；",
+    "jd": "【岗位职责】\n1、负责快手商业化产品的策略设计和落地，包括但不限于品牌广告、效果广告等广告类型；\n2、建立数据监控体系，通过数据分析实现需求挖掘、实验、分析，完成策略产品的设计工作；\n3、与运营、研发、销售等团队合作，推动产品工作顺利进行和迭代。\n\n【任职要求】\n1、本科及以上学历；\n2、出色的产品规划能力，能主导产品方向和制定长期规划，并拆分为可实施项目；\n3、具备创新思维和解决问题的能力。",
+    "score": {
+      "tech_hard": 1,
+      "tech_soft": 0,
+      "prod": 3
+    },
+    "stage3_reason": "手工排除"
+  },
+  {
     "id": "11457",
     "code": "1e767ccc977e4a3fbec96a8647ac091f",
     "title": "【留用实习】平台产品经理-电商产品",
-    "location": "杭州、北京",
+    "location": "北京",
     "category": "J1024",
     "type": "实习",
     "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs/1e767ccc977e4a3fbec96a8647ac091f",
@@ -140,30 +164,6 @@
       "tech_hard": 2,
       "tech_soft": 0,
       "prod": 4
-    },
-    "stage3_reason": "手工排除"
-  },
-  {
-    "id": "11301",
-    "code": "27ab82998e5a4ba3aad7a9b7ed75979d",
-    "title": "【留用实习】策略产品经理-商业化方向",
-    "location": "北京",
-    "category": "J1021",
-    "type": "实习",
-    "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs/27ab82998e5a4ba3aad7a9b7ed75979d",
-    "keywords": [
-      "产品规划",
-      "商业化",
-      "产品",
-      "策略",
-      "数据"
-    ],
-    "summary": "负责快手商业化产品的策略设计和落地，包括但不限于品牌广告、效果广告等广告类型；",
-    "jd": "【岗位职责】\n1、负责快手商业化产品的策略设计和落地，包括但不限于品牌广告、效果广告等广告类型；\n2、建立数据监控体系，通过数据分析实现需求挖掘、实验、分析，完成策略产品的设计工作；\n3、与运营、研发、销售等团队合作，推动产品工作顺利进行和迭代。\n\n【任职要求】\n1、本科及以上学历；\n2、出色的产品规划能力，能主导产品方向和制定长期规划，并拆分为可实施项目；\n3、具备创新思维和解决问题的能力。",
-    "score": {
-      "tech_hard": 1,
-      "tech_soft": 0,
-      "prod": 3
     },
     "stage3_reason": "手工排除"
   },
