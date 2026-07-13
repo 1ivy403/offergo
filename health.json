@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-07-06 14:51",
+  "refreshed_at": "2026-07-13 14:00",
   "scrapers": [
     {
       "name": "alibaba",
@@ -34,7 +34,7 @@
     {
       "name": "bilibili_campus",
       "count": 3,
-      "prev_count": 5,
+      "prev_count": 3,
       "status": "ok"
     },
     {
@@ -45,14 +45,14 @@
     },
     {
       "name": "bilibili_social",
-      "count": 34,
-      "prev_count": 33,
+      "count": 36,
+      "prev_count": 34,
       "status": "ok"
     },
     {
       "name": "bytedance",
-      "count": 178,
-      "prev_count": 165,
+      "count": 170,
+      "prev_count": 178,
       "status": "ok"
     },
     {
@@ -171,14 +171,14 @@
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 67,
-      "prev_count": 63,
+      "count": 70,
+      "prev_count": 67,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 240,
-      "prev_count": 242,
+      "count": 236,
+      "prev_count": 240,
       "status": "ok"
     },
     {
@@ -309,7 +309,7 @@
     },
     {
       "name": "pdd_social",
-      "count": 9,
+      "count": 10,
       "prev_count": 9,
       "status": "ok"
     },
@@ -375,8 +375,8 @@
     },
     {
       "name": "tencent",
-      "count": 149,
-      "prev_count": 170,
+      "count": 147,
+      "prev_count": 149,
       "status": "ok"
     },
     {
@@ -417,14 +417,14 @@
     },
     {
       "name": "wangyi",
-      "count": 38,
-      "prev_count": 40,
+      "count": 40,
+      "prev_count": 38,
       "status": "ok"
     },
     {
       "name": "xiaohongshu",
-      "count": 17,
-      "prev_count": 18,
+      "count": 19,
+      "prev_count": 17,
       "status": "ok"
     },
     {
@@ -436,7 +436,7 @@
     {
       "name": "xiaomi_intern",
       "count": 15,
-      "prev_count": 16,
+      "prev_count": 15,
       "status": "ok"
     },
     {
@@ -495,6 +495,6 @@
     }
   ],
   "warnings": [],
-  "actions_run_id": "28772121748",
+  "actions_run_id": "29226538288",
   "status": "ok"
 }

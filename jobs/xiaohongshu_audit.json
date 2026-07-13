@@ -1,12 +1,12 @@
 {
   "_meta": {
-    "generated_at": "2026-07-06 06:41:01",
-    "duration_sec": 55.0,
-    "total_raw": 149,
-    "after_dedup": 141,
-    "kept": 17,
+    "generated_at": "2026-07-13 05:49:54",
+    "duration_sec": 57.0,
+    "total_raw": 157,
+    "after_dedup": 148,
+    "kept": 19,
     "kept_by_error": 0,
-    "excluded_hard": 124,
+    "excluded_hard": 129,
     "excluded_not_ai": 0,
     "excluded_tech": 0
   },
@@ -54,6 +54,16 @@
     {
       "decision": "KEPT",
       "stage": "全部通过",
+      "reason": "AI相关(命中AI关键词: ['AI', 'Agent']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
+      "title": "「电商B端产品」- AI 产品经理（商家经营方向）",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/18109",
+      "positionId": "18109"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
       "reason": "AI相关(命中AI关键词: ['AI', '智能']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
       "title": "「电商B端产品」AI 产品经理-智能客服 （智能导购）",
       "type": "社招",
@@ -94,6 +104,16 @@
     {
       "decision": "KEPT",
       "stage": "全部通过",
+      "reason": "AI相关(命中AI关键词: ['智能']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=5",
+      "title": "「聚光」智能投放平台产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/15076",
+      "positionId": "15076"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
       "reason": "AI相关(命中AI关键词: ['AI', 'Agent', 'AIGC']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
       "title": "投放平台产品经理（AI Agent）",
       "type": "社招",
@@ -114,12 +134,12 @@
     {
       "decision": "KEPT",
       "stage": "全部通过",
-      "reason": "AI相关(命中AI关键词: ['AI', 'Agent', '智能']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
-      "title": "「线索广告」 - AI Agent 私信通产品经理",
+      "reason": "AI相关(命中AI关键词: ['AI', '大模型', '智能']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=4",
+      "title": "「商业出海产品」AI 广告平台产品经理",
       "type": "社招",
       "bu": "",
-      "url": "https://job.xiaohongshu.com/position/8602",
-      "positionId": "8602"
+      "url": "https://job.xiaohongshu.com/position/21183",
+      "positionId": "21183"
     },
     {
       "decision": "KEPT",
@@ -134,12 +154,12 @@
     {
       "decision": "KEPT",
       "stage": "全部通过",
-      "reason": "AI相关(命中AI关键词: ['AI']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
-      "title": "生活方式类 - AI 产品经理实习生",
+      "reason": "AI相关(命中AI关键词: ['AI', 'Agent', '智能', 'Prompt']) | 技术门槛可接受 | tech_score=3, 信号词=['RLHF(+3)'], product_score=7",
+      "title": "AI产品经理实习生（企业智能部）",
       "type": "实习",
       "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20579",
-      "positionId": "20579"
+      "url": "https://job.xiaohongshu.com/position/21194",
+      "positionId": "21194"
     },
     {
       "decision": "KEPT",
@@ -188,6 +208,16 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
+      "reason": "标题不含AI相关词：多端产品经理",
+      "title": "多端产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/21024",
+      "positionId": "21024"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
       "reason": "标题含排除词「财务」",
       "title": "财务产品经理",
       "type": "社招",
@@ -228,16 +258,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：多端产品经理",
-      "title": "多端产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/21024",
-      "positionId": "21024"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：情报系统产品经理",
       "title": "情报系统产品经理",
       "type": "社招",
@@ -264,6 +284,16 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/19858",
       "positionId": "19858"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：海外账号产品经理",
+      "title": "海外账号产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/21039",
+      "positionId": "21039"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -324,16 +354,6 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/20735",
       "positionId": "20735"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：海外账号产品经理",
-      "title": "海外账号产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/21039",
-      "positionId": "21039"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -418,6 +438,26 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
+      "reason": "标题不含AI相关词：「商业TNS」治理产品经理",
+      "title": "「商业TNS」治理产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/20434",
+      "positionId": "20434"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：商家产品经理-rednote shop",
+      "title": "商家产品经理-rednote shop",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/21229",
+      "positionId": "21229"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
       "reason": "标题不含AI相关词：「蒲公英」- B端产品经理",
       "title": "「蒲公英」- B端产品经理",
       "type": "社招",
@@ -428,32 +468,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：「电商 CRM」- 产品经理",
-      "title": "「电商 CRM」- 产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/15602",
-      "positionId": "15602"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：「聚光」投放平台产品经理",
-      "title": "「聚光」投放平台产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/15076",
-      "positionId": "15076"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：「蒲公英」- K端产品经理",
       "title": "「蒲公英」- K端产品经理",
       "type": "社招",
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/15912",
       "positionId": "15912"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：「电商 CRM」- 产品经理",
+      "title": "「电商 CRM」- 产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/15602",
+      "positionId": "15602"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -474,16 +504,6 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/2455",
       "positionId": "2455"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：「商业TNS」治理产品经理",
-      "title": "「商业TNS」治理产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20434",
-      "positionId": "20434"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -518,16 +538,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：海外合规产品经理",
-      "title": "海外合规产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20718",
-      "positionId": "20718"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：主播成长产品经理",
       "title": "主播成长产品经理",
       "type": "社招",
@@ -558,12 +568,32 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
+      "reason": "标题不含AI相关词：「商业产品」专业号产品经理",
+      "title": "「商业产品」专业号产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/20955",
+      "positionId": "20955"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
       "reason": "标题不含AI相关词：「商业产品」短剧行业产品经理",
       "title": "「商业产品」短剧行业产品经理",
       "type": "社招",
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/20405",
       "positionId": "20405"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：电商产品经理-商家基础",
+      "title": "电商产品经理-商家基础",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/17766",
+      "positionId": "17766"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -628,16 +658,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：「商业产品」专业号产品经理",
-      "title": "「商业产品」专业号产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20955",
-      "positionId": "20955"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：产品经理（用户体验方向）-T&S",
       "title": "产品经理（用户体验方向）-T&S",
       "type": "社招",
@@ -698,12 +718,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：「商业产品」内容消费方向产品经理",
-      "title": "「商业产品」内容消费方向产品经理",
+      "reason": "标题不含AI相关词：产品经理（物流履约方向）-rednote shop",
+      "title": "产品经理（物流履约方向）-rednote shop",
       "type": "社招",
       "bu": "",
-      "url": "https://job.xiaohongshu.com/position/18739",
-      "positionId": "18739"
+      "url": "https://job.xiaohongshu.com/position/19336",
+      "positionId": "19336"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：产品经理（用户购买路径）-rednote shop",
+      "title": "产品经理（用户购买路径）-rednote shop",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/19335",
+      "positionId": "19335"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -714,6 +744,26 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/20390",
       "positionId": "20390"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：电商撮合产品经理（买手方向）",
+      "title": "电商撮合产品经理（买手方向）",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/21182",
+      "positionId": "21182"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：「商业产品」内容消费方向产品经理",
+      "title": "「商业产品」内容消费方向产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/18739",
+      "positionId": "18739"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -738,16 +788,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：产品经理（物流履约方向）-rednote shop",
-      "title": "产品经理（物流履约方向）-rednote shop",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/19336",
-      "positionId": "19336"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：Ai Native-创新产品经理（旅行方向）",
       "title": "Ai Native-创新产品经理（旅行方向）",
       "type": "社招",
@@ -764,16 +804,6 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/20855",
       "positionId": "20855"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：产品经理（用户购买路径）-rednote shop",
-      "title": "产品经理（用户购买路径）-rednote shop",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/19335",
-      "positionId": "19335"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -818,6 +848,36 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
+      "reason": "标题不含AI相关词：「商业产品」酒旅&小程序产品经理",
+      "title": "「商业产品」酒旅&小程序产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/18690",
+      "positionId": "18690"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：【电商B端】-直播工具产品经理",
+      "title": "【电商B端】-直播工具产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/18544",
+      "positionId": "18544"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：【商业产品】国际化资金结算支付产品经理",
+      "title": "【商业产品】国际化资金结算支付产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/21169",
+      "positionId": "21169"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
       "reason": "标题不含AI相关词：「电商C端产品」- 推荐产品经理",
       "title": "「电商C端产品」- 推荐产品经理",
       "type": "社招",
@@ -834,16 +894,6 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/20404",
       "positionId": "20404"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：「商业产品」酒旅&小程序产品经理",
-      "title": "「商业产品」酒旅&小程序产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/18690",
-      "positionId": "18690"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -918,6 +968,26 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
+      "reason": "标题不含AI相关词：海外创新产品经理 - 基础产品主框架方向",
+      "title": "海外创新产品经理 - 基础产品主框架方向",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/21040",
+      "positionId": "21040"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：「电商B端产品」直播工具产品经理",
+      "title": "「电商B端产品」直播工具产品经理",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/19795",
+      "positionId": "19795"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
       "reason": "标题不含AI相关词：「电商C端产品」-店铺用户产品经理",
       "title": "「电商C端产品」-店铺用户产品经理",
       "type": "社招",
@@ -968,12 +1038,12 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：海外创新产品经理 - 基础产品主框架方向",
-      "title": "海外创新产品经理 - 基础产品主框架方向",
+      "reason": "标题不含AI相关词：「电商B端产品」商品端产品经理-好品",
+      "title": "「电商B端产品」商品端产品经理-好品",
       "type": "社招",
       "bu": "",
-      "url": "https://job.xiaohongshu.com/position/21040",
-      "positionId": "21040"
+      "url": "https://job.xiaohongshu.com/position/17769",
+      "positionId": "17769"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -994,16 +1064,6 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/20938",
       "positionId": "20938"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：「电商B端产品」商品端产品经理-好品",
-      "title": "「电商B端产品」商品端产品经理-好品",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/17769",
-      "positionId": "17769"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -1068,32 +1128,32 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：「商业产品」通用岗位",
-      "title": "「商业产品」通用岗位",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/13461",
-      "positionId": "13461"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：模型标注-创新平台产品",
-      "title": "模型标注-创新平台产品",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/18659",
-      "positionId": "18659"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：AI Agent算法工程师（企业智能））",
       "title": "AI Agent算法工程师（企业智能）",
       "type": "社招",
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/20961",
       "positionId": "20961"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：AI native端智能开发-电商方向）",
+      "title": "AI native端智能开发-电商方向",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/14429",
+      "positionId": "14429"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：「商业产品」通用岗位",
+      "title": "「商业产品」通用岗位",
+      "type": "社招",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/13461",
+      "positionId": "13461"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -1198,16 +1258,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AI native端智能开发-电商方向）",
-      "title": "AI native端智能开发-电商方向",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/14429",
-      "positionId": "14429"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：视频产品经理",
       "title": "视频产品经理",
       "type": "社招",
@@ -1244,16 +1294,6 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/19862",
       "positionId": "19862"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "数据分析师岗：AI产品数据分析师",
-      "title": "AI产品数据分析师",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/15030",
-      "positionId": "15030"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -1298,22 +1338,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：品牌广告产品经理实习生",
-      "title": "品牌广告产品经理实习生",
-      "type": "实习",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20860",
-      "positionId": "20860"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：商业治理产品经理实习生",
       "title": "商业治理产品经理实习生",
       "type": "实习",
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/21043",
       "positionId": "21043"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：品牌广告产品经理实习生",
+      "title": "品牌广告产品经理实习生",
+      "type": "实习",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/20860",
+      "positionId": "20860"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -1328,12 +1368,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：小红书电商-频道导购产品经理实习生",
-      "title": "小红书电商-频道导购产品经理实习生",
+      "reason": "标题不含AI相关词：产品经理实习生-电商B端营销工具",
+      "title": "产品经理实习生-电商B端营销工具",
       "type": "实习",
       "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20651",
-      "positionId": "20651"
+      "url": "https://job.xiaohongshu.com/position/21213",
+      "positionId": "21213"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：产品经理实习生-电商C端直播私域",
+      "title": "产品经理实习生-电商C端直播私域",
+      "type": "实习",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/21211",
+      "positionId": "21211"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -1348,12 +1398,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：产品实习生——酒旅小程序",
-      "title": "产品实习生——酒旅小程序",
+      "reason": "标题不含AI相关词：交易链路C端产品实习生",
+      "title": "交易链路C端产品实习生",
       "type": "实习",
       "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20022",
-      "positionId": "20022"
+      "url": "https://job.xiaohongshu.com/position/21258",
+      "positionId": "21258"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题含排除词「产品运营」",
+      "title": "小红书线索广告产品运营实习生",
+      "type": "实习",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/21240",
+      "positionId": "21240"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -1368,22 +1428,32 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：IOS开发实习生）",
-      "title": "IOS开发实习生",
-      "type": "实习",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/19545",
-      "positionId": "19545"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：社区生态治理产品实习生",
       "title": "社区生态治理产品实习生",
       "type": "实习",
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/18425",
       "positionId": "18425"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：产品实习生——酒旅小程序",
+      "title": "产品实习生——酒旅小程序",
+      "type": "实习",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/20022",
+      "positionId": "20022"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：IOS开发实习生）",
+      "title": "IOS开发实习生",
+      "type": "实习",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/19545",
+      "positionId": "19545"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -1398,22 +1468,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：社区内容安全治理产品实习生",
-      "title": "社区内容安全治理产品实习生",
-      "type": "实习",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20083",
-      "positionId": "20083"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：【27/28届】AI后端开发实习生（转正机会））",
       "title": "【27/28届】AI后端开发实习生（转正机会）",
       "type": "实习",
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/20401",
       "positionId": "20401"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：对象存储智能化平台研发实习生）",
+      "title": "对象存储智能化平台研发实习生",
+      "type": "实习",
+      "bu": "",
+      "url": "https://job.xiaohongshu.com/position/13410",
+      "positionId": "13410"
     },
     {
       "decision": "EXCLUDED_HARD",
