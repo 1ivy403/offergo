@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-07-13 14:00",
+  "refreshed_at": "2026-07-20 14:02",
   "scrapers": [
     {
       "name": "alibaba",
@@ -46,13 +46,13 @@
     {
       "name": "bilibili_social",
       "count": 36,
-      "prev_count": 34,
+      "prev_count": 36,
       "status": "ok"
     },
     {
       "name": "bytedance",
-      "count": 170,
-      "prev_count": 178,
+      "count": 169,
+      "prev_count": 170,
       "status": "ok"
     },
     {
@@ -171,14 +171,14 @@
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 70,
-      "prev_count": 67,
+      "count": 71,
+      "prev_count": 70,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 236,
-      "prev_count": 240,
+      "count": 235,
+      "prev_count": 236,
       "status": "ok"
     },
     {
@@ -309,8 +309,8 @@
     },
     {
       "name": "pdd_social",
-      "count": 10,
-      "prev_count": 9,
+      "count": 11,
+      "prev_count": 10,
       "status": "ok"
     },
     {
@@ -375,8 +375,8 @@
     },
     {
       "name": "tencent",
-      "count": 147,
-      "prev_count": 149,
+      "count": 148,
+      "prev_count": 147,
       "status": "ok"
     },
     {
@@ -417,14 +417,14 @@
     },
     {
       "name": "wangyi",
-      "count": 40,
-      "prev_count": 38,
+      "count": 46,
+      "prev_count": 40,
       "status": "ok"
     },
     {
       "name": "xiaohongshu",
-      "count": 19,
-      "prev_count": 17,
+      "count": 22,
+      "prev_count": 19,
       "status": "ok"
     },
     {
@@ -495,6 +495,6 @@
     }
   ],
   "warnings": [],
-  "actions_run_id": "29226538288",
+  "actions_run_id": "29719429754",
   "status": "ok"
 }
