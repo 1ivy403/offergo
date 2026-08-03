@@ -41,8 +41,8 @@
   },
   {
     "file": "bilibili_campus_jobs.json",
-    "jobs": 3,
-    "urls_checked": 3,
+    "jobs": 4,
+    "urls_checked": 4,
     "urls_skipped_feishu": 0,
     "expired_marked": 0,
     "sample_dead": []
@@ -57,16 +57,16 @@
   },
   {
     "file": "bilibili_social_jobs.json",
-    "jobs": 38,
-    "urls_checked": 38,
+    "jobs": 36,
+    "urls_checked": 36,
     "urls_skipped_feishu": 0,
     "expired_marked": 0,
     "sample_dead": []
   },
   {
     "file": "bytedance_jobs.json",
-    "jobs": 172,
-    "urls_checked": 172,
+    "jobs": 170,
+    "urls_checked": 170,
     "urls_skipped_feishu": 0,
     "expired_marked": 0,
     "sample_dead": []
@@ -127,10 +127,10 @@
     "expired_marked": 5,
     "sample_dead": [
       "https://campus.duxiaoman.com/051736/position/detail/7594370311240337705",
-      "https://campus.duxiaoman.com/051736/position/detail/7615934023782123803",
       "https://campus.duxiaoman.com/051736/position/detail/7595795304310720814",
-      "https://campus.duxiaoman.com/051736/position/detail/7563509884961573171",
-      "https://campus.duxiaoman.com/051736/position/detail/7548790318952548618"
+      "https://campus.duxiaoman.com/051736/position/detail/7548790318952548618",
+      "https://campus.duxiaoman.com/051736/position/detail/7615934023782123803",
+      "https://campus.duxiaoman.com/051736/position/detail/7563509884961573171"
     ]
   },
   {
@@ -231,16 +231,16 @@
   },
   {
     "file": "kuaishou_zhaopin_intern_jobs.json",
-    "jobs": 77,
-    "urls_checked": 77,
+    "jobs": 85,
+    "urls_checked": 85,
     "urls_skipped_feishu": 0,
     "expired_marked": 0,
     "sample_dead": []
   },
   {
     "file": "kuaishou_zhaopin_social_jobs.json",
-    "jobs": 230,
-    "urls_checked": 230,
+    "jobs": 224,
+    "urls_checked": 224,
     "urls_skipped_feishu": 0,
     "expired_marked": 0,
     "sample_dead": []
@@ -468,11 +468,11 @@
     "urls_skipped_feishu": 0,
     "expired_marked": 10,
     "sample_dead": [
-      "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=69df5bd0e49e0e559f0f94bc&postType=society",
       "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=681b01e46202cc61e9bb5fda&postType=society",
-      "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=69b25a978e515379dc12945d&postType=society",
       "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=69a688ff10919a570b5a2e57&postType=society",
-      "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=690354bdaffb6246022fc664&postType=society"
+      "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=69b238d28e515379dc126af3&postType=society",
+      "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=690354bdaffb6246022fc664&postType=society",
+      "https://hr.sensetime.com/SU60fa3bdabef57c1023fc1cbc/pb/posDetail.html?postId=69df5bd0e49e0e559f0f94bc&postType=society"
     ]
   },
   {
@@ -509,8 +509,8 @@
   },
   {
     "file": "tencent_jobs.json",
-    "jobs": 141,
-    "urls_checked": 141,
+    "jobs": 147,
+    "urls_checked": 146,
     "urls_skipped_feishu": 0,
     "expired_marked": 0,
     "sample_dead": []
@@ -565,16 +565,16 @@
   },
   {
     "file": "wangyi_jobs.json",
-    "jobs": 40,
-    "urls_checked": 40,
+    "jobs": 38,
+    "urls_checked": 38,
     "urls_skipped_feishu": 0,
     "expired_marked": 0,
     "sample_dead": []
   },
   {
     "file": "xiaohongshu_jobs.json",
-    "jobs": 24,
-    "urls_checked": 24,
+    "jobs": 27,
+    "urls_checked": 27,
     "urls_skipped_feishu": 0,
     "expired_marked": 0,
     "sample_dead": []
@@ -584,23 +584,25 @@
     "jobs": 3,
     "urls_checked": 3,
     "urls_skipped_feishu": 0,
-    "expired_marked": 1,
+    "expired_marked": 3,
     "sample_dead": [
-      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7613723748080617754"
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7613721549363284251",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7613723748080617754",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7623315253073824009"
     ]
   },
   {
     "file": "xiaomi_intern_jobs.json",
-    "jobs": 11,
-    "urls_checked": 11,
+    "jobs": 12,
+    "urls_checked": 12,
     "urls_skipped_feishu": 0,
-    "expired_marked": 8,
+    "expired_marked": 11,
     "sample_dead": [
-      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7660062310199462182",
-      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7663042686053026090",
-      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7613346896761719059",
-      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7587299185456843059",
-      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7647344071166085395"
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7667152775680641307",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7660109067801545023",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7667402665236973875",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7667418813620668713",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7618109186979023142"
     ]
   },
   {
@@ -608,13 +610,13 @@
     "jobs": 26,
     "urls_checked": 26,
     "urls_skipped_feishu": 0,
-    "expired_marked": 21,
+    "expired_marked": 24,
     "sample_dead": [
-      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7525269283527966829",
       "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7616624186430277930",
-      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7629270952027998507",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7508641517943275629",
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7525269283527966829",
       "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7501913192727363693",
-      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7568397033129003307"
+      "https://xiaomi.jobs.f.mioffice.cn/position-detail/?id=7616583418520537382"
     ]
   },
   {
