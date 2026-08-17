@@ -68,6 +68,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -139,6 +142,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -210,6 +216,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -281,6 +290,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -356,6 +368,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -427,6 +442,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -498,6 +516,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -573,6 +594,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -644,6 +668,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -715,6 +742,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -790,6 +820,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -861,6 +894,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -932,6 +968,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -1003,6 +1042,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -1074,77 +1116,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
-    "ifCollect": null
-  },
-  {
-    "id": 11459,
-    "code": "5dd9bb3980464d3aa1451d30058ef8e9",
-    "type": "outer",
-    "hasInner": null,
-    "positionStatusCode": "Release",
-    "recruitProjectCode": "schoolr",
-    "recruitSubProjectCode": "20271772783534",
-    "hcHoldTime": null,
-    "name": "【留用实习】平台产品经理-基础平台",
-    "departmentCode": null,
-    "departmentName": null,
-    "businessDirectoryCode": null,
-    "positionClassCode": "3",
-    "ifFrontLineEmployee": null,
-    "welfareLabelCode": null,
-    "workingHoursNature": "1001",
-    "positionNatureCode": "intern",
-    "positionCategoryCode": "J1024",
-    "positionRankCode": null,
-    "positionLevelCode": null,
-    "workLocationCode": null,
-    "recruitNumber": null,
-    "allocateResumeWeight": null,
-    "allocateWaterLevel": null,
-    "headCountUsed": null,
-    "description": "1、负责公司研发、运营基础平台产品（包括但不限于：CI/CD系统、研发云平台、私有云平台、机器学习平台等）的需求调研、规划、设计和推广运营工作；\n2、负责产品需求文档编写和原型设计，协助研发团队理解和实现用户需求，对产品的用户体验负责；\n3、负责产品研发项目进度和风险，推动协调资源和外部合作；\n4、跟踪和分析国内外同行的发展动态，保证产品竞争力。",
-    "positionDemand": "1、本科及以上学历，计算机相关专业优先；\n2、熟悉互联网产品研发过程，对敏捷开发、DevOps、自动化等概念有深入理解；\n3、具备良好的学习能力、自驱能力和沟通能力；\n4、具备数据分析能力，能够制定合理的指标量化产出。",
-    "smartResumeConfig": null,
-    "enableIntelligent": null,
-    "recruitLeaderNumber": null,
-    "recruitLeaderName": null,
-    "recruitLeaderUsername": null,
-    "outRelationPositionId": null,
-    "ifParticipateBeisen": null,
-    "evaluateCompanyCode": null,
-    "evaluateProjectCode": null,
-    "writeExamType": null,
-    "ifShowRecruitWebsite": true,
-    "ifShowRecommendWebsite": true,
-    "ifRecruitWebsiteHot": null,
-    "ifRecommendWebsiteHot": null,
-    "finalInterviewerCode": null,
-    "auditStartUser": null,
-    "auditStartTime": null,
-    "positionAuditProcessId": null,
-    "businessAuditTemplateCode": null,
-    "auditTemplateCode": null,
-    "offerAuditProcessId": null,
-    "pauseTime": null,
-    "releaseTime": "2026-03-06 20:21:50",
-    "closeTime": null,
-    "closeUserId": null,
-    "positionLabel": null,
-    "updateTime": 1773288117000,
-    "recruiterScreenEvalFilteringAccuracy": null,
-    "positionObservers": null,
-    "applyNum": 0,
-    "entryNum": 0,
-    "hcHoldYear": null,
-    "process": null,
-    "workLocationDicts": [
-      {
-        "name": "北京",
-        "code": "beijing"
-      }
-    ],
-    "jobPortrait": null,
-    "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -1216,6 +1190,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   },
   {
@@ -1287,6 +1264,9 @@
     ],
     "jobPortrait": null,
     "ifHasSmartAnalysis": null,
+    "enablePass": null,
+    "enableAutoElimination": null,
+    "hasIntelligentAuth": null,
     "ifCollect": null
   }
 ]
