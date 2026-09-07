@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-08-31 16:29",
+  "refreshed_at": "2026-09-07 15:22",
   "scrapers": [
     {
       "name": "alibaba",
@@ -33,8 +33,8 @@
     },
     {
       "name": "bilibili_campus",
-      "count": 4,
-      "prev_count": 3,
+      "count": 3,
+      "prev_count": 4,
       "status": "ok"
     },
     {
@@ -46,13 +46,13 @@
     {
       "name": "bilibili_social",
       "count": 28,
-      "prev_count": 26,
+      "prev_count": 28,
       "status": "ok"
     },
     {
       "name": "bytedance",
-      "count": 169,
-      "prev_count": 163,
+      "count": 174,
+      "prev_count": 169,
       "status": "ok"
     },
     {
@@ -171,14 +171,14 @@
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 96,
-      "prev_count": 98,
+      "count": 99,
+      "prev_count": 96,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 200,
-      "prev_count": 230,
+      "count": 198,
+      "prev_count": 200,
       "status": "ok"
     },
     {
@@ -309,8 +309,8 @@
     },
     {
       "name": "pdd_social",
-      "count": 5,
-      "prev_count": 8,
+      "count": 8,
+      "prev_count": 5,
       "status": "ok"
     },
     {
@@ -375,8 +375,8 @@
     },
     {
       "name": "tencent",
-      "count": 151,
-      "prev_count": 148,
+      "count": 154,
+      "prev_count": 151,
       "status": "ok"
     },
     {
@@ -417,14 +417,14 @@
     },
     {
       "name": "wangyi",
-      "count": 45,
+      "count": 48,
       "prev_count": 45,
       "status": "ok"
     },
     {
       "name": "xiaohongshu",
-      "count": 29,
-      "prev_count": 30,
+      "count": 33,
+      "prev_count": 29,
       "status": "ok"
     },
     {
@@ -435,8 +435,8 @@
     },
     {
       "name": "xiaomi_intern",
-      "count": 18,
-      "prev_count": 17,
+      "count": 21,
+      "prev_count": 18,
       "status": "ok"
     },
     {
@@ -495,6 +495,6 @@
     }
   ],
   "warnings": [],
-  "actions_run_id": "33370779092",
+  "actions_run_id": "34092858024",
   "status": "ok"
 }

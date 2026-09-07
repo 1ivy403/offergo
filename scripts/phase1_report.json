@@ -3,39 +3,39 @@
     "script": "antgroup_social_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/antgroup_social_scrape.py",
     "status": "fail",
-    "duration_s": 87.4,
+    "duration_s": 87.0,
     "error": "exit_code=1",
-    "tail": "0 prod=3 total_prod=121/1138\n  [Step1] page=33 items=30 prod=2 total_prod=123/1138\n  [Step1] page=34 items=30 prod=3 total_prod=126/1138\n  [Step1] page=35 items=30 prod=2 total_prod=128/1138\n  [Step1] page=36 items=30 prod=5 total_prod=133/1138\n  [Step1] page=37 items=30 prod=3 total_prod=136/1138\n  [Step1] page=38 items=28 prod=0 total_prod=136/1138\nTraceback (most recent call last):\n  File \"/home/runner/work/offergo/offergo/scripts/antgroup_social_scrape.py\", line 343, in <module>\n    main()\n  File \"/home/runner/work/offergo/offergo/scripts/antgroup_social_scrape.py\", line 290, in main\n    json.dump(raw, open(RAW_FILE, \"w\"), ensure_ascii=False, indent=2)\n                   ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/Shared/antgroup_social_raw.json'"
+    "tail": "0 prod=2 total_prod=128/1184\n  [Step1] page=35 items=30 prod=3 total_prod=131/1184\n  [Step1] page=36 items=30 prod=3 total_prod=134/1184\n  [Step1] page=37 items=30 prod=3 total_prod=137/1184\n  [Step1] page=38 items=30 prod=2 total_prod=139/1184\n  [Step1] page=39 items=30 prod=8 total_prod=147/1184\n  [Step1] page=40 items=14 prod=0 total_prod=147/1184\nTraceback (most recent call last):\n  File \"/home/runner/work/offergo/offergo/scripts/antgroup_social_scrape.py\", line 343, in <module>\n    main()\n  File \"/home/runner/work/offergo/offergo/scripts/antgroup_social_scrape.py\", line 290, in main\n    json.dump(raw, open(RAW_FILE, \"w\"), ensure_ascii=False, indent=2)\n                   ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/Shared/antgroup_social_raw.json'"
   },
   {
     "script": "bilibili_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/bilibili_scrape.py",
     "status": "ok",
-    "duration_s": 22.0,
+    "duration_s": 23.0,
     "error": "",
-    "tail": "  total=7 pages=1\n  page1: +7\n  Raw saved: 7 jobs → /home/runner/work/offergo/offergo/jobs/bilibili_campus_raw.json\n  ✅ 自助化投放产品经理-实习生\n  ✅ 产品经理实习生（创作服务AI提效方向）\n  ✅ AI产品经理实习生（语音）\n  ✅ 创作者产品经理实习生\n  ✅ bilibili_campus: 4 AI PM | 3 excluded\n\n==================================================\n[bilibili_intern] Fetching 实习...\n  total=0 pages=1\n  Raw saved: 0 jobs → /home/runner/work/offergo/offergo/jobs/bilibili_intern_raw.json\n  ✅ bilibili_intern: 0 AI PM | 0 excluded\n\n\n=== 汇总 ===\nbilibili_social: 28 AI PM 岗位\nbilibili_campus: 4 AI PM 岗位\nbilibili_intern: 0 AI PM 岗位"
+    "tail": "[bilibili_campus] Fetching 校招...\n  total=6 pages=1\n  page1: +6\n  Raw saved: 6 jobs → /home/runner/work/offergo/offergo/jobs/bilibili_campus_raw.json\n  ✅ 产品经理实习生（创作服务AI提效方向）\n  ✅ AI产品经理实习生（语音）\n  ✅ 创作者产品经理实习生\n  ✅ bilibili_campus: 3 AI PM | 3 excluded\n\n==================================================\n[bilibili_intern] Fetching 实习...\n  total=0 pages=1\n  Raw saved: 0 jobs → /home/runner/work/offergo/offergo/jobs/bilibili_intern_raw.json\n  ✅ bilibili_intern: 0 AI PM | 0 excluded\n\n\n=== 汇总 ===\nbilibili_social: 28 AI PM 岗位\nbilibili_campus: 3 AI PM 岗位\nbilibili_intern: 0 AI PM 岗位"
   },
   {
     "script": "didi_campus_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/didi_campus_scrape.py",
     "status": "fail",
-    "duration_s": 105.7,
+    "duration_s": 94.3,
     "error": "exit_code=1",
-    "tail": "     text=1206chars\n  [Step1] 29/32: 27届秋招-后端研发工程师（平台技术）                                 text=1859chars\n  [Step1] 30/32: 27届秋招-产品与用户运营顾问（平台司机部）                              text=1161chars\n  [Step1] 31/32: 27届秋招-城市运营主管-南宁                                     text=990chars\n  [Step1] 32/32: 27届秋招-城市运营主管-拉萨                                     text=1105chars\nTraceback (most recent call last):\n  File \"/home/runner/work/offergo/offergo/scripts/didi_campus_scrape.py\", line 222, in <module>\n    main()\n  File \"/home/runner/work/offergo/offergo/scripts/didi_campus_scrape.py\", line 182, in main\n    json.dump(raw_jobs, open(RAW_FILE, \"w\"), ensure_ascii=False, indent=2)\n                        ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/Shared/didi_campus_raw.json'"
+    "tail": "     text=1350chars\n  [Step1] 25/28: 27届秋招- 算法工程师（国际化外卖-营销增长）                            text=1210chars\n  [Step1] 26/28: 27届秋招-后端研发工程师（平台技术）                                 text=1863chars\n  [Step1] 27/28: 急\n27届秋招-产品与用户运营顾问（平台司机部）                            text=1169chars\n  [Step1] 28/28: 27届秋招-城市运营主管-南宁                                     text=994chars\nTraceback (most recent call last):\n  File \"/home/runner/work/offergo/offergo/scripts/didi_campus_scrape.py\", line 222, in <module>\n    main()\n  File \"/home/runner/work/offergo/offergo/scripts/didi_campus_scrape.py\", line 182, in main\n    json.dump(raw_jobs, open(RAW_FILE, \"w\"), ensure_ascii=False, indent=2)\n                        ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/Shared/didi_campus_raw.json'"
   },
   {
     "script": "didi_social_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/didi_social_scrape.py",
     "status": "fail",
-    "duration_s": 49.3,
+    "duration_s": 44.8,
     "error": "exit_code=1",
-    "tail": "[任务16] 滴滴社招 AI PM 岗位\n[Step1] Playwright 翻页抓取列表...\n  [List] page=1  累计=16/120\n  [List] page=2  累计=32/120\n  [List] page=3  累计=48/120\n  [List] page=4  累计=64/120\n  [List] page=5  累计=80/120\n  [List] page=6  累计=96/120\n  [List] page=7  累计=112/120\n  [List] page=8  累计=120/120\n[Step1] 列表共 120 条\n[Step2] urllib 并发抓取详情...\n[Step2] 详情补全完成\nTraceback (most recent call last):\n  File \"/home/runner/work/offergo/offergo/scripts/didi_social_scrape.py\", line 316, in <module>\n    main()\n  File \"/home/runner/work/offergo/offergo/scripts/didi_social_scrape.py\", line 285, in main\n    json.dump(raw_items, open(RAW_FILE, \"w\"), ensure_ascii=False, indent=2)\n                         ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/Shared/didi_social_raw.json'"
+    "tail": "[Step1] Playwright 翻页抓取列表...\n  [List] page=1  累计=16/129\n  [List] page=2  累计=32/129\n  [List] page=3  累计=48/129\n  [List] page=4  累计=64/129\n  [List] page=5  累计=80/129\n  [List] page=6  累计=96/129\n  [List] page=7  累计=112/129\n  [List] page=8  累计=128/129\n  [List] page=9  累计=129/129\n[Step1] 列表共 129 条\n[Step2] urllib 并发抓取详情...\n[Step2] 详情补全完成\nTraceback (most recent call last):\n  File \"/home/runner/work/offergo/offergo/scripts/didi_social_scrape.py\", line 316, in <module>\n    main()\n  File \"/home/runner/work/offergo/offergo/scripts/didi_social_scrape.py\", line 285, in main\n    json.dump(raw_items, open(RAW_FILE, \"w\"), ensure_ascii=False, indent=2)\n                         ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/Shared/didi_social_raw.json'"
   },
   {
     "script": "jd_campus_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/jd_campus_scrape.py",
     "status": "fail",
-    "duration_s": 3.4,
+    "duration_s": 2.8,
     "error": "exit_code=1",
     "tail": "Traceback (most recent call last):\n  File \"/home/runner/work/offergo/offergo/scripts/jd_campus_scrape.py\", line 368, in <module>\n    main()\n  File \"/home/runner/work/offergo/offergo/scripts/jd_campus_scrape.py\", line 253, in main\n    with open(raw_path, \"w\", encoding=\"utf-8\") as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/Shared/jd_campus_plan45_raw.json'"
   },
@@ -43,7 +43,7 @@
     "script": "jd_social_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/jd_social_scrape.py",
     "status": "fail",
-    "duration_s": 33.4,
+    "duration_s": 28.2,
     "error": "exit_code=1",
     "tail": "Traceback (most recent call last):\n  File \"/home/runner/work/offergo/offergo/scripts/jd_social_scrape.py\", line 298, in <module>\n    main()\n  File \"/home/runner/work/offergo/offergo/scripts/jd_social_scrape.py\", line 190, in main\n    with open(RAW_PATH_DEFAULT, \"w\", encoding=\"utf-8\") as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/Shared/jd_social_raw.json'"
   },
@@ -51,9 +51,9 @@
     "script": "kuaishou_campus_intern_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/kuaishou_campus_intern_scrape.py",
     "status": "ok",
-    "duration_s": 2.9,
+    "duration_s": 2.3,
     "error": "",
-    "tail": "  ✗ 【留用实习】数据产品经理  (手工排除)\n  ✗ 【留用实习】海外产品经理  (手工排除)\n  ✗ 【留用实习】用户产品经理  (手工排除)\n  ✗ 【留用实习】平台产品经理-商业产品  (手工排除)\n  ✗ 【留用实习】用户产品经理-音乐方向  (手工排除)\n  ✗ 【留用实习】平台产品经理-本地生活  (手工排除)\n  ✗ 【留用实习】海外电商产品经理  (手工排除)\n[Step6] SPA 根路径验证: https://campus.kuaishou.cn/recruit/campus/e/\n[Step6] root URL → HTTP 200\n\n[Done] 最终保留：5 条  排除：12 条\n  结果 → /home/runner/work/offergo/offergo/jobs/kuaishou_campus_intern_jobs.json\n  排除 → /home/runner/work/offergo/offergo/jobs/kuaishou_campus_intern_excluded.json\n\n[最终保留岗位]\n  ★AI★ [11462] 【留用实习】平台产品经理-企业效能\n      [11300] 【留用实习】策略产品经理\n  ★AI★ [11453] 【留用实习】平台产品经理-AI平台\n  ★AI★ [11474] 【留用实习】平台产品经理-智能平台\n  ★AI★ [11245] 【留用实习】AI Agent产品经理"
+    "tail": "  ✗ 【留用实习】数据产品经理  (手工排除)\n  ✗ 【留用实习】海外产品经理  (手工排除)\n  ✗ 【留用实习】用户产品经理  (手工排除)\n  ✗ 【留用实习】平台产品经理-商业产品  (手工排除)\n  ✗ 【留用实习】用户产品经理-音乐方向  (手工排除)\n  ✗ 【留用实习】平台产品经理-本地生活  (手工排除)\n  ✗ 【留用实习】海外电商产品经理  (手工排除)\n[Step6] SPA 根路径验证: https://campus.kuaishou.cn/recruit/campus/e/\n[Step6] root URL → HTTP 200\n\n[Done] 最终保留：5 条  排除：11 条\n  结果 → /home/runner/work/offergo/offergo/jobs/kuaishou_campus_intern_jobs.json\n  排除 → /home/runner/work/offergo/offergo/jobs/kuaishou_campus_intern_excluded.json\n\n[最终保留岗位]\n      [11300] 【留用实习】策略产品经理\n  ★AI★ [11462] 【留用实习】平台产品经理-企业效能\n  ★AI★ [11453] 【留用实习】平台产品经理-AI平台\n  ★AI★ [11474] 【留用实习】平台产品经理-智能平台\n  ★AI★ [11245] 【留用实习】AI Agent产品经理"
   },
   {
     "script": "kuaishou_combined_scrape.py",
@@ -67,64 +67,64 @@
     "script": "kuaishou_zhaopin_intern_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/kuaishou_zhaopin_intern_scrape.py",
     "status": "ok",
-    "duration_s": 84.2,
+    "duration_s": 80.4,
     "error": "",
-    "tail": "  ★AI [30910] AI图片模型产品实习生（AIGC 生图方向）\n  ★AI [29713] AI产品经理实习生（导购方向）-【电商】\n  ★AI [30247] AI产品经理实习生-【电商】\n  ★AI [29096] AIGC产品实习生-【商业化】\n      [31025] 战斗策划实习生-【游戏事业部】\n  ★AI [27054] 平台产品设计实习生-【综效线-企业应用部】\n  ★AI [30554] 快影策略产品经理实习生-【主站】\n  ★AI [29363] 影像产品实习生（模板方向）-【主站】\n  ★AI [29654] 策略产品实习生-【商业化】\n  ★AI [30398] 产品经理实习生（搜索广告）-【商业化】\n  ★AI [30248] AI平台产品经理实习生（可灵AI专项）\n  ★AI [25645] 产品经理实习生\n  ★AI [14141] 产品经理实习生-【智能客服】\n  ★AI [19998] 商业化策略产品实习生-【海外商业化】\n  ★AI [26995] AI应用产品实习生 -【综效线-企业应用部】\n  ★AI [23848] 数据产品实习生-【海外商业化】\n  ★AI [21452] AI平台产品实习\n  ★AI [24131] 用户产品实习生（社交）-【海外产品】\n      [21722] 策略产品实习生-【商业化】\n  ★AI [23287] 海外策略产品实习生（直播）"
+    "tail": "  ★AI [24393] 平台产品实习生-【商业化】\n      [31056] 商业化策略产品实习生\n  ★AI [30910] AI图片模型产品实习生（AIGC 生图方向）\n  ★AI [29096] AIGC产品实习生-【商业化】\n      [31025] 战斗策划实习生-【游戏事业部】\n  ★AI [27054] 平台产品设计实习生-【综效线-企业应用部】\n  ★AI [30554] 快影策略产品经理实习生-【主站】\n  ★AI [29363] 影像产品实习生（模板方向）-【主站】\n  ★AI [29654] 策略产品实习生-【商业化】\n  ★AI [30398] 产品经理实习生（搜索广告）-【商业化】\n  ★AI [30248] AI平台产品经理实习生（可灵AI专项）\n  ★AI [25645] 产品经理实习生\n  ★AI [14141] 产品经理实习生-【智能客服】\n  ★AI [19998] 商业化策略产品实习生-【海外商业化】\n  ★AI [26995] AI应用产品实习生 -【综效线-企业应用部】\n  ★AI [23848] 数据产品实习生-【海外商业化】\n  ★AI [21452] AI平台产品实习\n  ★AI [24131] 用户产品实习生（社交）-【海外产品】\n      [21722] 策略产品实习生-【商业化】\n  ★AI [23287] 海外策略产品实习生（直播）"
   },
   {
     "script": "kuaishou_zhaopin_social_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/kuaishou_zhaopin_social_scrape.py",
     "status": "ok",
-    "duration_s": 109.0,
+    "duration_s": 102.0,
     "error": "",
-    "tail": "      [14294] 用户产品经理（海外业务）-【KSIB】\n      [30508] 商业产品经理（海外业务）-【KSIB】\n  ★AI [28284] 智能客服产品经理-【用户体验】\n  ★AI [18406] 工具产品经理（快影） -【主站】\n  ★AI [30923] 智能风控平台产品-【商业化】\n  ★AI [30661] 游戏项目管理-【游戏事业部】\n      [29563] 系统策划-【游戏事业部】\n  ★AI [30647] 智能客服产品经理-【用户体验】\n      [30851] 基础体验产品专家（喜番）-【商业化】\n  ★AI [29437] 商城推荐策略产品经理-【电商】\n  ★AI [18777] 社区互动策略产品经理（消费）-【主站】\n      [29353] 竞价广告策略产品经理 - 【商业化】\n  ★AI [30564] AI数据产品经理-【商业化】\n  ★AI [3088] 数据产品专家（数据内容）-【商业化】\n      [25674] 海外金融产品经理（Fintech）-【KSIB】\n      [22365] 策略产品经理-【海外商业化】\n  ★AI [30042] 平台产品经理（智能风控）-【商业化】\n  ★AI [27135] 生态策略产品经理-【商业化】\n  ★AI [23603] AI平台产品经理\n      [22912] 数据策略产品-【商业化】"
+    "tail": "  ★AI [31154] 游戏关卡策划-【游戏事业部】\n      [31110] 海外用增产品经理（印尼业务）-【KSIB】\n      [30177] 海外商业化产品运营（印尼业务）-【KSIB】\n      [14294] 用户产品经理（海外业务）-【KSIB】\n      [30508] 商业产品经理（海外业务）-【KSIB】\n  ★AI [28284] 智能客服产品经理-【用户体验】\n  ★AI [18406] 工具产品经理（快影） -【主站】\n  ★AI [30923] 智能风控平台产品-【商业化】\n      [29563] 系统策划-【游戏事业部】\n  ★AI [30647] 智能客服产品经理-【用户体验】\n      [30851] 基础体验产品专家（喜番）-【商业化】\n      [29353] 竞价广告策略产品经理 - 【商业化】\n  ★AI [30564] AI数据产品经理-【商业化】\n  ★AI [3088] 数据产品专家（数据内容）-【商业化】\n      [25674] 海外金融产品经理（Fintech）-【KSIB】\n      [22365] 策略产品经理-【海外商业化】\n  ★AI [30042] 平台产品经理（智能风控）-【商业化】\n  ★AI [27135] 生态策略产品经理-【商业化】\n  ★AI [23603] AI平台产品经理\n      [22912] 数据策略产品-【商业化】"
   },
   {
     "script": "pdd_social_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/pdd_social_scrape.py",
     "status": "ok",
-    "duration_s": 244.6,
+    "duration_s": 243.0,
     "error": "",
-    "tail": "[Stage3] strong=5 weak=0 excl=52\n\n=== Step7: URL验证 ===\n  https://careers.pddglobalhr.com/jobs/detail?code=PR024491 → True\n  https://careers.pddglobalhr.com/jobs/detail?code=PR023937 → True\n  https://careers.pddglobalhr.com/jobs/detail?code=PR023782 → True\n  https://careers.pddglobalhr.com/jobs/detail?code=PR023593 → True\n  https://careers.pddglobalhr.com/jobs/detail?code=PR021574 → True\n\n=== Step8: 保存 ===\n\n✅ 最终结果: 5 AI PM岗位\n  [PR024491] Agent策略产品经理（商家服务态度方向） | \n  [PR023937] Agent智能服务产品经理 | \n  [PR023782] Agent策略产品经理 | \n  [PR023593] 智能服务产品经理 | \n  [PR021574] 智能客服产品经理 | \n\n输出: /home/runner/work/offergo/offergo/jobs/pdd_social_jobs.json\n排除: /home/runner/work/offergo/offergo/jobs/pdd_social_excluded.json (74条)"
+    "tail": "  https://careers.pddglobalhr.com/jobs/detail?code=PR024237 → True\n  https://careers.pddglobalhr.com/jobs/detail?code=PR024208 → True\n  https://careers.pddglobalhr.com/jobs/detail?code=PR024491 → True\n  https://careers.pddglobalhr.com/jobs/detail?code=PR023937 → True\n  https://careers.pddglobalhr.com/jobs/detail?code=PR023782 → True\n\n=== Step8: 保存 ===\n\n✅ 最终结果: 8 AI PM岗位\n  [PR024237] C端资深智能产品经理 | \n  [PR024208] C端智能产品经理 | \n  [PR024491] Agent策略产品经理（商家服务态度方向） | \n  [PR023937] Agent智能服务产品经理 | \n  [PR023782] Agent策略产品经理 | \n  [PR022066] AIGC策略产品经理-广告用增方向 | \n  [PR023593] 智能服务产品经理 | \n  [PR021574] 智能客服产品经理 | \n\n输出: /home/runner/work/offergo/offergo/jobs/pdd_social_jobs.json\n排除: /home/runner/work/offergo/offergo/jobs/pdd_social_excluded.json (74条)"
   },
   {
     "script": "tencent_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/tencent_scrape.py",
     "status": "ok",
-    "duration_s": 26.9,
+    "duration_s": 14.8,
     "error": "",
-    "tail": "071957293313998848] 微信支付-资金账户应用产品策划  [WXG]\n      [2074417860859576320] 微信-产品策划-公众号加热  [WXG]\n  ★AI [2073970041505890304] 腾讯游戏-多模态数据策略产品经理-视频生成方向  [IEG]\n  ★AI [2073970038867668992] 腾讯游戏-多模态数据策略产品经理-视频生成方向  [IEG]\n  ★AI [2073970036510470144] 腾讯游戏-多模态数据策略产品经理-视频生成方向  [IEG]\n      [2072942772016562176] 跨境支付-产品经理-来华支付方向  [CDG]\n  ★AI [2061646298494451712] 腾讯AI协作工具-#客户成功经理#  [CSIG]\n  ★AI [2067564392635084800] 腾讯云-TBDS大数据产品商业化负责人  [CSIG]\n      [2069305402989916160] 微信视频号-产品策略-加热方向  [WXG]\n      [2067513167407398912] 《英雄联盟》/《无畏契约》-社区高级产品经理-产品策划  [IEG]\n  ★AI [2067513116626956288] 《英雄联盟》-发行运营  [IEG]\n      [2063160298549985280] 证券-高级产品经理-ETF方向  [CDG]\n      [2069057652431962112] 腾讯云-产品管理高级经理(深圳/北京)   [CSIG]\n  ★AI [2067521535685603328] 腾讯云-存储高级产品经理  [CSIG]\n      [2064576214982639616] 微信小店-产品策划-c端产品方向  [WXG]"
+    "tail": "   [2077577388635635712] 腾讯视频-衍生品电商渠道运营  [PCG]\n  ★AI [2077246089718837248] 光子 AI-数据平台产品经理  [IEG]\n      [2071957290650611712] 微信支付-基础资金账户产品策划  [WXG]\n      [2074417860859576320] 微信-产品策划-公众号加热  [WXG]\n  ★AI [2073970041505890304] 腾讯游戏-多模态数据策略产品经理-视频生成方向  [IEG]\n  ★AI [2073970036510470144] 腾讯游戏-多模态数据策略产品经理-视频生成方向  [IEG]\n  ★AI [2073970038867668992] 腾讯游戏-多模态数据策略产品经理-视频生成方向  [IEG]\n      [2072942772016562176] 跨境支付-产品经理-来华支付方向  [CDG]\n  ★AI [2067564392635084800] 腾讯云-TBDS大数据产品商业化负责人  [CSIG]\n      [2069305402989916160] 微信视频号-产品策略-加热方向  [WXG]\n      [2067513167407398912] 《英雄联盟》/《无畏契约》-社区高级产品经理-产品策划  [IEG]\n  ★AI [2067513116626956288] 《英雄联盟》-发行运营  [IEG]\n      [2069057652431962112] 腾讯云-产品管理高级经理(深圳/北京)   [CSIG]\n  ★AI [2067521535685603328] 腾讯云-存储高级产品经理  [CSIG]\n      [2064576214982639616] 微信小店-产品策划-c端产品方向  [WXG]"
   },
   {
     "script": "xiaomi_intern_scrape.py",
     "path": "/home/runner/work/offergo/offergo/scripts/xiaomi_intern_scrape.py",
     "status": "ok",
-    "duration_s": 34.0,
+    "duration_s": 29.5,
     "error": "",
-    "tail": "  ✅ 产品经理实习生-2027届-2027届\n  ✅ 产品经理实习生-2027届\n  ✅ 产品经理-2027届\n  ✅ 机器人模型产品经理实习生-2027届\n  ✅ 终端产品经理-实习生-2027届\n  ✅ 产品经理实习生\n  ✅ 产品经理-2027届\n  ✅ 耳机软件产品经理实习生-2027届\n  ✅ 产品经理实习生\n  ✅ AI产品经理实习生\n  ✅ AI产品经理实习生（摄影与视觉美学方向）\n  ✅ 小米汽车-自动驾驶-行车产品经理实习生\n  ✅ 法规管理系统AI产品经理实习生\n  ✅ 小米汽车 - 自动驾驶- 行车（城区）产品经理 - 实习\n  ✅ 产品经理实习生（智能网联方向）—上海\n  ✅ 小米汽车 - 自动驾驶- 行车产品经理 - 暑期实习\n\n==================================================\n✅ AI PM 实习: 18 条 | 排除: 44 条\nSaved to /home/runner/work/offergo/offergo/jobs/"
+    "tail": "  ✅ AI培训方向产品经理-2027届\n  ✅ 产品经理实习生-2027届-2027届\n  ✅ 产品经理实习生-2027届\n  ✅ 机器人模型产品经理实习生-2027届\n  ✅ 终端产品经理-实习生-2027届\n  ✅ 产品经理实习生\n  ✅ 产品经理-2027届\n  ✅ 耳机软件产品经理实习生-2027届\n  ✅ 产品经理实习生\n  ✅ AI产品经理实习生\n  ✅ AI产品经理实习生（摄影与视觉美学方向）\n  ✅ 小米汽车-自动驾驶-行车产品经理实习生\n  ✅ 法规管理系统AI产品经理实习生\n  ✅ 小米汽车 - 自动驾驶- 行车（城区）产品经理 - 实习\n  ✅ 产品经理实习生（智能网联方向）—上海\n  ✅ 小米汽车 - 自动驾驶- 行车产品经理 - 暑期实习\n\n==================================================\n✅ AI PM 实习: 21 条 | 排除: 44 条\nSaved to /home/runner/work/offergo/offergo/jobs/"
   },
   {
     "script": "wangyi_scraper.py",
     "path": "/home/runner/work/offergo/offergo/scripts/wangyi_scraper.py",
     "status": "ok",
-    "duration_s": 286.4,
+    "duration_s": 262.2,
     "error": "",
-    "tail": "  去重后: 2501 条（去除 39 条重复）\n\n[Step 3] 筛选\n  硬排除:     2456 条\n  非AI相关:     0 条\n  技术门槛高:   0 条\n  异常保留:     0 条\n  ✅ 保留:      45 条\n\n[Step 4] 格式化\n\n[Step 5] 写入文件\n  ✅ /home/runner/work/offergo/offergo/jobs/wangyi_jobs.json (45 条最终岗位)\n  ✅ /home/runner/work/offergo/offergo/jobs/wangyi_audit.json (2501 条决策记录)\n\n============================================================\n完成  耗时 286.1s\n  实习 7 条\n  社招 38 条\n============================================================"
+    "tail": "  去重后: 2588 条（去除 9 条重复）\n\n[Step 3] 筛选\n  硬排除:     2540 条\n  非AI相关:     0 条\n  技术门槛高:   0 条\n  异常保留:     0 条\n  ✅ 保留:      48 条\n\n[Step 4] 格式化\n\n[Step 5] 写入文件\n  ✅ /home/runner/work/offergo/offergo/jobs/wangyi_jobs.json (48 条最终岗位)\n  ✅ /home/runner/work/offergo/offergo/jobs/wangyi_audit.json (2588 条决策记录)\n\n============================================================\n完成  耗时 262.0s\n  实习 7 条\n  社招 41 条\n============================================================"
   },
   {
     "script": "bytedance_scraper.py",
     "path": "/home/runner/work/offergo/offergo/scripts/bytedance_scraper.py",
     "status": "ok",
-    "duration_s": 41.2,
+    "duration_s": 30.4,
     "error": "",
-    "tail": "  [实习] 「智能产品」 →共487条 [1✓]\n\n  原始: 750 条\n  去重后: 222 条\n\n[Step 2] 筛选\n  硬排除:      44 条\n  技术门槛高:   9 条\n  ✅ 保留:     169 条\n\n[Step 3] 写入文件\n  ✅ bytedance_jobs.json (169 条)\n  ✅ bytedance_audit.json (222 条决策记录)\n\n============================================================\n完成  耗时 41.1s\n  实习: 0 条\n  校招: 0 条\n  社招: 169 条\n============================================================"
+    "tail": "  [实习] 「智能产品」 →共492条 [1✓]\n\n  原始: 750 条\n  去重后: 224 条\n\n[Step 2] 筛选\n  硬排除:      41 条\n  技术门槛高:   9 条\n  ✅ 保留:     174 条\n\n[Step 3] 写入文件\n  ✅ bytedance_jobs.json (174 条)\n  ✅ bytedance_audit.json (224 条决策记录)\n\n============================================================\n完成  耗时 30.3s\n  实习: 0 条\n  校招: 0 条\n  社招: 174 条\n============================================================"
   },
   {
     "script": "小红书_scraper.py",
     "path": "/home/runner/work/offergo/offergo/scripts/小红书_scraper.py",
     "status": "ok",
-    "duration_s": 49.3,
+    "duration_s": 59.0,
     "error": "",
-    "tail": "\n[Step 3] 筛选\n  硬排除:     115 条\n  非AI相关:     0 条\n  技术门槛高:   1 条\n  异常保留:     0 条\n  ✅ 保留:      29 条\n\n[Step 4] 格式化\n\n[Step 5] 写入文件\n  ✅ xiaohongshu_jobs.json (29 条最终岗位)\n  ✅ xiaohongshu_audit.json (145 条决策记录)\n\n============================================================\n完成  耗时 49.2s\n  实习 7 条\n  校招 1 条\n  社招 21 条\n============================================================"
+    "tail": "\n[Step 3] 筛选\n  硬排除:     118 条\n  非AI相关:     0 条\n  技术门槛高:   1 条\n  异常保留:     0 条\n  ✅ 保留:      33 条\n\n[Step 4] 格式化\n\n[Step 5] 写入文件\n  ✅ xiaohongshu_jobs.json (33 条最终岗位)\n  ✅ xiaohongshu_audit.json (152 条决策记录)\n\n============================================================\n完成  耗时 58.9s\n  实习 9 条\n  校招 1 条\n  社招 23 条\n============================================================"
   }
 ]
