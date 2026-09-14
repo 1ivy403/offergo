@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-09-07 15:22",
+  "refreshed_at": "2026-09-14 15:57",
   "scrapers": [
     {
       "name": "alibaba",
@@ -34,7 +34,7 @@
     {
       "name": "bilibili_campus",
       "count": 3,
-      "prev_count": 4,
+      "prev_count": 3,
       "status": "ok"
     },
     {
@@ -45,14 +45,14 @@
     },
     {
       "name": "bilibili_social",
-      "count": 28,
+      "count": 27,
       "prev_count": 28,
       "status": "ok"
     },
     {
       "name": "bytedance",
-      "count": 174,
-      "prev_count": 169,
+      "count": 178,
+      "prev_count": 174,
       "status": "ok"
     },
     {
@@ -171,14 +171,14 @@
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 99,
-      "prev_count": 96,
+      "count": 101,
+      "prev_count": 99,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 198,
-      "prev_count": 200,
+      "count": 190,
+      "prev_count": 198,
       "status": "ok"
     },
     {
@@ -310,7 +310,7 @@
     {
       "name": "pdd_social",
       "count": 8,
-      "prev_count": 5,
+      "prev_count": 8,
       "status": "ok"
     },
     {
@@ -375,8 +375,8 @@
     },
     {
       "name": "tencent",
-      "count": 154,
-      "prev_count": 151,
+      "count": 158,
+      "prev_count": 154,
       "status": "ok"
     },
     {
@@ -417,14 +417,14 @@
     },
     {
       "name": "wangyi",
-      "count": 48,
-      "prev_count": 45,
+      "count": 49,
+      "prev_count": 48,
       "status": "ok"
     },
     {
       "name": "xiaohongshu",
-      "count": 33,
-      "prev_count": 29,
+      "count": 34,
+      "prev_count": 33,
       "status": "ok"
     },
     {
@@ -435,8 +435,8 @@
     },
     {
       "name": "xiaomi_intern",
-      "count": 21,
-      "prev_count": 18,
+      "count": 23,
+      "prev_count": 21,
       "status": "ok"
     },
     {
@@ -495,6 +495,6 @@
     }
   ],
   "warnings": [],
-  "actions_run_id": "34092858024",
+  "actions_run_id": "34817943064",
   "status": "ok"
 }
