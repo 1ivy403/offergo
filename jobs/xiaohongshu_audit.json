@@ -1,14 +1,14 @@
 {
   "_meta": {
-    "generated_at": "2026-09-28 08:23:48",
-    "duration_sec": 161.3,
-    "total_raw": 159,
-    "after_dedup": 146,
-    "kept": 29,
+    "generated_at": "2026-10-05 08:25:06",
+    "duration_sec": 215.8,
+    "total_raw": 133,
+    "after_dedup": 123,
+    "kept": 28,
     "kept_by_error": 0,
-    "excluded_hard": 116,
+    "excluded_hard": 95,
     "excluded_not_ai": 0,
-    "excluded_tech": 1
+    "excluded_tech": 0
   },
   "KEPT": [
     {
@@ -224,16 +224,6 @@
     {
       "decision": "KEPT",
       "stage": "全部通过",
-      "reason": "AI相关(命中AI关键词: ['AI']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
-      "title": "AI开放生态产品经理（小游戏方向）",
-      "type": "校招",
-      "bu": "其他项目",
-      "url": "https://job.xiaohongshu.com/position/22503",
-      "positionId": "22503"
-    },
-    {
-      "decision": "KEPT",
-      "stage": "全部通过",
       "reason": "AI相关(命中AI关键词: ['AI', '大模型', 'Agent', '智能']) | 技术门槛可接受 | tech_score=2, 信号词=['基础设施(+2)'], product_score=6",
       "title": "智能体Agent Infra 产品经理实习生",
       "type": "实习",
@@ -302,18 +292,7 @@
       "positionId": "20736"
     }
   ],
-  "EXCLUDED_TECH": [
-    {
-      "decision": "EXCLUDED_TECH",
-      "stage": "技术门槛",
-      "reason": "极高技术门槛 | tech_score=8, 信号词=['模型训练(+3)', 'MLOps(+3)', '模型压缩(+2)'], product_score=8",
-      "title": "大模型平台产品专家",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20607",
-      "positionId": "20607"
-    }
-  ],
+  "EXCLUDED_TECH": [],
   "EXCLUDED_NOT_AI": [],
   "EXCLUDED_HARD": [
     {
@@ -435,16 +414,6 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/21399",
       "positionId": "21399"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：海外发布产品经理",
-      "title": "海外发布产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/21041",
-      "positionId": "21041"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -715,16 +684,6 @@
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/20304",
       "positionId": "20304"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：平台产品经理-基础框架方向",
-      "title": "平台产品经理-基础框架方向",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/21133",
-      "positionId": "21133"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -1049,202 +1008,12 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：「电商B端产品」供应链产品经理(一品多商）",
-      "title": "「电商B端产品」供应链产品经理(一品多商）",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20519",
-      "positionId": "20519"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：「电商C端产品」 增长方向-直播策略产品经理",
-      "title": "「电商C端产品」 增长方向-直播策略产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/17421",
-      "positionId": "17421"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：「电商C端产品」增长方向-内容种草产品经理",
-      "title": "「电商C端产品」增长方向-内容种草产品经理",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/17420",
-      "positionId": "17420"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：用户信任与透明度产品经理/Product Manager, User Trust & Transparency",
-      "title": "用户信任与透明度产品经理/Product Manager, User Trust & Transparency",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/19658",
-      "positionId": "19658"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：「电商B端产品」通用岗位",
-      "title": "「电商B端产品」通用岗位",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/18470",
-      "positionId": "18470"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：「商业产品」通用岗位",
-      "title": "「商业产品」通用岗位",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/13461",
-      "positionId": "13461"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：科技创作者运营IC）",
-      "title": "科技创作者运营IC",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/19043",
-      "positionId": "19043"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：【热招】生活美学行业策略）",
-      "title": "【热招】生活美学行业策略",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/11499",
-      "positionId": "11499"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：直播运营 - 科技方向）",
-      "title": "直播运营 - 科技方向",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/22170",
-      "positionId": "22170"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：服务采购专员）",
-      "title": "服务采购专员",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/21934",
-      "positionId": "21934"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：Android音视频开发工程师/架构师-多媒体技术）",
-      "title": "Android音视频开发工程师/架构师-多媒体技术",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/7567",
-      "positionId": "7567"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：PE工程师（偏iOS方向） - 主站社交）",
-      "title": "PE工程师（偏iOS方向） - 主站社交",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20926",
-      "positionId": "20926"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：iOS开发工程师-社交方向）",
-      "title": "iOS开发工程师-社交方向",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/14578",
-      "positionId": "14578"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：iOS开发工程师-业务中台（账号、地理位置））",
-      "title": "iOS开发工程师-业务中台（账号、地理位置）",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/14144",
-      "positionId": "14144"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AI 全栈工程师-电商千帆联盟（分销AI&商达撮合））",
-      "title": "AI 全栈工程师-电商千帆联盟（分销AI&商达撮合）",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/16868",
-      "positionId": "16868"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AI native端智能开发）",
-      "title": "AI native端智能开发",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/14429",
-      "positionId": "14429"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：安全产品经理",
       "title": "安全产品经理",
       "type": "社招",
       "bu": "",
       "url": "https://job.xiaohongshu.com/position/21839",
       "positionId": "21839"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题含排除词「产品运营」",
-      "title": "大模型 Infra 产品运营",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20987",
-      "positionId": "20987"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：User Researcher / 用户研究）",
-      "title": "User Researcher / 用户研究",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/18746",
-      "positionId": "18746"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AI Agent算法工程师（企业智能））",
-      "title": "AI Agent算法工程师（企业智能）",
-      "type": "社招",
-      "bu": "",
-      "url": "https://job.xiaohongshu.com/position/20961",
-      "positionId": "20961"
     },
     {
       "decision": "EXCLUDED_HARD",

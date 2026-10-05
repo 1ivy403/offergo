@@ -1,12 +1,12 @@
 {
   "_meta": {
-    "generated_at": "2026-09-28 08:18:37",
-    "duration_sec": 275.4,
-    "total_raw": 2628,
-    "after_dedup": 2627,
-    "kept": 51,
+    "generated_at": "2026-10-05 08:19:52",
+    "duration_sec": 283.7,
+    "total_raw": 2598,
+    "after_dedup": 2598,
+    "kept": 50,
     "kept_by_error": 0,
-    "excluded_hard": 2576,
+    "excluded_hard": 2548,
     "excluded_not_ai": 0,
     "excluded_tech": 0
   },
@@ -404,26 +404,6 @@
     {
       "decision": "KEPT",
       "stage": "全部通过",
-      "reason": "AI相关(命中AI关键词: ['AI', 'GPT', '视觉']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=0",
-      "title": "游戏体验设计实习生（AI产品动效设计）",
-      "type": "实习",
-      "bu": "用户体验中心",
-      "url": "https://hr.163.com/job-detail.html?id=78842&lang=zh",
-      "jobId": "78842"
-    },
-    {
-      "decision": "KEPT",
-      "stage": "全部通过",
-      "reason": "AI相关(命中AI关键词: ['AI', '智能', '多模态', 'GPT', 'AIGC', 'Prompt']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
-      "title": "游戏AI产品策划实习生（智能NPC方向）",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=51957&lang=zh",
-      "jobId": "51957"
-    },
-    {
-      "decision": "KEPT",
-      "stage": "全部通过",
       "reason": "AI相关(命中AI关键词: ['AI', '人工智能', '大模型', '智能']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
       "title": "【精英实习】工程机械具身智能产品经理",
       "type": "实习",
@@ -444,32 +424,42 @@
     {
       "decision": "KEPT",
       "stage": "全部通过",
-      "reason": "AI相关(命中AI关键词: ['AI', 'AIGC']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=0",
-      "title": "AI 内容产品实习生",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77991&lang=zh",
-      "jobId": "77991"
-    },
-    {
-      "decision": "KEPT",
-      "stage": "全部通过",
-      "reason": "AI相关(命中AI关键词: ['AI', 'AIGC']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=2",
-      "title": "AI产品策划实习生（游戏AI动作生成方向）",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78086&lang=zh",
-      "jobId": "78086"
-    },
-    {
-      "decision": "KEPT",
-      "stage": "全部通过",
       "reason": "AI相关(命中AI关键词: ['AI', 'LLM']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=1",
       "title": "AI产品策划实习生（游戏AI 竞技机器人方向）",
       "type": "实习",
       "bu": "雷火事业群",
       "url": "https://hr.163.com/job-detail.html?id=50960&lang=zh",
       "jobId": "50960"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "AI相关(命中AI关键词: ['AI', 'GPT', '视觉']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=0",
+      "title": "游戏体验设计实习生（AI产品动效设计）",
+      "type": "实习",
+      "bu": "用户体验中心",
+      "url": "https://hr.163.com/job-detail.html?id=78842&lang=zh",
+      "jobId": "78842"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "AI相关(命中AI关键词: ['AI', '智能', '多模态', 'GPT', 'AIGC', 'Prompt']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=3",
+      "title": "游戏AI产品策划实习生（智能NPC方向）",
+      "type": "实习",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=51957&lang=zh",
+      "jobId": "51957"
+    },
+    {
+      "decision": "KEPT",
+      "stage": "全部通过",
+      "reason": "AI相关(命中AI关键词: ['AI', 'AIGC']) | 技术门槛可接受 | tech_score=0, 信号词=[], product_score=0",
+      "title": "AI 内容产品实习生",
+      "type": "实习",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77991&lang=zh",
+      "jobId": "77991"
     },
     {
       "decision": "KEPT",
@@ -525,6 +515,956 @@
   "EXCLUDED_TECH": [],
   "EXCLUDED_NOT_AI": [],
   "EXCLUDED_HARD": [
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：IT服务管理专家（杭州））",
+      "title": "IT服务管理专家（杭州）",
+      "type": "社招",
+      "bu": "技术保障部",
+      "url": "https://hr.163.com/job-detail.html?id=78614&lang=zh",
+      "jobId": "78614"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：渲染方向引擎开发（蛋仔派对））",
+      "title": "渲染方向引擎开发（蛋仔派对）",
+      "type": "社招",
+      "bu": "Eggy事业部",
+      "url": "https://hr.163.com/job-detail.html?id=71955&lang=zh",
+      "jobId": "71955"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深场景原画负责人（雾海之下））",
+      "title": "资深场景原画负责人（雾海之下）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77126&lang=zh",
+      "jobId": "77126"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深概念设计师（衍生品）-第五人格）",
+      "title": "资深概念设计师（衍生品）-第五人格",
+      "type": "社招",
+      "bu": "Joker事业部",
+      "url": "https://hr.163.com/job-detail.html?id=70503&lang=zh",
+      "jobId": "70503"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：资深系统策划（代号：修仙）",
+      "title": "资深系统策划（代号：修仙）",
+      "type": "社招",
+      "bu": "海神事业部",
+      "url": "https://hr.163.com/job-detail.html?id=77427&lang=zh",
+      "jobId": "77427"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：研发PM",
+      "title": "研发PM",
+      "type": "社招",
+      "bu": "项目管理中心",
+      "url": "https://hr.163.com/job-detail.html?id=79016&lang=zh",
+      "jobId": "79016"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏灯光美术师）",
+      "title": "资深游戏灯光美术师",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=20189&lang=zh",
+      "jobId": "20189"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师（永劫无间） ）",
+      "title": "资深角色模型设计师（永劫无间） ",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=40133&lang=zh",
+      "jobId": "40133"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏动画导演（无限大））",
+      "title": "游戏动画导演（无限大）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=65753&lang=zh",
+      "jobId": "65753"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：动作/动画/导演岗位）",
+      "title": "动作/动画/导演岗位",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=67809&lang=zh",
+      "jobId": "67809"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深特效设计师（UE）-雾海之下）",
+      "title": "高级/资深特效设计师（UE）-雾海之下",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=75218&lang=zh",
+      "jobId": "75218"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深客户端开发工程师（在研新项目））",
+      "title": "高级/资深客户端开发工程师（在研新项目）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77679&lang=zh",
+      "jobId": "77679"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏剧情导演（逆水寒））",
+      "title": "游戏剧情导演（逆水寒）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77810&lang=zh",
+      "jobId": "77810"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏角色模型设计师（无限大））",
+      "title": "资深游戏角色模型设计师（无限大）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=45975&lang=zh",
+      "jobId": "45975"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师（怪物））",
+      "title": "资深角色模型设计师（怪物）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=60544&lang=zh",
+      "jobId": "60544"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师（逆水寒））",
+      "title": "资深角色模型设计师（逆水寒）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=66416&lang=zh",
+      "jobId": "66416"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏动画导演）",
+      "title": "资深游戏动画导演",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=76026&lang=zh",
+      "jobId": "76026"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深引擎开发工程师（在研新项目））",
+      "title": "高级/资深引擎开发工程师（在研新项目）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77680&lang=zh",
+      "jobId": "77680"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深角色原画（风格化-微恐））",
+      "title": "高级/资深角色原画（风格化-微恐）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=78442&lang=zh",
+      "jobId": "78442"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师（归唐） ）",
+      "title": "资深角色模型设计师（归唐） ",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=78712&lang=zh",
+      "jobId": "78712"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏商业化编导（永劫无间））",
+      "title": "资深游戏商业化编导（永劫无间）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=55645&lang=zh",
+      "jobId": "55645"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏影视编导（角色任务）-无限大）",
+      "title": "游戏影视编导（角色任务）-无限大",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=64936&lang=zh",
+      "jobId": "64936"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：编导-技术导演（无限大））",
+      "title": "编导-技术导演（无限大）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=65004&lang=zh",
+      "jobId": "65004"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏影视编导-永劫无间）",
+      "title": "资深游戏影视编导-永劫无间",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=65104&lang=zh",
+      "jobId": "65104"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏影视编导-分镜（无限大））",
+      "title": "游戏影视编导-分镜（无限大）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=66218&lang=zh",
+      "jobId": "66218"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏影视编导（篮球主机向））",
+      "title": "资深游戏影视编导（篮球主机向）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77806&lang=zh",
+      "jobId": "77806"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏影视编导（layout）-逆水寒）",
+      "title": "游戏影视编导（layout）-逆水寒",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77808&lang=zh",
+      "jobId": "77808"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏影视编导（无限大））",
+      "title": "资深游戏影视编导（无限大）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=46920&lang=zh",
+      "jobId": "46920"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深游戏美术商务）",
+      "title": "高级/资深游戏美术商务",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=16025&lang=zh",
+      "jobId": "16025"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：3Dlayout（无限大））",
+      "title": "3Dlayout（无限大）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=46923&lang=zh",
+      "jobId": "46923"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师-诡影藏锋）",
+      "title": "资深角色模型设计师-诡影藏锋",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=60597&lang=zh",
+      "jobId": "60597"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏灯光美术师（诡影藏锋））",
+      "title": "资深游戏灯光美术师（诡影藏锋）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=65446&lang=zh",
+      "jobId": "65446"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师-）",
+      "title": "资深角色原画设计师-",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=65844&lang=zh",
+      "jobId": "65844"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师（忘川风华录））",
+      "title": "资深角色原画设计师（忘川风华录）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=68015&lang=zh",
+      "jobId": "68015"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏美术商务）",
+      "title": "资深游戏美术商务",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=73525&lang=zh",
+      "jobId": "73525"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深游戏服务端开发工程师）",
+      "title": "高级/资深游戏服务端开发工程师",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=78243&lang=zh",
+      "jobId": "78243"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深角色原画设计师（在研国风二次元））",
+      "title": "高级/资深角色原画设计师（在研国风二次元）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=78735&lang=zh",
+      "jobId": "78735"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师（永劫无间））",
+      "title": "资深角色原画设计师（永劫无间）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=42194&lang=zh",
+      "jobId": "42194"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：角色原画设计师-机械怪物/武器方向（无限大））",
+      "title": "角色原画设计师-机械怪物/武器方向（无限大）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=43349&lang=zh",
+      "jobId": "43349"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深/专家场景灯光设计师（无限大））",
+      "title": "资深/专家场景灯光设计师（无限大）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=45825&lang=zh",
+      "jobId": "45825"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师（诡影藏锋））",
+      "title": "资深角色原画设计师（诡影藏锋）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=60542&lang=zh",
+      "jobId": "60542"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：角色美宣设计师（忘川风华录））",
+      "title": "角色美宣设计师（忘川风华录）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=73713&lang=zh",
+      "jobId": "73713"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深特效设计师（UE在研项目））",
+      "title": "资深特效设计师（UE在研项目）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77669&lang=zh",
+      "jobId": "77669"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深游戏客户端开发工程师）",
+      "title": "高级/资深游戏客户端开发工程师",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=78108&lang=zh",
+      "jobId": "78108"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏影视编导）",
+      "title": "游戏影视编导",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=78198&lang=zh",
+      "jobId": "78198"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深角色原画设计师（无限大））",
+      "title": "高级/资深角色原画设计师（无限大）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=17769&lang=zh",
+      "jobId": "17769"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：角色模型组长（在研项目））",
+      "title": "角色模型组长（在研项目）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=68134&lang=zh",
+      "jobId": "68134"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师）",
+      "title": "资深角色原画设计师",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=75216&lang=zh",
+      "jobId": "75216"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师-雾海之下）",
+      "title": "资深角色模型设计师-雾海之下",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=75227&lang=zh",
+      "jobId": "75227"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深服务端开发工程师（在研新项目））",
+      "title": "高级/资深服务端开发工程师（在研新项目）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77678&lang=zh",
+      "jobId": "77678"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏视频编导（逆水寒））",
+      "title": "资深游戏视频编导（逆水寒）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77809&lang=zh",
+      "jobId": "77809"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深游戏影视编导（界外狂潮））",
+      "title": "资深游戏影视编导（界外狂潮）",
+      "type": "社招",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77811&lang=zh",
+      "jobId": "77811"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：资深商业化策划（率土之滨）",
+      "title": "资深商业化策划（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78456&lang=zh",
+      "jobId": "78456"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级客户端开发（率土之滨））",
+      "title": "高级客户端开发（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78841&lang=zh",
+      "jobId": "78841"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：高级系统策划（率土之滨）",
+      "title": "高级系统策划（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=77874&lang=zh",
+      "jobId": "77874"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深达人传播（率土之滨））",
+      "title": "资深达人传播（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78449&lang=zh",
+      "jobId": "78449"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：资深营销策划（率土之滨）",
+      "title": "资深营销策划（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78450&lang=zh",
+      "jobId": "78450"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：资深创意策划（率土之滨）",
+      "title": "资深创意策划（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78452&lang=zh",
+      "jobId": "78452"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深手游投放（率土之滨））",
+      "title": "资深手游投放（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78453&lang=zh",
+      "jobId": "78453"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级服务端开发（率土之滨））",
+      "title": "高级服务端开发（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78454&lang=zh",
+      "jobId": "78454"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：资深系统策划（率土之滨）",
+      "title": "资深系统策划（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78457&lang=zh",
+      "jobId": "78457"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：高级战斗策划（率土之滨）",
+      "title": "高级战斗策划（率土之滨）",
+      "type": "社招",
+      "bu": "第十事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78458&lang=zh",
+      "jobId": "78458"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：资深战斗策划（天下3）",
+      "title": "资深战斗策划（天下3）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78819&lang=zh",
+      "jobId": "78819"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深客户端开发（天下））",
+      "title": "资深客户端开发（天下）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78820&lang=zh",
+      "jobId": "78820"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深服务器开发（天下））",
+      "title": "资深服务器开发（天下）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78821&lang=zh",
+      "jobId": "78821"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "运营岗：商业化运营策划（天下3）",
+      "title": "商业化运营策划（天下3）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79080&lang=zh",
+      "jobId": "79080"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：高级数值策划（天下3）",
+      "title": "高级数值策划（天下3）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79081&lang=zh",
+      "jobId": "79081"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：资深战斗策划（在研搜打撤）",
+      "title": "资深战斗策划（在研搜打撤）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=76244&lang=zh",
+      "jobId": "76244"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：执行主营销（在研搜打撤））",
+      "title": "执行主营销（在研搜打撤）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78728&lang=zh",
+      "jobId": "78728"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：数值策划（在研搜打撤）",
+      "title": "数值策划（在研搜打撤）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78730&lang=zh",
+      "jobId": "78730"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：战斗策划（在研搜打撤）",
+      "title": "战斗策划（在研搜打撤）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78731&lang=zh",
+      "jobId": "78731"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：关卡策划（在研搜打撤）",
+      "title": "关卡策划（在研搜打撤）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78732&lang=zh",
+      "jobId": "78732"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：Unity客户端开发-战斗向（在研搜打撤））",
+      "title": "Unity客户端开发-战斗向（在研搜打撤）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78725&lang=zh",
+      "jobId": "78725"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：服务器双端开发工程师（在研搜打撤））",
+      "title": "服务器双端开发工程师（在研搜打撤）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78727&lang=zh",
+      "jobId": "78727"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深Unity引擎开发（在研搜打撤））",
+      "title": "资深Unity引擎开发（在研搜打撤）",
+      "type": "社招",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78729&lang=zh",
+      "jobId": "78729"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深技术美术工程师（动画方向）-在研项目）",
+      "title": "资深技术美术工程师（动画方向）-在研项目",
+      "type": "社招",
+      "bu": "艺设三部",
+      "url": "https://hr.163.com/job-detail.html?id=79143&lang=zh",
+      "jobId": "79143"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：广告算法工程师（网易云音乐））",
+      "title": "广告算法工程师（网易云音乐）",
+      "type": "社招",
+      "bu": "音乐事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79141&lang=zh",
+      "jobId": "79141"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：资深文案策划（代号：修仙）",
+      "title": "资深文案策划（代号：修仙）",
+      "type": "社招",
+      "bu": "海神事业部",
+      "url": "https://hr.163.com/job-detail.html?id=77416&lang=zh",
+      "jobId": "77416"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：主文案策划（西游仙诡方向）",
+      "title": "主文案策划（西游仙诡方向）",
+      "type": "社招",
+      "bu": "海神事业部",
+      "url": "https://hr.163.com/job-detail.html?id=77773&lang=zh",
+      "jobId": "77773"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深技术设计 TD（偏关卡））",
+      "title": "资深技术设计 TD（偏关卡）",
+      "type": "社招",
+      "bu": "合作产品部",
+      "url": "https://hr.163.com/job-detail.html?id=78405&lang=zh",
+      "jobId": "78405"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：资深营销策划（狼人杀）",
+      "title": "资深营销策划（狼人杀）",
+      "type": "社招",
+      "bu": "合作产品部",
+      "url": "https://hr.163.com/job-detail.html?id=78974&lang=zh",
+      "jobId": "78974"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：资深数值策划（代号：修仙）",
+      "title": "资深数值策划（代号：修仙）",
+      "type": "社招",
+      "bu": "海神事业部",
+      "url": "https://hr.163.com/job-detail.html?id=77428&lang=zh",
+      "jobId": "77428"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：内容营销策划（梦幻西游手游）",
+      "title": "内容营销策划（梦幻西游手游）",
+      "type": "社招",
+      "bu": "海神事业部",
+      "url": "https://hr.163.com/job-detail.html?id=77205&lang=zh",
+      "jobId": "77205"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：品牌策划（梦幻西游手游）",
+      "title": "品牌策划（梦幻西游手游）",
+      "type": "社招",
+      "bu": "海神事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79031&lang=zh",
+      "jobId": "79031"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：品牌营销策划（梦幻西游手游）",
+      "title": "品牌营销策划（梦幻西游手游）",
+      "type": "社招",
+      "bu": "海神事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78183&lang=zh",
+      "jobId": "78183"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深动作设计师（FPS）-Bloodstrike）",
+      "title": "资深动作设计师（FPS）-Bloodstrike",
+      "type": "社招",
+      "bu": "荒野事业部",
+      "url": "https://hr.163.com/job-detail.html?id=77876&lang=zh",
+      "jobId": "77876"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：技术美术专家（性能优化）-极限战场）",
+      "title": "技术美术专家（性能优化）-极限战场",
+      "type": "社招",
+      "bu": "艺设三部",
+      "url": "https://hr.163.com/job-detail.html?id=78414&lang=zh",
+      "jobId": "78414"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：文案策划（在研3A射击-极限战场）",
+      "title": "文案策划（在研3A射击-极限战场）",
+      "type": "社招",
+      "bu": "荒野事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79133&lang=zh",
+      "jobId": "79133"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：音频策划（在研3A射击-极限战场）",
+      "title": "音频策划（在研3A射击-极限战场）",
+      "type": "社招",
+      "bu": "荒野事业部",
+      "url": "https://hr.163.com/job-detail.html?id=76587&lang=zh",
+      "jobId": "76587"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级游戏客户端）",
+      "title": "高级游戏客户端",
+      "type": "社招",
+      "bu": "水滴事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79130&lang=zh",
+      "jobId": "79130"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深场景编辑设计师）",
+      "title": "高级/资深场景编辑设计师",
+      "type": "社招",
+      "bu": "艺设一部",
+      "url": "https://hr.163.com/job-detail.html?id=76091&lang=zh",
+      "jobId": "76091"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深数据开发工程师/专家）",
+      "title": "资深数据开发工程师/专家",
+      "type": "社招",
+      "bu": "效率工程部",
+      "url": "https://hr.163.com/job-detail.html?id=63699&lang=zh",
+      "jobId": "63699"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：资深数据产品BP（财经方向）",
+      "title": "资深数据产品BP（财经方向）",
+      "type": "社招",
+      "bu": "效率工程部",
+      "url": "https://hr.163.com/job-detail.html?id=64391&lang=zh",
+      "jobId": "64391"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：资深数据产品BP（营销方向）",
+      "title": "资深数据产品BP（营销方向）",
+      "type": "社招",
+      "bu": "效率工程部",
+      "url": "https://hr.163.com/job-detail.html?id=69641&lang=zh",
+      "jobId": "69641"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：策略运营（客户运营））",
+      "title": "策略运营（客户运营）",
+      "type": "社招",
+      "bu": "智能邮件事业部",
+      "url": "https://hr.163.com/job-detail.html?id=69762&lang=zh",
+      "jobId": "69762"
+    },
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
@@ -984,16 +1924,6 @@
       "bu": "品牌公关部",
       "url": "https://hr.163.com/job-detail.html?id=79105&lang=zh",
       "jobId": "79105"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：FPS游戏音频设计师（在研3A射击-极限战场））",
-      "title": "FPS游戏音频设计师（在研3A射击-极限战场）",
-      "type": "社招",
-      "bu": "荒野事业部",
-      "url": "https://hr.163.com/job-detail.html?id=76587&lang=zh",
-      "jobId": "76587"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -2698,326 +3628,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深角色原画设计师（无限大））",
-      "title": "高级/资深角色原画设计师（无限大）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=17769&lang=zh",
-      "jobId": "17769"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：角色模型组长（在研项目））",
-      "title": "角色模型组长（在研项目）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=68134&lang=zh",
-      "jobId": "68134"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师）",
-      "title": "资深角色原画设计师",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=75216&lang=zh",
-      "jobId": "75216"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师-雾海之下）",
-      "title": "资深角色模型设计师-雾海之下",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=75227&lang=zh",
-      "jobId": "75227"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深服务端开发工程师（在研新项目））",
-      "title": "高级/资深服务端开发工程师（在研新项目）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77678&lang=zh",
-      "jobId": "77678"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏视频编导（逆水寒））",
-      "title": "资深游戏视频编导（逆水寒）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77809&lang=zh",
-      "jobId": "77809"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏影视编导（界外狂潮））",
-      "title": "资深游戏影视编导（界外狂潮）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77811&lang=zh",
-      "jobId": "77811"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师（永劫无间））",
-      "title": "资深角色原画设计师（永劫无间）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=42194&lang=zh",
-      "jobId": "42194"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：角色原画设计师-机械怪物/武器方向（无限大））",
-      "title": "角色原画设计师-机械怪物/武器方向（无限大）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=43349&lang=zh",
-      "jobId": "43349"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深/专家场景灯光设计师（无限大））",
-      "title": "资深/专家场景灯光设计师（无限大）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=45825&lang=zh",
-      "jobId": "45825"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师（诡影藏锋））",
-      "title": "资深角色原画设计师（诡影藏锋）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=60542&lang=zh",
-      "jobId": "60542"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：角色美宣设计师（忘川风华录））",
-      "title": "角色美宣设计师（忘川风华录）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=73713&lang=zh",
-      "jobId": "73713"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深特效设计师（UE在研项目））",
-      "title": "资深特效设计师（UE在研项目）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77669&lang=zh",
-      "jobId": "77669"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深游戏客户端开发工程师）",
-      "title": "高级/资深游戏客户端开发工程师",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78108&lang=zh",
-      "jobId": "78108"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏影视编导）",
-      "title": "游戏影视编导",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78198&lang=zh",
-      "jobId": "78198"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深游戏美术商务）",
-      "title": "高级/资深游戏美术商务",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=16025&lang=zh",
-      "jobId": "16025"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：3Dlayout（无限大））",
-      "title": "3Dlayout（无限大）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=46923&lang=zh",
-      "jobId": "46923"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师-诡影藏锋）",
-      "title": "资深角色模型设计师-诡影藏锋",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=60597&lang=zh",
-      "jobId": "60597"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏灯光美术师（诡影藏锋））",
-      "title": "资深游戏灯光美术师（诡影藏锋）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=65446&lang=zh",
-      "jobId": "65446"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师-）",
-      "title": "资深角色原画设计师-",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=65844&lang=zh",
-      "jobId": "65844"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色原画设计师（忘川风华录））",
-      "title": "资深角色原画设计师（忘川风华录）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=68015&lang=zh",
-      "jobId": "68015"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏美术商务）",
-      "title": "资深游戏美术商务",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=73525&lang=zh",
-      "jobId": "73525"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深游戏服务端开发工程师）",
-      "title": "高级/资深游戏服务端开发工程师",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78243&lang=zh",
-      "jobId": "78243"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深角色原画设计师（在研国风二次元））",
-      "title": "高级/资深角色原画设计师（在研国风二次元）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78735&lang=zh",
-      "jobId": "78735"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏影视编导（角色任务）-无限大）",
-      "title": "游戏影视编导（角色任务）-无限大",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=64936&lang=zh",
-      "jobId": "64936"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：编导-技术导演（无限大））",
-      "title": "编导-技术导演（无限大）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=65004&lang=zh",
-      "jobId": "65004"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏影视编导（无限大））",
-      "title": "资深游戏影视编导（无限大）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=46920&lang=zh",
-      "jobId": "46920"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏商业化编导（永劫无间））",
-      "title": "资深游戏商业化编导（永劫无间）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=55645&lang=zh",
-      "jobId": "55645"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏影视编导-永劫无间）",
-      "title": "资深游戏影视编导-永劫无间",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=65104&lang=zh",
-      "jobId": "65104"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏影视编导-分镜（无限大））",
-      "title": "游戏影视编导-分镜（无限大）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=66218&lang=zh",
-      "jobId": "66218"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏影视编导（篮球主机向））",
-      "title": "资深游戏影视编导（篮球主机向）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77806&lang=zh",
-      "jobId": "77806"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏影视编导（layout）-逆水寒）",
-      "title": "游戏影视编导（layout）-逆水寒",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77808&lang=zh",
-      "jobId": "77808"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "游戏策划岗：高级海外系统策划",
       "title": "高级海外系统策划",
       "type": "社招",
@@ -3174,26 +3784,6 @@
       "bu": "水滴事业部",
       "url": "https://hr.163.com/job-detail.html?id=77079&lang=zh",
       "jobId": "77079"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "运营岗：商业化运营策划（天下3）",
-      "title": "商业化运营策划（天下3）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=79080&lang=zh",
-      "jobId": "79080"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：高级数值策划（天下3）",
-      "title": "高级数值策划（天下3）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=79081&lang=zh",
-      "jobId": "79081"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -3818,16 +4408,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "游戏策划岗：主系统策划（代号：修仙）",
-      "title": "主系统策划（代号：修仙）",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77427&lang=zh",
-      "jobId": "77427"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：AI游戏服务器工程师）",
       "title": "AI游戏服务器工程师",
       "type": "社招",
@@ -3868,32 +4448,12 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "游戏策划岗：资深数值策划（代号：修仙）",
-      "title": "资深数值策划（代号：修仙）",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77428&lang=zh",
-      "jobId": "77428"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：视频管线PM（燕云十六声）",
       "title": "视频管线PM（燕云十六声）",
       "type": "社招",
       "bu": "水滴事业部",
       "url": "https://hr.163.com/job-detail.html?id=79032&lang=zh",
       "jobId": "79032"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：品牌策划（梦幻西游手游）",
-      "title": "品牌策划（梦幻西游手游）",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=79031&lang=zh",
-      "jobId": "79031"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -4118,16 +4678,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：研发PM（SLG类项目）",
-      "title": "研发PM（SLG类项目）",
-      "type": "社招",
-      "bu": "项目管理中心",
-      "url": "https://hr.163.com/job-detail.html?id=79016&lang=zh",
-      "jobId": "79016"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：资深AI Agent 开发工程师）",
       "title": "资深AI Agent 开发工程师",
       "type": "社招",
@@ -4298,26 +4848,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：资深营销策划（狼人杀）",
-      "title": "资深营销策划（狼人杀）",
-      "type": "社招",
-      "bu": "合作产品部",
-      "url": "https://hr.163.com/job-detail.html?id=78974&lang=zh",
-      "jobId": "78974"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级服务端开发（率土之滨））",
-      "title": "高级服务端开发（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78454&lang=zh",
-      "jobId": "78454"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：云商-AI测试专家）",
       "title": "云商-AI测试专家",
       "type": "社招",
@@ -4374,16 +4904,6 @@
       "bu": "项目管理中心",
       "url": "https://hr.163.com/job-detail.html?id=78095&lang=zh",
       "jobId": "78095"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深Unity引擎开发（在研搜打撤））",
-      "title": "资深Unity引擎开发（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78729&lang=zh",
-      "jobId": "78729"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -4634,176 +5154,6 @@
       "bu": "有道事业群",
       "url": "https://hr.163.com/job-detail.html?id=78985&lang=zh",
       "jobId": "78985"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：高级战斗策划（率土之滨）",
-      "title": "高级战斗策划（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78458&lang=zh",
-      "jobId": "78458"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：高级系统策划（率土之滨）",
-      "title": "高级系统策划（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77874&lang=zh",
-      "jobId": "77874"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深达人传播（率土之滨））",
-      "title": "资深达人传播（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78449&lang=zh",
-      "jobId": "78449"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：资深营销策划（率土之滨）",
-      "title": "资深营销策划（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78450&lang=zh",
-      "jobId": "78450"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：资深创意策划（率土之滨）",
-      "title": "资深创意策划（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78452&lang=zh",
-      "jobId": "78452"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深手游投放（率土之滨））",
-      "title": "资深手游投放（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78453&lang=zh",
-      "jobId": "78453"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：资深商业化策划（率土之滨）",
-      "title": "资深商业化策划（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78456&lang=zh",
-      "jobId": "78456"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：资深系统策划（率土之滨）",
-      "title": "资深系统策划（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78457&lang=zh",
-      "jobId": "78457"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级客户端开发（率土之滨））",
-      "title": "高级客户端开发（率土之滨）",
-      "type": "社招",
-      "bu": "第十事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78841&lang=zh",
-      "jobId": "78841"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：系统策划（在研搜打撤）",
-      "title": "系统策划（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78663&lang=zh",
-      "jobId": "78663"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：Unity客户端开发-战斗向（在研搜打撤））",
-      "title": "Unity客户端开发-战斗向（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78725&lang=zh",
-      "jobId": "78725"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：文案策划（在研搜打撤）",
-      "title": "文案策划（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78726&lang=zh",
-      "jobId": "78726"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：服务器双端开发工程师（在研搜打撤））",
-      "title": "服务器双端开发工程师（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78727&lang=zh",
-      "jobId": "78727"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：执行主营销（在研搜打撤））",
-      "title": "执行主营销（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78728&lang=zh",
-      "jobId": "78728"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：数值策划（在研搜打撤）",
-      "title": "数值策划（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78730&lang=zh",
-      "jobId": "78730"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：战斗策划（在研搜打撤）",
-      "title": "战斗策划（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78731&lang=zh",
-      "jobId": "78731"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：关卡策划（在研搜打撤）",
-      "title": "关卡策划（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78732&lang=zh",
-      "jobId": "78732"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -5104,16 +5454,6 @@
       "bu": "艺设一部",
       "url": "https://hr.163.com/job-detail.html?id=78947&lang=zh",
       "jobId": "78947"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深Java开发工程师（曲库业务））",
-      "title": "高级/资深Java开发工程师（曲库业务）",
-      "type": "社招",
-      "bu": "音乐事业部",
-      "url": "https://hr.163.com/job-detail.html?id=74176&lang=zh",
-      "jobId": "74176"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -5508,6 +5848,16 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深Java开发工程师（曲库业务））",
+      "title": "高级/资深Java开发工程师（曲库业务）",
+      "type": "社招",
+      "bu": "音乐事业部",
+      "url": "https://hr.163.com/job-detail.html?id=74176&lang=zh",
+      "jobId": "74176"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
       "reason": "游戏策划岗：资深关卡策划（雾海之下）",
       "title": "资深关卡策划（雾海之下）",
       "type": "社招",
@@ -5524,16 +5874,6 @@
       "bu": "雷火事业群",
       "url": "https://hr.163.com/job-detail.html?id=47587&lang=zh",
       "jobId": "47587"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：高级系统策划",
-      "title": "高级系统策划",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=70811&lang=zh",
-      "jobId": "70811"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -5844,16 +6184,6 @@
       "bu": "艺设三部",
       "url": "https://hr.163.com/job-detail.html?id=78922&lang=zh",
       "jobId": "78922"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深服务器开发（双端开发-游戏王））",
-      "title": "资深服务器开发（双端开发-游戏王）",
-      "type": "社招",
-      "bu": "合作产品部",
-      "url": "https://hr.163.com/job-detail.html?id=77671&lang=zh",
-      "jobId": "77671"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -6278,26 +6608,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：资深数据产品BP（营销方向）",
-      "title": "资深数据产品BP（营销方向）",
-      "type": "社招",
-      "bu": "效率工程部",
-      "url": "https://hr.163.com/job-detail.html?id=69641&lang=zh",
-      "jobId": "69641"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：资深数据产品BP（财经方向）",
-      "title": "资深数据产品BP（财经方向）",
-      "type": "社招",
-      "bu": "效率工程部",
-      "url": "https://hr.163.com/job-detail.html?id=64391&lang=zh",
-      "jobId": "64391"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：产运负责人（AI互动影游平台方向））",
       "title": "产运负责人（AI互动影游平台方向）",
       "type": "社招",
@@ -6314,16 +6624,6 @@
       "bu": "Eggy事业部",
       "url": "https://hr.163.com/job-detail.html?id=78844&lang=zh",
       "jobId": "78844"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：资深战斗策划（在研搜打撤）",
-      "title": "资深战斗策划（在研搜打撤）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=76244&lang=zh",
-      "jobId": "76244"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -6578,36 +6878,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深客户端开发（天下））",
-      "title": "资深客户端开发（天下）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78820&lang=zh",
-      "jobId": "78820"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深服务器开发（天下））",
-      "title": "资深服务器开发（天下）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78821&lang=zh",
-      "jobId": "78821"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：资深战斗策划（天下3）",
-      "title": "资深战斗策划（天下3）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78819&lang=zh",
-      "jobId": "78819"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：资深动作设计师-蛋仔派对）",
       "title": "资深动作设计师-蛋仔派对",
       "type": "社招",
@@ -6624,16 +6894,6 @@
       "bu": "荒野事业部",
       "url": "https://hr.163.com/job-detail.html?id=75321&lang=zh",
       "jobId": "75321"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深动作设计师（FPS））",
-      "title": "资深动作设计师（FPS）",
-      "type": "社招",
-      "bu": "荒野事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77876&lang=zh",
-      "jobId": "77876"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -6878,16 +7138,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深数据开发工程师/专家）",
-      "title": "资深数据开发工程师/专家",
-      "type": "社招",
-      "bu": "效率工程部",
-      "url": "https://hr.163.com/job-detail.html?id=63699&lang=zh",
-      "jobId": "63699"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：游戏测试工程师（燕云十六声））",
       "title": "游戏测试工程师（燕云十六声）",
       "type": "社招",
@@ -6904,126 +7154,6 @@
       "bu": "发行中心",
       "url": "https://hr.163.com/job-detail.html?id=78733&lang=zh",
       "jobId": "78733"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏角色模型设计师（无限大））",
-      "title": "资深游戏角色模型设计师（无限大）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=45975&lang=zh",
-      "jobId": "45975"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师（怪物））",
-      "title": "资深角色模型设计师（怪物）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=60544&lang=zh",
-      "jobId": "60544"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏动画导演）",
-      "title": "资深游戏动画导演",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=76026&lang=zh",
-      "jobId": "76026"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师（逆水寒））",
-      "title": "资深角色模型设计师（逆水寒）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=66416&lang=zh",
-      "jobId": "66416"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深引擎开发工程师（在研新项目））",
-      "title": "高级/资深引擎开发工程师（在研新项目）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77680&lang=zh",
-      "jobId": "77680"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深角色原画（风格化-微恐））",
-      "title": "高级/资深角色原画（风格化-微恐）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78442&lang=zh",
-      "jobId": "78442"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师（归唐） ）",
-      "title": "资深角色模型设计师（归唐） ",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78712&lang=zh",
-      "jobId": "78712"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：动作/动画/导演岗位）",
-      "title": "动作/动画/导演岗位",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=67809&lang=zh",
-      "jobId": "67809"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深游戏灯光美术师）",
-      "title": "资深游戏灯光美术师",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=20189&lang=zh",
-      "jobId": "20189"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深角色模型设计师（永劫无间） ）",
-      "title": "资深角色模型设计师（永劫无间） ",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=40133&lang=zh",
-      "jobId": "40133"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏剧情导演（逆水寒））",
-      "title": "游戏剧情导演（逆水寒）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77810&lang=zh",
-      "jobId": "77810"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深特效设计师（UE）-雾海之下）",
-      "title": "高级/资深特效设计师（UE）-雾海之下",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=75218&lang=zh",
-      "jobId": "75218"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -8178,16 +8308,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：渲染方向引擎开发（蛋仔派对））",
-      "title": "渲染方向引擎开发（蛋仔派对）",
-      "type": "社招",
-      "bu": "Eggy事业部",
-      "url": "https://hr.163.com/job-detail.html?id=71955&lang=zh",
-      "jobId": "71955"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：资深角色原画设计师（天谕））",
       "title": "资深角色原画设计师（天谕）",
       "type": "社招",
@@ -8314,16 +8434,6 @@
       "bu": "技术保障部",
       "url": "https://hr.163.com/job-detail.html?id=78585&lang=zh",
       "jobId": "78585"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：IT服务管理专家（杭州））",
-      "title": "IT服务管理专家（杭州）",
-      "type": "社招",
-      "bu": "技术保障部",
-      "url": "https://hr.163.com/job-detail.html?id=78614&lang=zh",
-      "jobId": "78614"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -8848,32 +8958,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深3D角色制作设计师（漫威争锋））",
-      "title": "高级/资深3D角色制作设计师（漫威争锋）",
-      "type": "社招",
-      "bu": "艺设一部",
-      "url": "https://hr.163.com/job-detail.html?id=71562&lang=zh",
-      "jobId": "71562"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深技术美术（AI方向））",
-      "title": "资深技术美术（AI方向）",
-      "type": "社招",
-      "bu": "艺设一部",
-      "url": "https://hr.163.com/job-detail.html?id=75177&lang=zh",
-      "jobId": "75177"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：资深GUI 设计师（大话归来））",
       "title": "资深GUI 设计师（大话归来）",
       "type": "社招",
       "bu": "艺设一部",
       "url": "https://hr.163.com/job-detail.html?id=77817&lang=zh",
       "jobId": "77817"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：资深技术美术工程师）",
+      "title": "资深技术美术工程师",
+      "type": "社招",
+      "bu": "艺设一部",
+      "url": "https://hr.163.com/job-detail.html?id=77825&lang=zh",
+      "jobId": "77825"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -8898,12 +8998,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深技术美术工程师）",
-      "title": "资深技术美术工程师",
+      "reason": "标题不含产品相关词（当前标题：资深技术美术（AI方向））",
+      "title": "资深技术美术（AI方向）",
       "type": "社招",
       "bu": "艺设一部",
-      "url": "https://hr.163.com/job-detail.html?id=77825&lang=zh",
-      "jobId": "77825"
+      "url": "https://hr.163.com/job-detail.html?id=75177&lang=zh",
+      "jobId": "75177"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：高级/资深3D角色制作设计师（漫威争锋））",
+      "title": "高级/资深3D角色制作设计师（漫威争锋）",
+      "type": "社招",
+      "bu": "艺设一部",
+      "url": "https://hr.163.com/job-detail.html?id=71562&lang=zh",
+      "jobId": "71562"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -9248,16 +9358,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AITA（AI技术美术））",
-      "title": "AITA（AI技术美术）",
-      "type": "社招",
-      "bu": "艺设一部",
-      "url": "https://hr.163.com/job-detail.html?id=76502&lang=zh",
-      "jobId": "76502"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：资深UI视觉设计师（梦幻手游））",
       "title": "资深UI视觉设计师（梦幻手游）",
       "type": "社招",
@@ -9294,6 +9394,16 @@
       "bu": "艺设二部",
       "url": "https://hr.163.com/job-detail.html?id=78278&lang=zh",
       "jobId": "78278"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：AITA（AI技术美术））",
+      "title": "AITA（AI技术美术）",
+      "type": "社招",
+      "bu": "艺设一部",
+      "url": "https://hr.163.com/job-detail.html?id=76502&lang=zh",
+      "jobId": "76502"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -9348,22 +9458,22 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：特效设计师（漫威争锋））",
-      "title": "特效设计师（漫威争锋）",
-      "type": "社招",
-      "bu": "艺设一部",
-      "url": "https://hr.163.com/job-detail.html?id=77820&lang=zh",
-      "jobId": "77820"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：资深UI视觉设计师（天下3））",
       "title": "资深UI视觉设计师（天下3）",
       "type": "社招",
       "bu": "艺设二部",
       "url": "https://hr.163.com/job-detail.html?id=78588&lang=zh",
       "jobId": "78588"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：特效设计师（漫威争锋））",
+      "title": "特效设计师（漫威争锋）",
+      "type": "社招",
+      "bu": "艺设一部",
+      "url": "https://hr.163.com/job-detail.html?id=77820&lang=zh",
+      "jobId": "77820"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -9424,36 +9534,6 @@
       "bu": "艺设一部",
       "url": "https://hr.163.com/job-detail.html?id=78600&lang=zh",
       "jobId": "78600"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：Java开发工程师（广告业务））",
-      "title": "Java开发工程师（广告业务）",
-      "type": "社招",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78604&lang=zh",
-      "jobId": "78604"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级/资深客户端开发工程师（在研新项目））",
-      "title": "高级/资深客户端开发工程师（在研新项目）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77679&lang=zh",
-      "jobId": "77679"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏动画导演（无限大））",
-      "title": "游戏动画导演（无限大）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=65753&lang=zh",
-      "jobId": "65753"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -9564,16 +9644,6 @@
       "bu": "智企事业部",
       "url": "https://hr.163.com/job-detail.html?id=65262&lang=zh",
       "jobId": "65262"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深场景原画负责人（雾海之下））",
-      "title": "资深场景原画负责人（雾海之下）",
-      "type": "社招",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77126&lang=zh",
-      "jobId": "77126"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -10208,16 +10278,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深客户端（UE5/Unity））",
-      "title": "资深客户端（UE5/Unity）",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77124&lang=zh",
-      "jobId": "77124"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：高级/资深服务端开发（蛋仔派对））",
       "title": "高级/资深服务端开发（蛋仔派对）",
       "type": "社招",
@@ -10488,16 +10548,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：技术美术专家（性能优化）-在研项目）",
-      "title": "技术美术专家（性能优化）-在研项目",
-      "type": "社招",
-      "bu": "艺设三部",
-      "url": "https://hr.163.com/job-detail.html?id=78414&lang=zh",
-      "jobId": "78414"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：高级客户端开发工程师（梦幻端游））",
       "title": "高级客户端开发工程师（梦幻端游）",
       "type": "社招",
@@ -10588,32 +10638,12 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深技术设计 TD（偏关卡））",
-      "title": "资深技术设计 TD（偏关卡）",
-      "type": "社招",
-      "bu": "合作产品部",
-      "url": "https://hr.163.com/job-detail.html?id=78405&lang=zh",
-      "jobId": "78405"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：资深技术美术 TA（偏场景））",
       "title": "资深技术美术 TA（偏场景）",
       "type": "社招",
       "bu": "合作产品部",
       "url": "https://hr.163.com/job-detail.html?id=78404&lang=zh",
       "jobId": "78404"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：主程序客户端（UE模拟经营新项目））",
-      "title": "主程序客户端（UE模拟经营新项目）",
-      "type": "社招",
-      "bu": "合作产品部",
-      "url": "https://hr.163.com/job-detail.html?id=78403&lang=zh",
-      "jobId": "78403"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -11678,16 +11708,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深概念设计师（衍生品）-第五人格）",
-      "title": "资深概念设计师（衍生品）-第五人格",
-      "type": "社招",
-      "bu": "Joker事业部",
-      "url": "https://hr.163.com/job-detail.html?id=70503&lang=zh",
-      "jobId": "70503"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：海外KOL广告销售-上海）",
       "title": "海外KOL广告销售-上海",
       "type": "社招",
@@ -11724,16 +11744,6 @@
       "bu": "有道事业群",
       "url": "https://hr.163.com/job-detail.html?id=78188&lang=zh",
       "jobId": "78188"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：品牌营销策划（梦幻手游）",
-      "title": "品牌营销策划（梦幻手游）",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78183&lang=zh",
-      "jobId": "78183"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -12418,16 +12428,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：资深文案策划（代号：修仙）",
-      "title": "资深文案策划（代号：修仙）",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77416&lang=zh",
-      "jobId": "77416"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：Unity开发工程师（易次元））",
       "title": "Unity开发工程师（易次元）",
       "type": "社招",
@@ -12748,16 +12748,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：资深服务端开发工程师）",
-      "title": "资深服务端开发工程师",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77970&lang=zh",
-      "jobId": "77970"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：客服管理岗）",
       "title": "客服管理岗",
       "type": "社招",
@@ -13058,16 +13048,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：客户端开发工程师（光遇项目））",
-      "title": "客户端开发工程师（光遇项目）",
-      "type": "社招",
-      "bu": "合作产品部",
-      "url": "https://hr.163.com/job-detail.html?id=77719&lang=zh",
-      "jobId": "77719"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：资深IDC资源运营专家（杭州））",
       "title": "资深IDC资源运营专家（杭州）",
       "type": "社招",
@@ -13108,32 +13088,12 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高级游戏开发（双端开发））",
-      "title": "高级游戏开发（双端开发）",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=76867&lang=zh",
-      "jobId": "76867"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "运营岗：资深卡牌运营策划（影之诗）",
       "title": "资深卡牌运营策划（影之诗）",
       "type": "社招",
       "bu": "合作产品部",
       "url": "https://hr.163.com/job-detail.html?id=77705&lang=zh",
       "jobId": "77705"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：主文案策划（西游仙诡方向）",
-      "title": "主文案策划（西游仙诡方向）",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77773&lang=zh",
-      "jobId": "77773"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -13978,26 +13938,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含AI相关词：内容营销策划（梦幻手游）",
-      "title": "内容营销策划（梦幻手游）",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77205&lang=zh",
-      "jobId": "77205"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：资深营销策划（影之诗）",
-      "title": "资深营销策划（影之诗）",
-      "type": "社招",
-      "bu": "合作产品部",
-      "url": "https://hr.163.com/job-detail.html?id=77579&lang=zh",
-      "jobId": "77579"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含AI相关词：战斗玩法策划（荒野行动）",
       "title": "战斗玩法策划（荒野行动）",
       "type": "社招",
@@ -14404,16 +14344,6 @@
       "bu": "Joker事业部",
       "url": "https://hr.163.com/job-detail.html?id=77449&lang=zh",
       "jobId": "77449"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：资深系统策划（梦幻西游手游）",
-      "title": "资深系统策划（梦幻西游手游）",
-      "type": "社招",
-      "bu": "海神事业部",
-      "url": "https://hr.163.com/job-detail.html?id=76491&lang=zh",
-      "jobId": "76491"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -15234,26 +15164,6 @@
       "bu": "雷火事业群",
       "url": "https://hr.163.com/job-detail.html?id=77256&lang=zh",
       "jobId": "77256"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AI 视效艺术家）",
-      "title": "AI 视效艺术家",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=72691&lang=zh",
-      "jobId": "72691"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：灯塔用户运营）",
-      "title": "灯塔用户运营",
-      "type": "社招",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=72702&lang=zh",
-      "jobId": "72702"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -18718,26 +18628,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏营销（葡语））",
-      "title": "游戏营销（葡语）",
-      "type": "社招",
-      "bu": "荒野事业部",
-      "url": "https://hr.163.com/job-detail.html?id=70606&lang=zh",
-      "jobId": "70606"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：海外社媒营销）",
-      "title": "海外社媒营销",
-      "type": "社招",
-      "bu": "荒野事业部",
-      "url": "https://hr.163.com/job-detail.html?id=68082&lang=zh",
-      "jobId": "68082"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：IP联动营销-荒野行动）",
       "title": "IP联动营销-荒野行动",
       "type": "社招",
@@ -18754,6 +18644,26 @@
       "bu": "荒野事业部",
       "url": "https://hr.163.com/job-detail.html?id=71616&lang=zh",
       "jobId": "71616"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：海外社媒营销）",
+      "title": "海外社媒营销",
+      "type": "社招",
+      "bu": "荒野事业部",
+      "url": "https://hr.163.com/job-detail.html?id=68082&lang=zh",
+      "jobId": "68082"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏营销（葡语））",
+      "title": "游戏营销（葡语）",
+      "type": "社招",
+      "bu": "荒野事业部",
+      "url": "https://hr.163.com/job-detail.html?id=70606&lang=zh",
+      "jobId": "70606"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -19698,16 +19608,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：高中英语主讲老师）",
-      "title": "高中英语主讲老师",
-      "type": "社招",
-      "bu": "有道事业群",
-      "url": "https://hr.163.com/job-detail.html?id=32629&lang=zh",
-      "jobId": "32629"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：资深特效设计师-极限战场）",
       "title": "资深特效设计师-极限战场",
       "type": "社招",
@@ -20578,12 +20478,462 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容营销实习生（企业邮））",
-      "title": "内容营销实习生（企业邮）",
+      "reason": "标题不含产品相关词（当前标题：游戏图形算法工程师（实习生））",
+      "title": "游戏图形算法工程师（实习生）",
+      "type": "实习",
+      "bu": "技术中心",
+      "url": "https://hr.163.com/job-detail.html?id=79036&lang=zh",
+      "jobId": "79036"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：海外商务实习生）",
+      "title": "海外商务实习生",
+      "type": "实习",
+      "bu": "游戏应用与平台发展事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78936&lang=zh",
+      "jobId": "78936"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：市场营销实习生（活动方向））",
+      "title": "市场营销实习生（活动方向）",
+      "type": "实习",
+      "bu": "UGC事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78552&lang=zh",
+      "jobId": "78552"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：内容编辑实习生）",
+      "title": "内容编辑实习生",
+      "type": "实习",
+      "bu": "游戏应用与平台发展事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78999&lang=zh",
+      "jobId": "78999"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏测试工程师）",
+      "title": "游戏测试工程师",
+      "type": "实习",
+      "bu": "质量保障中心",
+      "url": "https://hr.163.com/job-detail.html?id=79051&lang=zh",
+      "jobId": "79051"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：内容素材营销（王牌竞速））",
+      "title": "内容素材营销（王牌竞速）",
+      "type": "实习",
+      "bu": "Eggy事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79037&lang=zh",
+      "jobId": "79037"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：自媒体运营（王牌竞速））",
+      "title": "自媒体运营（王牌竞速）",
+      "type": "实习",
+      "bu": "Eggy事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79038&lang=zh",
+      "jobId": "79038"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏市场营销实习生（光遇））",
+      "title": "游戏市场营销实习生（光遇）",
+      "type": "实习",
+      "bu": "合作产品部",
+      "url": "https://hr.163.com/job-detail.html?id=78704&lang=zh",
+      "jobId": "78704"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：内容运营实习生）",
+      "title": "内容运营实习生",
+      "type": "实习",
+      "bu": "发行中心",
+      "url": "https://hr.163.com/job-detail.html?id=76416&lang=zh",
+      "jobId": "76416"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：新媒体实习生（天下））",
+      "title": "新媒体实习生（天下）",
+      "type": "实习",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78897&lang=zh",
+      "jobId": "78897"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：GUI实习生）",
+      "title": "GUI实习生",
+      "type": "实习",
+      "bu": "艺设一部",
+      "url": "https://hr.163.com/job-detail.html?id=78898&lang=zh",
+      "jobId": "78898"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：客户端开发实习生（王牌竞速））",
+      "title": "客户端开发实习生（王牌竞速）",
+      "type": "实习",
+      "bu": "Eggy事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78852&lang=zh",
+      "jobId": "78852"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "运营岗：运营策划实习生（王牌竞速）",
+      "title": "运营策划实习生（王牌竞速）",
+      "type": "实习",
+      "bu": "Eggy事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78720&lang=zh",
+      "jobId": "78720"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：战斗策划实习生（王牌竞速）",
+      "title": "战斗策划实习生（王牌竞速）",
+      "type": "实习",
+      "bu": "Eggy事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78721&lang=zh",
+      "jobId": "78721"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：视频摄像剪辑实习生）",
+      "title": "视频摄像剪辑实习生",
+      "type": "实习",
+      "bu": "传媒事业群",
+      "url": "https://hr.163.com/job-detail.html?id=79148&lang=zh",
+      "jobId": "79148"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏技术美术工程师（TA））",
+      "title": "游戏技术美术工程师（TA）",
+      "type": "实习",
+      "bu": "合作产品部",
+      "url": "https://hr.163.com/job-detail.html?id=77292&lang=zh",
+      "jobId": "77292"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：网易曲库版权实习生）",
+      "title": "网易曲库版权实习生",
+      "type": "实习",
+      "bu": "音乐事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78248&lang=zh",
+      "jobId": "78248"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：数据分析实习生(会员方向)）",
+      "title": "数据分析实习生(会员方向)",
+      "type": "实习",
+      "bu": "音乐事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79146&lang=zh",
+      "jobId": "79146"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：市场内容营销实习生）",
+      "title": "市场内容营销实习生",
+      "type": "实习",
+      "bu": "有道事业群",
+      "url": "https://hr.163.com/job-detail.html?id=77220&lang=zh",
+      "jobId": "77220"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：数据标注实习生（短期））",
+      "title": "数据标注实习生（短期）",
+      "type": "实习",
+      "bu": "技术中心",
+      "url": "https://hr.163.com/job-detail.html?id=78482&lang=zh",
+      "jobId": "78482"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：视频剪辑实习生（含AI方向））",
+      "title": "视频剪辑实习生（含AI方向）",
+      "type": "实习",
+      "bu": "传媒事业群",
+      "url": "https://hr.163.com/job-detail.html?id=76296&lang=zh",
+      "jobId": "76296"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "游戏策划岗：系统策划实习生（在研项目）",
+      "title": "系统策划实习生（在研项目）",
+      "type": "实习",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78666&lang=zh",
+      "jobId": "78666"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：技术美术实习生（在研项目））",
+      "title": "技术美术实习生（在研项目）",
+      "type": "实习",
+      "bu": "天下事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78667&lang=zh",
+      "jobId": "78667"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：《蛋仔派对》UGC运营实习生（用户运营方向））",
+      "title": "《蛋仔派对》UGC运营实习生（用户运营方向）",
+      "type": "实习",
+      "bu": "Eggy事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78511&lang=zh",
+      "jobId": "78511"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：客户端测试开发实习生）",
+      "title": "客户端测试开发实习生",
+      "type": "实习",
+      "bu": "传媒事业群",
+      "url": "https://hr.163.com/job-detail.html?id=78115&lang=zh",
+      "jobId": "78115"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏研发项目管理工程师（27届+广/沪/杭））",
+      "title": "游戏研发项目管理工程师（27届+广/沪/杭）",
+      "type": "实习",
+      "bu": "发行中心",
+      "url": "https://hr.163.com/job-detail.html?id=73449&lang=zh",
+      "jobId": "73449"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏项目管理实习生）",
+      "title": "游戏项目管理实习生",
+      "type": "实习",
+      "bu": "水滴事业部",
+      "url": "https://hr.163.com/job-detail.html?id=77859&lang=zh",
+      "jobId": "77859"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：短视频品类实习生）",
+      "title": "短视频品类实习生",
+      "type": "实习",
+      "bu": "传媒事业群",
+      "url": "https://hr.163.com/job-detail.html?id=79138&lang=zh",
+      "jobId": "79138"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：内容运营实习生（有声书））",
+      "title": "内容运营实习生（有声书）",
+      "type": "实习",
+      "bu": "音乐事业部",
+      "url": "https://hr.163.com/job-detail.html?id=76275&lang=zh",
+      "jobId": "76275"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：招聘实习生（智邮））",
+      "title": "招聘实习生（智邮）",
       "type": "实习",
       "bu": "智能邮件事业部",
-      "url": "https://hr.163.com/job-detail.html?id=70231&lang=zh",
-      "jobId": "70231"
+      "url": "https://hr.163.com/job-detail.html?id=64999&lang=zh",
+      "jobId": "64999"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：内容运营实习生（UGC站外推广））",
+      "title": "内容运营实习生（UGC站外推广）",
+      "type": "实习",
+      "bu": "音乐事业部",
+      "url": "https://hr.163.com/job-detail.html?id=78233&lang=zh",
+      "jobId": "78233"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：海外媒介实习生）",
+      "title": "海外媒介实习生",
+      "type": "实习",
+      "bu": "有道事业群",
+      "url": "https://hr.163.com/job-detail.html?id=44489&lang=zh",
+      "jobId": "44489"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：项目管理实习生）",
+      "title": "项目管理实习生",
+      "type": "实习",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=56088&lang=zh",
+      "jobId": "56088"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：客户运营实习生）",
+      "title": "客户运营实习生",
+      "type": "实习",
+      "bu": "智能邮件事业部",
+      "url": "https://hr.163.com/job-detail.html?id=79049&lang=zh",
+      "jobId": "79049"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含AI相关词：游戏营销策划实习生",
+      "title": "游戏营销策划实习生",
+      "type": "实习",
+      "bu": "有道事业群",
+      "url": "https://hr.163.com/job-detail.html?id=69985&lang=zh",
+      "jobId": "69985"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：AI 技术美术实习生）",
+      "title": "AI 技术美术实习生",
+      "type": "实习",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=61239&lang=zh",
+      "jobId": "61239"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：AI对话体验设计实习生）",
+      "title": "AI对话体验设计实习生",
+      "type": "实习",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=52693&lang=zh",
+      "jobId": "52693"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：【精英实习】具身智能算法工程师）",
+      "title": "【精英实习】具身智能算法工程师",
+      "type": "实习",
+      "bu": "伏羲机器人",
+      "url": "https://hr.163.com/job-detail.html?id=77978&lang=zh",
+      "jobId": "77978"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：【精英实习】游戏研发客户端实习生（全明星街球派对））",
+      "title": "【精英实习】游戏研发客户端实习生（全明星街球派对）",
+      "type": "实习",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=72779&lang=zh",
+      "jobId": "72779"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：语音交互算法实习生）",
+      "title": "语音交互算法实习生",
+      "type": "实习",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=69074&lang=zh",
+      "jobId": "69074"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：【精英实习】游戏研发服务端实习生（全明星街球派对））",
+      "title": "【精英实习】游戏研发服务端实习生（全明星街球派对）",
+      "type": "实习",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=72780&lang=zh",
+      "jobId": "72780"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏研发工程师实习生（服务器方向）（无限大））",
+      "title": "游戏研发工程师实习生（服务器方向）（无限大）",
+      "type": "实习",
+      "bu": "雷火事业群",
+      "url": "https://hr.163.com/job-detail.html?id=61089&lang=zh",
+      "jobId": "61089"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：【精英实习】视觉感知算法工程师）",
+      "title": "【精英实习】视觉感知算法工程师",
+      "type": "实习",
+      "bu": "伏羲机器人",
+      "url": "https://hr.163.com/job-detail.html?id=77977&lang=zh",
+      "jobId": "77977"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：激光SLAM算法实习生）",
+      "title": "激光SLAM算法实习生",
+      "type": "实习",
+      "bu": "伏羲机器人",
+      "url": "https://hr.163.com/job-detail.html?id=75276&lang=zh",
+      "jobId": "75276"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：具身智能算法实习生）",
+      "title": "具身智能算法实习生",
+      "type": "实习",
+      "bu": "伏羲机器人",
+      "url": "https://hr.163.com/job-detail.html?id=70689&lang=zh",
+      "jobId": "70689"
+    },
+    {
+      "decision": "EXCLUDED_HARD",
+      "stage": "硬排除",
+      "reason": "标题不含产品相关词（当前标题：游戏测试工程师（FPS））",
+      "title": "游戏测试工程师（FPS）",
+      "type": "实习",
+      "bu": "质量保障中心",
+      "url": "https://hr.163.com/job-detail.html?id=79129&lang=zh",
+      "jobId": "79129"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -20684,16 +21034,6 @@
       "bu": "用户体验中心",
       "url": "https://hr.163.com/job-detail.html?id=79121&lang=zh",
       "jobId": "79121"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏体验设计实习生（破碎之地））",
-      "title": "游戏体验设计实习生（破碎之地）",
-      "type": "实习",
-      "bu": "用户体验中心",
-      "url": "https://hr.163.com/job-detail.html?id=79120&lang=zh",
-      "jobId": "79120"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -20878,32 +21218,12 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：客户运营实习生）",
-      "title": "客户运营实习生",
-      "type": "实习",
-      "bu": "智能邮件事业部",
-      "url": "https://hr.163.com/job-detail.html?id=79049&lang=zh",
-      "jobId": "79049"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：游戏客户端开发实习生（漫威争锋））",
       "title": "游戏客户端开发实习生（漫威争锋）",
       "type": "实习",
       "bu": "梦幻事业部",
       "url": "https://hr.163.com/job-detail.html?id=79057&lang=zh",
       "jobId": "79057"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：数据标注实习生（短期））",
-      "title": "数据标注实习生（短期）",
-      "type": "实习",
-      "bu": "技术中心",
-      "url": "https://hr.163.com/job-detail.html?id=78482&lang=zh",
-      "jobId": "78482"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -20984,16 +21304,6 @@
       "bu": "游戏应用与平台发展事业部",
       "url": "https://hr.163.com/job-detail.html?id=78860&lang=zh",
       "jobId": "78860"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：《蛋仔派对》UGC运营实习生（校企合作方向））",
-      "title": "《蛋仔派对》UGC运营实习生（校企合作方向）",
-      "type": "实习",
-      "bu": "Eggy事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78511&lang=zh",
-      "jobId": "78511"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -21298,76 +21608,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容运营实习生）",
-      "title": "内容运营实习生",
-      "type": "实习",
-      "bu": "发行中心",
-      "url": "https://hr.163.com/job-detail.html?id=76416&lang=zh",
-      "jobId": "76416"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：新媒体实习生（天下））",
-      "title": "新媒体实习生（天下）",
-      "type": "实习",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78897&lang=zh",
-      "jobId": "78897"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：GUI实习生）",
-      "title": "GUI实习生",
-      "type": "实习",
-      "bu": "艺设一部",
-      "url": "https://hr.163.com/job-detail.html?id=78898&lang=zh",
-      "jobId": "78898"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：客户端开发实习生（王牌竞速））",
-      "title": "客户端开发实习生（王牌竞速）",
-      "type": "实习",
-      "bu": "Eggy事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78852&lang=zh",
-      "jobId": "78852"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：战斗策划实习生（王牌竞速）",
-      "title": "战斗策划实习生（王牌竞速）",
-      "type": "实习",
-      "bu": "Eggy事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78721&lang=zh",
-      "jobId": "78721"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "运营岗：运营策划实习生（王牌竞速）",
-      "title": "运营策划实习生（王牌竞速）",
-      "type": "实习",
-      "bu": "Eggy事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78720&lang=zh",
-      "jobId": "78720"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏市场营销实习生（光遇））",
-      "title": "游戏市场营销实习生（光遇）",
-      "type": "实习",
-      "bu": "合作产品部",
-      "url": "https://hr.163.com/job-detail.html?id=78704&lang=zh",
-      "jobId": "78704"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：本地化营销（西语））",
       "title": "本地化营销（西语）",
       "type": "实习",
@@ -21424,16 +21664,6 @@
       "bu": "艺设一部",
       "url": "https://hr.163.com/job-detail.html?id=76748&lang=zh",
       "jobId": "76748"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏技术美术工程师（TA））",
-      "title": "游戏技术美术工程师（TA）",
-      "type": "实习",
-      "bu": "合作产品部",
-      "url": "https://hr.163.com/job-detail.html?id=77292&lang=zh",
-      "jobId": "77292"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -21532,16 +21762,6 @@
       "title": "游戏测试工程师",
       "type": "实习",
       "bu": "质量保障中心",
-      "url": "https://hr.163.com/job-detail.html?id=79051&lang=zh",
-      "jobId": "79051"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏测试工程师）",
-      "title": "游戏测试工程师",
-      "type": "实习",
-      "bu": "质量保障中心",
       "url": "https://hr.163.com/job-detail.html?id=79050&lang=zh",
       "jobId": "79050"
     },
@@ -21574,36 +21794,6 @@
       "bu": "烈酷工作室",
       "url": "https://hr.163.com/job-detail.html?id=40040&lang=zh",
       "jobId": "40040"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：自媒体运营（王牌竞速））",
-      "title": "自媒体运营（王牌竞速）",
-      "type": "实习",
-      "bu": "Eggy事业部",
-      "url": "https://hr.163.com/job-detail.html?id=79038&lang=zh",
-      "jobId": "79038"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容素材营销（王牌竞速））",
-      "title": "内容素材营销（王牌竞速）",
-      "type": "实习",
-      "bu": "Eggy事业部",
-      "url": "https://hr.163.com/job-detail.html?id=79037&lang=zh",
-      "jobId": "79037"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏图形算法工程师（实习生））",
-      "title": "游戏图形算法工程师（实习生）",
-      "type": "实习",
-      "bu": "技术中心",
-      "url": "https://hr.163.com/job-detail.html?id=79036&lang=zh",
-      "jobId": "79036"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -21704,16 +21894,6 @@
       "bu": "雷火事业群",
       "url": "https://hr.163.com/job-detail.html?id=69782&lang=zh",
       "jobId": "69782"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：项目管理实习生）",
-      "title": "项目管理实习生",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=56088&lang=zh",
-      "jobId": "56088"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -21848,96 +22028,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AI 技术美术实习生）",
-      "title": "AI 技术美术实习生",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=61239&lang=zh",
-      "jobId": "61239"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AI对话体验设计实习生）",
-      "title": "AI对话体验设计实习生",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=52693&lang=zh",
-      "jobId": "52693"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：【精英实习】具身智能算法工程师）",
-      "title": "【精英实习】具身智能算法工程师",
-      "type": "实习",
-      "bu": "伏羲机器人",
-      "url": "https://hr.163.com/job-detail.html?id=77978&lang=zh",
-      "jobId": "77978"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：【精英实习】游戏研发客户端实习生（全明星街球派对））",
-      "title": "【精英实习】游戏研发客户端实习生（全明星街球派对）",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=72779&lang=zh",
-      "jobId": "72779"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：语音交互算法实习生）",
-      "title": "语音交互算法实习生",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=69074&lang=zh",
-      "jobId": "69074"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：【精英实习】游戏研发服务端实习生（全明星街球派对））",
-      "title": "【精英实习】游戏研发服务端实习生（全明星街球派对）",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=72780&lang=zh",
-      "jobId": "72780"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏研发工程师实习生（服务器方向）（无限大））",
-      "title": "游戏研发工程师实习生（服务器方向）（无限大）",
-      "type": "实习",
-      "bu": "雷火事业群",
-      "url": "https://hr.163.com/job-detail.html?id=61089&lang=zh",
-      "jobId": "61089"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：【精英实习】视觉感知算法工程师）",
-      "title": "【精英实习】视觉感知算法工程师",
-      "type": "实习",
-      "bu": "伏羲机器人",
-      "url": "https://hr.163.com/job-detail.html?id=77977&lang=zh",
-      "jobId": "77977"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：激光SLAM算法实习生）",
-      "title": "激光SLAM算法实习生",
-      "type": "实习",
-      "bu": "伏羲机器人",
-      "url": "https://hr.163.com/job-detail.html?id=75276&lang=zh",
-      "jobId": "75276"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：LLM Agent算法实习生）",
       "title": "LLM Agent算法实习生",
       "type": "实习",
@@ -21964,16 +22054,6 @@
       "bu": "雷火事业群",
       "url": "https://hr.163.com/job-detail.html?id=71493&lang=zh",
       "jobId": "71493"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：具身智能算法实习生）",
-      "title": "具身智能算法实习生",
-      "type": "实习",
-      "bu": "伏羲机器人",
-      "url": "https://hr.163.com/job-detail.html?id=70689&lang=zh",
-      "jobId": "70689"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -22048,16 +22128,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容运营实习生（有声书））",
-      "title": "内容运营实习生（有声书）",
-      "type": "实习",
-      "bu": "音乐事业部",
-      "url": "https://hr.163.com/job-detail.html?id=76275&lang=zh",
-      "jobId": "76275"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：平台项目管理实习生）",
       "title": "平台项目管理实习生",
       "type": "实习",
@@ -22084,16 +22154,6 @@
       "bu": "智企事业部",
       "url": "https://hr.163.com/job-detail.html?id=78628&lang=zh",
       "jobId": "78628"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容编辑实习生）",
-      "title": "内容编辑实习生",
-      "type": "实习",
-      "bu": "游戏应用与平台发展事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78999&lang=zh",
-      "jobId": "78999"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -22278,16 +22338,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：网易曲库版权实习生）",
-      "title": "网易曲库版权实习生",
-      "type": "实习",
-      "bu": "音乐事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78248&lang=zh",
-      "jobId": "78248"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：AI互动剧实习生）",
       "title": "AI互动剧实习生",
       "type": "实习",
@@ -22348,26 +22398,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：视觉设计实习生）",
-      "title": "视觉设计实习生",
-      "type": "实习",
-      "bu": "元气事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78157&lang=zh",
-      "jobId": "78157"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：海外视频创意运营实习生）",
-      "title": "海外视频创意运营实习生",
-      "type": "实习",
-      "bu": "有道事业群",
-      "url": "https://hr.163.com/job-detail.html?id=70938&lang=zh",
-      "jobId": "70938"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：版权运营实习生）",
       "title": "版权运营实习生",
       "type": "实习",
@@ -22408,26 +22438,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：海外商务实习生）",
-      "title": "海外商务实习生",
-      "type": "实习",
-      "bu": "游戏应用与平台发展事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78936&lang=zh",
-      "jobId": "78936"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：市场营销实习生（活动方向））",
-      "title": "市场营销实习生（活动方向）",
-      "type": "实习",
-      "bu": "UGC事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78552&lang=zh",
-      "jobId": "78552"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：笔记运营实习生）",
       "title": "笔记运营实习生",
       "type": "实习",
@@ -22444,16 +22454,6 @@
       "bu": "音乐事业部",
       "url": "https://hr.163.com/job-detail.html?id=78919&lang=zh",
       "jobId": "78919"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：法务实习生）",
-      "title": "法务实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=76176&lang=zh",
-      "jobId": "76176"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -22534,16 +22534,6 @@
       "bu": "传媒事业群",
       "url": "https://hr.163.com/job-detail.html?id=78908&lang=zh",
       "jobId": "78908"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：社区内容运营实习生（网易小蜜蜂））",
-      "title": "社区内容运营实习生（网易小蜜蜂）",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78907&lang=zh",
-      "jobId": "78907"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -23218,16 +23208,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：海外短剧编剧实习生）",
-      "title": "海外短剧编剧实习生",
-      "type": "实习",
-      "bu": "有道事业群",
-      "url": "https://hr.163.com/job-detail.html?id=75757&lang=zh",
-      "jobId": "75757"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：项目助理（KOL投放游戏））",
       "title": "项目助理（KOL投放游戏）",
       "type": "实习",
@@ -23274,26 +23254,6 @@
       "bu": "Joker事业部",
       "url": "https://hr.163.com/job-detail.html?id=78838&lang=zh",
       "jobId": "78838"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "游戏策划岗：系统策划实习生（在研项目）",
-      "title": "系统策划实习生（在研项目）",
-      "type": "实习",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78666&lang=zh",
-      "jobId": "78666"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：技术美术实习生（在研项目））",
-      "title": "技术美术实习生（在研项目）",
-      "type": "实习",
-      "bu": "天下事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78667&lang=zh",
-      "jobId": "78667"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -23588,16 +23548,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：网易小蜜蜂社区运营实习生）",
-      "title": "网易小蜜蜂社区运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=76094&lang=zh",
-      "jobId": "76094"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：内容运营实习生）",
       "title": "内容运营实习生",
       "type": "实习",
@@ -23614,16 +23564,6 @@
       "bu": "水滴事业部",
       "url": "https://hr.163.com/job-detail.html?id=78705&lang=zh",
       "jobId": "78705"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题含排除词「产品运营」",
-      "title": "产品运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78698&lang=zh",
-      "jobId": "78698"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -23764,16 +23704,6 @@
       "bu": "奇点事业部",
       "url": "https://hr.163.com/job-detail.html?id=78676&lang=zh",
       "jobId": "78676"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：小蜜蜂用户运营实习生）",
-      "title": "小蜜蜂用户运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=75870&lang=zh",
-      "jobId": "75870"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -24038,16 +23968,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：UGC内容运营实习生）",
-      "title": "UGC内容运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=76316&lang=zh",
-      "jobId": "76316"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：大数据平台研发工程师（实习生））",
       "title": "大数据平台研发工程师（实习生）",
       "type": "实习",
@@ -24214,16 +24134,6 @@
       "bu": "技术中心",
       "url": "https://hr.163.com/job-detail.html?id=71865&lang=zh",
       "jobId": "71865"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏研发项目管理工程师（27届+广/沪/杭））",
-      "title": "游戏研发项目管理工程师（27届+广/沪/杭）",
-      "type": "实习",
-      "bu": "发行中心",
-      "url": "https://hr.163.com/job-detail.html?id=73449&lang=zh",
-      "jobId": "73449"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -24408,16 +24318,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏项目管理实习生）",
-      "title": "游戏项目管理实习生",
-      "type": "实习",
-      "bu": "水滴事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77859&lang=zh",
-      "jobId": "77859"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：游戏文案实习生（短期））",
       "title": "游戏文案实习生（短期）",
       "type": "实习",
@@ -24434,16 +24334,6 @@
       "bu": "合作产品部",
       "url": "https://hr.163.com/job-detail.html?id=78381&lang=zh",
       "jobId": "78381"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：游戏测试工程师（FPS））",
-      "title": "游戏测试工程师（FPS）",
-      "type": "实习",
-      "bu": "质量保障中心",
-      "url": "https://hr.163.com/job-detail.html?id=78383&lang=zh",
-      "jobId": "78383"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -24688,16 +24578,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：营销推广视觉设计实习生（二次元方向））",
-      "title": "营销推广视觉设计实习生（二次元方向）",
-      "type": "实习",
-      "bu": "元气事业部",
-      "url": "https://hr.163.com/job-detail.html?id=77323&lang=zh",
-      "jobId": "77323"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：账号运营实习生）",
       "title": "账号运营实习生",
       "type": "实习",
@@ -24714,16 +24594,6 @@
       "bu": "雷火事业群",
       "url": "https://hr.163.com/job-detail.html?id=78455&lang=zh",
       "jobId": "78455"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容运营实习生）",
-      "title": "内容运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78489&lang=zh",
-      "jobId": "78489"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -24794,16 +24664,6 @@
       "bu": "运营中心",
       "url": "https://hr.163.com/job-detail.html?id=73553&lang=zh",
       "jobId": "73553"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：PUSH增长组实习生）",
-      "title": "PUSH增长组实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78446&lang=zh",
-      "jobId": "78446"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -24904,16 +24764,6 @@
       "bu": "音乐事业部",
       "url": "https://hr.163.com/job-detail.html?id=78103&lang=zh",
       "jobId": "78103"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AI视频制作）",
-      "title": "AI视频制作",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78418&lang=zh",
-      "jobId": "78418"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -25178,16 +25028,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：海外广告优化实习生）",
-      "title": "海外广告优化实习生",
-      "type": "实习",
-      "bu": "有道事业群",
-      "url": "https://hr.163.com/job-detail.html?id=24792&lang=zh",
-      "jobId": "24792"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：用户运营实习生（云推歌））",
       "title": "用户运营实习生（云推歌）",
       "type": "实习",
@@ -25204,16 +25044,6 @@
       "bu": "传媒事业群",
       "url": "https://hr.163.com/job-detail.html?id=78240&lang=zh",
       "jobId": "78240"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容运营实习生（UGC站外推广））",
-      "title": "内容运营实习生（UGC站外推广）",
-      "type": "实习",
-      "bu": "音乐事业部",
-      "url": "https://hr.163.com/job-detail.html?id=78233&lang=zh",
-      "jobId": "78233"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -25328,16 +25158,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：用户研究实习生）",
-      "title": "用户研究实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78151&lang=zh",
-      "jobId": "78151"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：硬核看板实习生）",
       "title": "硬核看板实习生",
       "type": "实习",
@@ -25368,32 +25188,12 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：客户端测试实习生）",
-      "title": "客户端测试实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78115&lang=zh",
-      "jobId": "78115"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：视觉推广设计实习生）",
       "title": "视觉推广设计实习生",
       "type": "实习",
       "bu": "音乐事业部",
       "url": "https://hr.163.com/job-detail.html?id=78089&lang=zh",
       "jobId": "78089"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：网易小蜜蜂｜社区用户运营实习生）",
-      "title": "网易小蜜蜂｜社区用户运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=78090&lang=zh",
-      "jobId": "78090"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -25548,16 +25348,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容运营实习生）",
-      "title": "内容运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77952&lang=zh",
-      "jobId": "77952"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：【线上项目】宣推校园大使（网易云音乐））",
       "title": "【线上项目】宣推校园大使（网易云音乐）",
       "type": "实习",
@@ -25678,26 +25468,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容编辑实习生）",
-      "title": "内容编辑实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77767&lang=zh",
-      "jobId": "77767"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容运营实习生）",
-      "title": "内容运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77766&lang=zh",
-      "jobId": "77766"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：娱乐内容编辑实习生）",
       "title": "娱乐内容编辑实习生",
       "type": "实习",
@@ -25768,16 +25538,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：【优异者可转正】小蜜蜂社区运营实习生）",
-      "title": "【优异者可转正】小蜜蜂社区运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=76276&lang=zh",
-      "jobId": "76276"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：新媒体运营实习生（网易人间））",
       "title": "新媒体运营实习生（网易人间）",
       "type": "实习",
@@ -25814,16 +25574,6 @@
       "bu": "人力资源部",
       "url": "https://hr.163.com/job-detail.html?id=72605&lang=zh",
       "jobId": "72605"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：产品经理实习生",
-      "title": "产品经理实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=77371&lang=zh",
-      "jobId": "77371"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -25928,16 +25678,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "运营岗：内容运营（AI内容策划方向）",
-      "title": "内容运营（AI内容策划方向）",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=76957&lang=zh",
-      "jobId": "76957"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "标题不含产品相关词（当前标题：IT资产管理实习生（北京））",
       "title": "IT资产管理实习生（北京）",
       "type": "实习",
@@ -26018,16 +25758,6 @@
     {
       "decision": "EXCLUDED_HARD",
       "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：AI向内容运营实习生）",
-      "title": "AI向内容运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=76499&lang=zh",
-      "jobId": "76499"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
       "reason": "运营岗：新闻资讯策划运营实习生",
       "title": "新闻资讯策划运营实习生",
       "type": "实习",
@@ -26064,16 +25794,6 @@
       "bu": "音乐事业部",
       "url": "https://hr.163.com/job-detail.html?id=72443&lang=zh",
       "jobId": "72443"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含AI相关词：网易文创谈心社商业化视频策划实习生",
-      "title": "网易文创谈心社商业化视频策划实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=70126&lang=zh",
-      "jobId": "70126"
     },
     {
       "decision": "EXCLUDED_HARD",
@@ -26144,16 +25864,6 @@
       "bu": "技术保障部",
       "url": "https://hr.163.com/job-detail.html?id=73863&lang=zh",
       "jobId": "73863"
-    },
-    {
-      "decision": "EXCLUDED_HARD",
-      "stage": "硬排除",
-      "reason": "标题不含产品相关词（当前标题：内容运营实习生）",
-      "title": "内容运营实习生",
-      "type": "实习",
-      "bu": "传媒事业群",
-      "url": "https://hr.163.com/job-detail.html?id=74750&lang=zh",
-      "jobId": "74750"
     },
     {
       "decision": "EXCLUDED_HARD",
