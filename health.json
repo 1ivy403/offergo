@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-10-12 17:00",
+  "refreshed_at": "2026-10-19 15:43",
   "scrapers": [
     {
       "name": "alibaba",
@@ -33,9 +33,9 @@
     },
     {
       "name": "bilibili_campus",
-      "count": 4,
-      "prev_count": 3,
-      "status": "ok"
+      "count": 0,
+      "prev_count": 4,
+      "status": "warn_zero"
     },
     {
       "name": "bilibili_intern",
@@ -45,14 +45,14 @@
     },
     {
       "name": "bilibili_social",
-      "count": 27,
-      "prev_count": 29,
-      "status": "ok"
+      "count": 0,
+      "prev_count": 27,
+      "status": "warn_zero"
     },
     {
       "name": "bytedance",
-      "count": 173,
-      "prev_count": 172,
+      "count": 170,
+      "prev_count": 173,
       "status": "ok"
     },
     {
@@ -171,13 +171,13 @@
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 102,
-      "prev_count": 104,
+      "count": 104,
+      "prev_count": 102,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 173,
+      "count": 171,
       "prev_count": 173,
       "status": "ok"
     },
@@ -309,8 +309,8 @@
     },
     {
       "name": "pdd_social",
-      "count": 10,
-      "prev_count": 9,
+      "count": 7,
+      "prev_count": 10,
       "status": "ok"
     },
     {
@@ -375,8 +375,8 @@
     },
     {
       "name": "tencent",
-      "count": 151,
-      "prev_count": 157,
+      "count": 154,
+      "prev_count": 151,
       "status": "ok"
     },
     {
@@ -417,15 +417,15 @@
     },
     {
       "name": "wangyi",
-      "count": 48,
-      "prev_count": 50,
+      "count": 46,
+      "prev_count": 48,
       "status": "ok"
     },
     {
       "name": "xiaohongshu",
-      "count": 7,
-      "prev_count": 28,
-      "status": "warn_drop"
+      "count": 29,
+      "prev_count": 7,
+      "status": "ok"
     },
     {
       "name": "xiaomi_campus",
@@ -435,8 +435,8 @@
     },
     {
       "name": "xiaomi_intern",
-      "count": 20,
-      "prev_count": 19,
+      "count": 23,
+      "prev_count": 20,
       "status": "ok"
     },
     {
@@ -495,8 +495,9 @@
     }
   ],
   "warnings": [
-    "xiaohongshu: 本次 7 条，上次 28 条（跌超 50%）"
+    "bilibili_campus: 本次 0 条，上次 4 条",
+    "bilibili_social: 本次 0 条，上次 27 条"
   ],
-  "actions_run_id": "38223519037",
+  "actions_run_id": "39214459002",
   "status": "ok"
 }
