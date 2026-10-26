@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-10-19 15:43",
+  "refreshed_at": "2026-10-26 15:48",
   "scrapers": [
     {
       "name": "alibaba",
@@ -33,9 +33,9 @@
     },
     {
       "name": "bilibili_campus",
-      "count": 0,
-      "prev_count": 4,
-      "status": "warn_zero"
+      "count": 4,
+      "prev_count": 0,
+      "status": "ok"
     },
     {
       "name": "bilibili_intern",
@@ -45,14 +45,14 @@
     },
     {
       "name": "bilibili_social",
-      "count": 0,
-      "prev_count": 27,
-      "status": "warn_zero"
+      "count": 28,
+      "prev_count": 0,
+      "status": "ok"
     },
     {
       "name": "bytedance",
-      "count": 170,
-      "prev_count": 173,
+      "count": 168,
+      "prev_count": 170,
       "status": "ok"
     },
     {
@@ -171,14 +171,14 @@
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 104,
-      "prev_count": 102,
+      "count": 101,
+      "prev_count": 104,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 171,
-      "prev_count": 173,
+      "count": 163,
+      "prev_count": 171,
       "status": "ok"
     },
     {
@@ -309,8 +309,8 @@
     },
     {
       "name": "pdd_social",
-      "count": 7,
-      "prev_count": 10,
+      "count": 8,
+      "prev_count": 7,
       "status": "ok"
     },
     {
@@ -375,8 +375,8 @@
     },
     {
       "name": "tencent",
-      "count": 154,
-      "prev_count": 151,
+      "count": 156,
+      "prev_count": 154,
       "status": "ok"
     },
     {
@@ -417,14 +417,14 @@
     },
     {
       "name": "wangyi",
-      "count": 46,
-      "prev_count": 48,
+      "count": 44,
+      "prev_count": 46,
       "status": "ok"
     },
     {
       "name": "xiaohongshu",
-      "count": 29,
-      "prev_count": 7,
+      "count": 31,
+      "prev_count": 29,
       "status": "ok"
     },
     {
@@ -436,7 +436,7 @@
     {
       "name": "xiaomi_intern",
       "count": 23,
-      "prev_count": 20,
+      "prev_count": 23,
       "status": "ok"
     },
     {
@@ -494,10 +494,7 @@
       "status": "ok"
     }
   ],
-  "warnings": [
-    "bilibili_campus: 本次 0 条，上次 4 条",
-    "bilibili_social: 本次 0 条，上次 27 条"
-  ],
-  "actions_run_id": "39214459002",
+  "warnings": [],
+  "actions_run_id": "40285041775",
   "status": "ok"
 }
