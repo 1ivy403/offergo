@@ -1,5 +1,890 @@
 [
   {
+    "id": "7704950781686024475",
+    "title": "游戏策略产品实习生",
+    "sub_title": null,
+    "description": "1. 结合游戏联运业务模式，通过用户行为、业务数据挖掘分析，输出数据结论，支撑精细化运营策略制定，持续提升运营效率；\n2. 跟踪联运产品数据、行业竞品运营打法，挖掘用户需求，输出分析结论，推动运营策略、平台产品能力持续优化；\n3. 围绕用户分层、用户画像，分析用户行为，完成需求分析论证、数据分析报告、需求文档撰写，参与联运游戏策略方案的制定、落地与复盘；\n4. 参与运营策略 AI 工作流、自动化运营工具的调研与落地，跟进运营策略上线，完成效果复盘沉淀。",
+    "requirement": "1. 技能要求：\n- 熟练使用SQL、Excel 等常用数据分析工具，具备良好指标解读能力，能够透过数据定位问题、挖掘用户需求；\n- 了解用户分层、用户画像、用户生命周期运营方法论，有用户调研、策略方案设计经验优先。\n2. 素质要求：\n- 对业务、数据敏感，逻辑清晰，具备较强问题拆解与解决能力，可快速理解复杂联运业务链路；\n- 自驱力强，乐于主动学习，沟通协作顺畅，能快速适配新的工作环境和任务要求；\n- 热爱游戏，对游戏策略运营抱有浓厚兴趣。\n3. 经验要求：\n- 有策略运营、用户运营、策略产品、游戏联运 / 发行相关实习经历优先；\n- 有数据分析经验者优先，能保证稳定实习时间者优先。",
+    "job_category": null,
+    "city_info": {
+      "code": "CT_107",
+      "name": "南京",
+      "en_name": "Nanjing",
+      "location_type": null,
+      "i18n_name": "南京",
+      "py_name": null,
+      "mdm_code": null,
+      "node_status": null
+    },
+    "recruit_type": {
+      "id": "202",
+      "name": "实习",
+      "en_name": "Intern",
+      "i18n_name": "实习",
+      "depth": 2,
+      "parent": {
+        "id": "2",
+        "name": "校招",
+        "en_name": "Campus",
+        "i18n_name": "校招",
+        "depth": 1,
+        "parent": null,
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "children": null,
+      "active_status": 1,
+      "selectability": 1
+    },
+    "publish_time": 1793948749263,
+    "job_hot_flag": null,
+    "job_subject": null,
+    "code": null,
+    "department_id": null,
+    "job_function": {
+      "id": "7178035552473448557",
+      "name": "产品类",
+      "en_name": "Product",
+      "i18n_name": "产品类",
+      "parent_id": null,
+      "index": null,
+      "active_status": null,
+      "biz_create_time": null,
+      "biz_modify_time": null,
+      "parent": null
+    },
+    "job_process_id": "7178695863320199277",
+    "recommend_id": null,
+    "city_list": [
+      {
+        "code": "CT_107",
+        "name": "南京",
+        "en_name": "Nanjing",
+        "location_type": null,
+        "i18n_name": "南京",
+        "py_name": null,
+        "mdm_code": null,
+        "node_status": null
+      }
+    ],
+    "job_post_info": {
+      "id": null,
+      "job_id": null,
+      "title": null,
+      "sub_title": null,
+      "address_id": null,
+      "address": "南京",
+      "city": null,
+      "education": null,
+      "experience": null,
+      "description": null,
+      "requirement": null,
+      "min_salary": null,
+      "max_salary": null,
+      "currency": null,
+      "head_count": null,
+      "crator_id": null,
+      "expiry_time": null,
+      "progress": null,
+      "department_id": null,
+      "job_type": null,
+      "recruitment_type": {
+        "id": "202",
+        "name": "实习",
+        "en_name": "Intern",
+        "i18n_name": "实习",
+        "depth": 2,
+        "parent": {
+          "id": "2",
+          "name": "校招",
+          "en_name": "Campus",
+          "i18n_name": "校招",
+          "depth": 1,
+          "parent": null,
+          "children": null,
+          "active_status": 1,
+          "selectability": 1
+        },
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "job_process_time": null,
+      "job_in_charge_user_id": null,
+      "biz_create_time": null,
+      "HighlightList": null,
+      "JobChannelPublishList": null,
+      "required_degree": null,
+      "never_expiry": null,
+      "job_hot_flag": null,
+      "subject": null,
+      "sequence": null,
+      "min_level": null,
+      "max_level": null,
+      "job_post_object_value_map": {},
+      "code": null,
+      "job_active_status": null,
+      "job_process_type": null,
+      "biz_modify_time": null,
+      "job_function": null,
+      "job_process": null,
+      "job_process_id": null,
+      "job_category": null,
+      "address_list": [
+        {
+          "id": "7184754262362161261",
+          "name": "南京",
+          "en_name": "Nanjing",
+          "district": null,
+          "city": {
+            "city_code": "CT_107",
+            "name": "南京",
+            "en_name": "Nanjing",
+            "i18n_name": "南京",
+            "py_name": "nanjing"
+          },
+          "state": {
+            "state_code": "ST_12",
+            "name": "江苏",
+            "en_name": "Jiangsu",
+            "i18n_name": "江苏"
+          },
+          "country": {
+            "country_code": "CN_1",
+            "name": "中国大陆",
+            "en_name": "Chinese Mainland",
+            "i18n_name": "中国大陆"
+          },
+          "i18n_name": "南京",
+          "active_status": 1
+        }
+      ],
+      "city_list": null,
+      "correlation_job_list": null,
+      "tag_list": null,
+      "department": null,
+      "job_storefront_mode": null,
+      "storefront_list": null,
+      "target_major_list": null,
+      "schema": null,
+      "job_post_process_time_list": null,
+      "job_level_id_list": null,
+      "field_template_result": null
+    },
+    "storefront_mode": 1,
+    "storefront_list": null,
+    "process_type": 2
+  },
+  {
+    "id": "7704503965626599721",
+    "title": "AI产品实习生-2027届",
+    "sub_title": null,
+    "description": "职位描述\n1、核心产品设计：聚焦员工服务智能问答、数字员工、企业级 Copilot、智能会议系统等核心场景，深度参与集团信息化 AI 产品的全流程设计工作。\n2、战略项目落地：加入集团 “AI个人助理/数字员工”重点项目，参与项目运营与落地执行，推动业务流程自动化升级，助力组织效率提升。\n3、品牌活动策划：负责项目相关活动的创意与宣传策划，结合 AI 产品特性输出差异化传播内容，提升活动影响力与产品认知度。",
+    "requirement": "北京/武汉·实习·产品类\n职位描述\n1、核心产品设计：聚焦员工服务智能问答、数字员工、企业级 Copilot、智能会议系统等核心场景，深度参与集团信息化 AI 产品的全流程设计工作。\n2、战略项目落地：加入集团 “AI个人助理/数字员工”重点项目，参与项目运营与落地执行，推动业务流程自动化升级，助力组织效率提升。\n3、品牌活动策划：负责项目相关活动的创意与宣传策划，结合 AI 产品特性输出差异化传播内容，提升活动影响力与产品认知度。\n\n职位要求\n1、本科及以上学历；\n2、了解AI技术在办公场景的应用逻辑，能结合业务需求设计智能化解决方案。\n3、熟悉飞书生态，掌握低代码平台逻辑，具备业务流程分析与场景抽象能力。\n4、较强的创意策划能力，扎实的数据分析能力，出色的项目规划和执行能力，良好的沟通表达能力。\n5、有互联网公司实习经验者优先；计算机相关专业的优先。",
+    "job_category": null,
+    "city_info": {
+      "code": "CT_11",
+      "name": "北京",
+      "en_name": "Beijing",
+      "location_type": null,
+      "i18n_name": "北京",
+      "py_name": null,
+      "mdm_code": null,
+      "node_status": null
+    },
+    "recruit_type": {
+      "id": "202",
+      "name": "实习",
+      "en_name": "Intern",
+      "i18n_name": "实习",
+      "depth": 2,
+      "parent": {
+        "id": "2",
+        "name": "校招",
+        "en_name": "Campus",
+        "i18n_name": "校招",
+        "depth": 1,
+        "parent": null,
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "children": null,
+      "active_status": 1,
+      "selectability": 1
+    },
+    "publish_time": 1793844748019,
+    "job_hot_flag": null,
+    "job_subject": null,
+    "code": null,
+    "department_id": null,
+    "job_function": {
+      "id": "7178035552473448557",
+      "name": "产品类",
+      "en_name": "Product",
+      "i18n_name": "产品类",
+      "parent_id": null,
+      "index": null,
+      "active_status": null,
+      "biz_create_time": null,
+      "biz_modify_time": null,
+      "parent": null
+    },
+    "job_process_id": "7178695863320199277",
+    "recommend_id": null,
+    "city_list": [
+      {
+        "code": "CT_11",
+        "name": "北京",
+        "en_name": "Beijing",
+        "location_type": null,
+        "i18n_name": "北京",
+        "py_name": null,
+        "mdm_code": null,
+        "node_status": null
+      }
+    ],
+    "job_post_info": {
+      "id": null,
+      "job_id": null,
+      "title": null,
+      "sub_title": null,
+      "address_id": null,
+      "address": "北京",
+      "city": null,
+      "education": null,
+      "experience": null,
+      "description": null,
+      "requirement": null,
+      "min_salary": null,
+      "max_salary": null,
+      "currency": null,
+      "head_count": null,
+      "crator_id": null,
+      "expiry_time": null,
+      "progress": null,
+      "department_id": null,
+      "job_type": null,
+      "recruitment_type": {
+        "id": "202",
+        "name": "实习",
+        "en_name": "Intern",
+        "i18n_name": "实习",
+        "depth": 2,
+        "parent": {
+          "id": "2",
+          "name": "校招",
+          "en_name": "Campus",
+          "i18n_name": "校招",
+          "depth": 1,
+          "parent": null,
+          "children": null,
+          "active_status": 1,
+          "selectability": 1
+        },
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "job_process_time": null,
+      "job_in_charge_user_id": null,
+      "biz_create_time": null,
+      "HighlightList": null,
+      "JobChannelPublishList": null,
+      "required_degree": null,
+      "never_expiry": null,
+      "job_hot_flag": null,
+      "subject": null,
+      "sequence": null,
+      "min_level": null,
+      "max_level": null,
+      "job_post_object_value_map": {},
+      "code": null,
+      "job_active_status": null,
+      "job_process_type": null,
+      "biz_modify_time": null,
+      "job_function": null,
+      "job_process": null,
+      "job_process_id": null,
+      "job_category": null,
+      "address_list": [
+        {
+          "id": "7184719621932941420",
+          "name": "北京",
+          "en_name": "Peking",
+          "district": null,
+          "city": {
+            "city_code": "CT_11",
+            "name": "北京",
+            "en_name": "Beijing",
+            "i18n_name": "北京",
+            "py_name": "beijing"
+          },
+          "state": {
+            "state_code": "ST_8",
+            "name": "北京",
+            "en_name": "Beijing",
+            "i18n_name": "北京"
+          },
+          "country": {
+            "country_code": "CN_1",
+            "name": "中国大陆",
+            "en_name": "Chinese Mainland",
+            "i18n_name": "中国大陆"
+          },
+          "i18n_name": "北京",
+          "active_status": 1
+        }
+      ],
+      "city_list": null,
+      "correlation_job_list": null,
+      "tag_list": null,
+      "department": null,
+      "job_storefront_mode": null,
+      "storefront_list": null,
+      "target_major_list": null,
+      "schema": null,
+      "job_post_process_time_list": null,
+      "job_level_id_list": null,
+      "field_template_result": null
+    },
+    "storefront_mode": 1,
+    "storefront_list": null,
+    "process_type": 2
+  },
+  {
+    "id": "7704124973527288127",
+    "title": "产品经理实习生-2027届",
+    "sub_title": null,
+    "description": "1. 调研 AI/多 Agent 产品与竞品，拆解应用场景，整理用户反馈；\n2. 输出 PRD、原型及产品文档；\n3. 协同设计、研发、测试推进功能落地；\n4. 对接企业内部各业务部门，梳理现有工作流与痛点，识别 AI 可落地场景；\n5. 对接企业内部系统，协助设计数据接入方案与系统集成链路；\n6. 评估场景的技术可行性与落地 ROI，输出 AI 场景优先级矩阵",
+    "requirement": "1. 本科及以上，每周 5 天，可实习 3 个月以上；\n2. 对 AI 有热情，逻辑清晰，执行力强；\n3. 会写 PRD/原型，熟悉 Figma/Axure/墨刀之一；\n4. 了解 LLM、Agent、工具调用、RAG、Workflow 等概念；\n5. 具备跨部门沟通协调能力，能与各种业务背景人员高效对话，澄清具体产品需求，规划可执行方案；\n6. 对汽车业务、汽车研发体系保持良好的学习热情，懂车、爱车",
+    "job_category": null,
+    "city_info": {
+      "code": "CT_107",
+      "name": "南京",
+      "en_name": "Nanjing",
+      "location_type": null,
+      "i18n_name": "南京",
+      "py_name": null,
+      "mdm_code": null,
+      "node_status": null
+    },
+    "recruit_type": {
+      "id": "202",
+      "name": "实习",
+      "en_name": "Intern",
+      "i18n_name": "实习",
+      "depth": 2,
+      "parent": {
+        "id": "2",
+        "name": "校招",
+        "en_name": "Campus",
+        "i18n_name": "校招",
+        "depth": 1,
+        "parent": null,
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "children": null,
+      "active_status": 1,
+      "selectability": 1
+    },
+    "publish_time": 1793756646695,
+    "job_hot_flag": null,
+    "job_subject": null,
+    "code": null,
+    "department_id": null,
+    "job_function": {
+      "id": "7178035552473448557",
+      "name": "产品类",
+      "en_name": "Product",
+      "i18n_name": "产品类",
+      "parent_id": null,
+      "index": null,
+      "active_status": null,
+      "biz_create_time": null,
+      "biz_modify_time": null,
+      "parent": null
+    },
+    "job_process_id": "7178695863320199277",
+    "recommend_id": null,
+    "city_list": [
+      {
+        "code": "CT_107",
+        "name": "南京",
+        "en_name": "Nanjing",
+        "location_type": null,
+        "i18n_name": "南京",
+        "py_name": null,
+        "mdm_code": null,
+        "node_status": null
+      }
+    ],
+    "job_post_info": {
+      "id": null,
+      "job_id": null,
+      "title": null,
+      "sub_title": null,
+      "address_id": null,
+      "address": "南京",
+      "city": null,
+      "education": null,
+      "experience": null,
+      "description": null,
+      "requirement": null,
+      "min_salary": null,
+      "max_salary": null,
+      "currency": null,
+      "head_count": null,
+      "crator_id": null,
+      "expiry_time": null,
+      "progress": null,
+      "department_id": null,
+      "job_type": null,
+      "recruitment_type": {
+        "id": "202",
+        "name": "实习",
+        "en_name": "Intern",
+        "i18n_name": "实习",
+        "depth": 2,
+        "parent": {
+          "id": "2",
+          "name": "校招",
+          "en_name": "Campus",
+          "i18n_name": "校招",
+          "depth": 1,
+          "parent": null,
+          "children": null,
+          "active_status": 1,
+          "selectability": 1
+        },
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "job_process_time": null,
+      "job_in_charge_user_id": null,
+      "biz_create_time": null,
+      "HighlightList": null,
+      "JobChannelPublishList": null,
+      "required_degree": null,
+      "never_expiry": null,
+      "job_hot_flag": null,
+      "subject": null,
+      "sequence": null,
+      "min_level": null,
+      "max_level": null,
+      "job_post_object_value_map": {},
+      "code": null,
+      "job_active_status": null,
+      "job_process_type": null,
+      "biz_modify_time": null,
+      "job_function": null,
+      "job_process": null,
+      "job_process_id": null,
+      "job_category": null,
+      "address_list": [
+        {
+          "id": "7184754262362161261",
+          "name": "南京",
+          "en_name": "Nanjing",
+          "district": null,
+          "city": {
+            "city_code": "CT_107",
+            "name": "南京",
+            "en_name": "Nanjing",
+            "i18n_name": "南京",
+            "py_name": "nanjing"
+          },
+          "state": {
+            "state_code": "ST_12",
+            "name": "江苏",
+            "en_name": "Jiangsu",
+            "i18n_name": "江苏"
+          },
+          "country": {
+            "country_code": "CN_1",
+            "name": "中国大陆",
+            "en_name": "Chinese Mainland",
+            "i18n_name": "中国大陆"
+          },
+          "i18n_name": "南京",
+          "active_status": 1
+        }
+      ],
+      "city_list": null,
+      "correlation_job_list": null,
+      "tag_list": null,
+      "department": null,
+      "job_storefront_mode": null,
+      "storefront_list": null,
+      "target_major_list": null,
+      "schema": null,
+      "job_post_process_time_list": null,
+      "job_level_id_list": null,
+      "field_template_result": null
+    },
+    "storefront_mode": 1,
+    "storefront_list": null,
+    "process_type": 2
+  },
+  {
+    "id": "7703897145405491510",
+    "title": "数据产品实习生",
+    "sub_title": null,
+    "description": "职位描述\n1.负责与产品沟通确定数据埋点，并给出需求评估意见\n2.负责制定适合业务需求的数据打点规范\n3.负责AB实验平台实验的评估分析\n4.基于业务需求设计合理的数据分析报表和实施方案\n5.根据业务现状，提出优化方案并推动落地\n",
+    "requirement": "\n1.本科及以上学历，计算机技术/信息管理/软件工程/数学/统计/物理相关专业优先；\n2.良好的逻辑思维能力，丰富的数据分析经验，有机器学习建模经验优先；\n3.精通Python/SAS/R 和 SQL等数据分析、处理语言/工具；\n4.沟通能力强，并且可以推动项目快速落地；\n5.学习能力强、具有团队合作精神和强烈的进取精神；\n6.具有良好的沟通表达能力及书面表达能力。",
+    "job_category": null,
+    "city_info": {
+      "code": "CT_11",
+      "name": "北京",
+      "en_name": "Beijing",
+      "location_type": null,
+      "i18n_name": "北京",
+      "py_name": null,
+      "mdm_code": null,
+      "node_status": null
+    },
+    "recruit_type": {
+      "id": "202",
+      "name": "实习",
+      "en_name": "Intern",
+      "i18n_name": "实习",
+      "depth": 2,
+      "parent": {
+        "id": "2",
+        "name": "校招",
+        "en_name": "Campus",
+        "i18n_name": "校招",
+        "depth": 1,
+        "parent": null,
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "children": null,
+      "active_status": 1,
+      "selectability": 1
+    },
+    "publish_time": 1793703434361,
+    "job_hot_flag": null,
+    "job_subject": null,
+    "code": null,
+    "department_id": null,
+    "job_function": {
+      "id": "7178035552473448557",
+      "name": "产品类",
+      "en_name": "Product",
+      "i18n_name": "产品类",
+      "parent_id": null,
+      "index": null,
+      "active_status": null,
+      "biz_create_time": null,
+      "biz_modify_time": null,
+      "parent": null
+    },
+    "job_process_id": "7178695863320199277",
+    "recommend_id": null,
+    "city_list": [
+      {
+        "code": "CT_11",
+        "name": "北京",
+        "en_name": "Beijing",
+        "location_type": null,
+        "i18n_name": "北京",
+        "py_name": null,
+        "mdm_code": null,
+        "node_status": null
+      }
+    ],
+    "job_post_info": {
+      "id": null,
+      "job_id": null,
+      "title": null,
+      "sub_title": null,
+      "address_id": null,
+      "address": "北京",
+      "city": null,
+      "education": null,
+      "experience": null,
+      "description": null,
+      "requirement": null,
+      "min_salary": null,
+      "max_salary": null,
+      "currency": null,
+      "head_count": null,
+      "crator_id": null,
+      "expiry_time": null,
+      "progress": null,
+      "department_id": null,
+      "job_type": null,
+      "recruitment_type": {
+        "id": "202",
+        "name": "实习",
+        "en_name": "Intern",
+        "i18n_name": "实习",
+        "depth": 2,
+        "parent": {
+          "id": "2",
+          "name": "校招",
+          "en_name": "Campus",
+          "i18n_name": "校招",
+          "depth": 1,
+          "parent": null,
+          "children": null,
+          "active_status": 1,
+          "selectability": 1
+        },
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "job_process_time": null,
+      "job_in_charge_user_id": null,
+      "biz_create_time": null,
+      "HighlightList": null,
+      "JobChannelPublishList": null,
+      "required_degree": null,
+      "never_expiry": null,
+      "job_hot_flag": null,
+      "subject": null,
+      "sequence": null,
+      "min_level": null,
+      "max_level": null,
+      "job_post_object_value_map": {},
+      "code": null,
+      "job_active_status": null,
+      "job_process_type": null,
+      "biz_modify_time": null,
+      "job_function": null,
+      "job_process": null,
+      "job_process_id": null,
+      "job_category": null,
+      "address_list": [
+        {
+          "id": "7184719621932941420",
+          "name": "北京",
+          "en_name": "Peking",
+          "district": null,
+          "city": {
+            "city_code": "CT_11",
+            "name": "北京",
+            "en_name": "Beijing",
+            "i18n_name": "北京",
+            "py_name": "beijing"
+          },
+          "state": {
+            "state_code": "ST_8",
+            "name": "北京",
+            "en_name": "Beijing",
+            "i18n_name": "北京"
+          },
+          "country": {
+            "country_code": "CN_1",
+            "name": "中国大陆",
+            "en_name": "Chinese Mainland",
+            "i18n_name": "中国大陆"
+          },
+          "i18n_name": "北京",
+          "active_status": 1
+        }
+      ],
+      "city_list": null,
+      "correlation_job_list": null,
+      "tag_list": null,
+      "department": null,
+      "job_storefront_mode": null,
+      "storefront_list": null,
+      "target_major_list": null,
+      "schema": null,
+      "job_post_process_time_list": null,
+      "job_level_id_list": null,
+      "field_template_result": null
+    },
+    "storefront_mode": 1,
+    "storefront_list": null,
+    "process_type": 2
+  },
+  {
+    "id": "7703548203018422554",
+    "title": "电商数据产品专员实习生",
+    "sub_title": null,
+    "description": "1、对接品类、运营、广告多部门需求，梳理统一指标口径，梳理需求方案。\n2、电商业务数据体系搭建与运维，负责平台销售、广告、运营类，不同模块数据看板原型设计与落地开发。\n3、落地看板日常运维、bug 迭代修复，全链路数据治理、指标标准化建设工作。\n4、搭建业务达成与合规监控体系，常态化开展指标异动巡检。\n5、跟进数据异常排查闭环，联动研发、数仓优化数据源，沉淀问题，持续提升数据质量。",
+    "requirement": "1、本科及以上学历，数据分析及处理相关专业\n2、具备良好的沟通协调能力，逻辑思维能力强，思维敏捷、富有团队精神\n3、善于思考、学习能力强\n4、熟练使用 python\\SQL\\Excel\\多维数据表等应用，PowerBI\\Tableau 等看板工具\n5、每周5天 Full-time 实习，可持续4-6个月实习期",
+    "job_category": null,
+    "city_info": {
+      "code": "CT_154",
+      "name": "武汉",
+      "en_name": "Wuhan",
+      "location_type": null,
+      "i18n_name": "武汉",
+      "py_name": null,
+      "mdm_code": null,
+      "node_status": null
+    },
+    "recruit_type": {
+      "id": "202",
+      "name": "实习",
+      "en_name": "Intern",
+      "i18n_name": "实习",
+      "depth": 2,
+      "parent": {
+        "id": "2",
+        "name": "校招",
+        "en_name": "Campus",
+        "i18n_name": "校招",
+        "depth": 1,
+        "parent": null,
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "children": null,
+      "active_status": 1,
+      "selectability": 1
+    },
+    "publish_time": 1793622175527,
+    "job_hot_flag": null,
+    "job_subject": null,
+    "code": null,
+    "department_id": null,
+    "job_function": {
+      "id": "7178035552473448557",
+      "name": "产品类",
+      "en_name": "Product",
+      "i18n_name": "产品类",
+      "parent_id": null,
+      "index": null,
+      "active_status": null,
+      "biz_create_time": null,
+      "biz_modify_time": null,
+      "parent": null
+    },
+    "job_process_id": "7178695863320199277",
+    "recommend_id": null,
+    "city_list": [
+      {
+        "code": "CT_154",
+        "name": "武汉",
+        "en_name": "Wuhan",
+        "location_type": null,
+        "i18n_name": "武汉",
+        "py_name": null,
+        "mdm_code": null,
+        "node_status": null
+      }
+    ],
+    "job_post_info": {
+      "id": null,
+      "job_id": null,
+      "title": null,
+      "sub_title": null,
+      "address_id": null,
+      "address": "武汉",
+      "city": null,
+      "education": null,
+      "experience": null,
+      "description": null,
+      "requirement": null,
+      "min_salary": null,
+      "max_salary": null,
+      "currency": null,
+      "head_count": null,
+      "crator_id": null,
+      "expiry_time": null,
+      "progress": null,
+      "department_id": null,
+      "job_type": null,
+      "recruitment_type": {
+        "id": "202",
+        "name": "实习",
+        "en_name": "Intern",
+        "i18n_name": "实习",
+        "depth": 2,
+        "parent": {
+          "id": "2",
+          "name": "校招",
+          "en_name": "Campus",
+          "i18n_name": "校招",
+          "depth": 1,
+          "parent": null,
+          "children": null,
+          "active_status": 1,
+          "selectability": 1
+        },
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "job_process_time": null,
+      "job_in_charge_user_id": null,
+      "biz_create_time": null,
+      "HighlightList": null,
+      "JobChannelPublishList": null,
+      "required_degree": null,
+      "never_expiry": null,
+      "job_hot_flag": null,
+      "subject": null,
+      "sequence": null,
+      "min_level": null,
+      "max_level": null,
+      "job_post_object_value_map": {},
+      "code": null,
+      "job_active_status": null,
+      "job_process_type": null,
+      "biz_modify_time": null,
+      "job_function": null,
+      "job_process": null,
+      "job_process_id": null,
+      "job_category": null,
+      "address_list": [
+        {
+          "id": "7184754265805078637",
+          "name": "武汉",
+          "en_name": "Wuhan",
+          "district": null,
+          "city": {
+            "city_code": "CT_154",
+            "name": "武汉",
+            "en_name": "Wuhan",
+            "i18n_name": "武汉",
+            "py_name": "wuhan"
+          },
+          "state": {
+            "state_code": "ST_35",
+            "name": "湖北",
+            "en_name": "Hubei",
+            "i18n_name": "湖北"
+          },
+          "country": {
+            "country_code": "CN_1",
+            "name": "中国大陆",
+            "en_name": "Chinese Mainland",
+            "i18n_name": "中国大陆"
+          },
+          "i18n_name": "武汉",
+          "active_status": 1
+        }
+      ],
+      "city_list": null,
+      "correlation_job_list": null,
+      "tag_list": null,
+      "department": null,
+      "job_storefront_mode": null,
+      "storefront_list": null,
+      "target_major_list": null,
+      "schema": null,
+      "job_post_process_time_list": null,
+      "job_level_id_list": null,
+      "field_template_result": null
+    },
+    "storefront_mode": 1,
+    "storefront_list": null,
+    "process_type": 2
+  },
+  {
     "id": "7703465247063066889",
     "title": "小爱同学-IoT语控策略产品实习生（智能家居方向）",
     "sub_title": null,
@@ -169,7 +1054,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -345,18 +1231,19 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
     "process_type": 2
   },
   {
-    "id": "7702047255155181860",
-    "title": "内容-策略产品实习生-2027届",
+    "id": "7702365738006841619",
+    "title": "运动健康指导专员实习生-2027届",
     "sub_title": null,
-    "description": "【岗位职责】\n1.负责小爱同学内容垂域的云端策略(音乐，视频，电台等)和大模型应用，定义语音交互场景下的高频内容消费场景的产品形态，在不同终端的打造极致的影音视听体验;\n2.为内容类语音体验负责，能够协同资源运营，搜推算法，AGENT&TOOLS等各模块，结合数据\\反馈等多维度，抓住关键问题，提升用户体验;\n3.参与特定场景下的新能力探索，敏锐挖掘用户潜在需求与痛点，制定解决方案。",
-    "requirement": "1.优秀的沟通能力、快速学习能力，拥有较强的同理心和理解力，有耐心及自驱力;\n2.对用户使用行为、产品核心需求有深刻理解，擅长连接产品内容与用户;\n3.拥有开放的脑洞，热点敏感，文字能力良好，善于搜集整合策划方案，撰写prompt等;\n4.对AI或智能语音助手有一定了解，对音乐、新闻、电台等内容垂域有兴趣有理解;\n",
+    "description": "1. 协助用户进行运动训练，确保训练有效性。\n2. 定期评估用户的运动康复进展，调整康复方案以满足用户需求。\n3. 用户招募与管理,负责用户的招募工作，通过线上线下渠道吸引潜在用户加入健身项目。\n4. 指导用户进行跑步、健身等运动项目，提供专业的技术指导和训练建议。",
+    "requirement": "1. 具备运动科学、体育学、康复医学或相关领域的硕士及以上学历。\n2. 熟悉健身设备的操作和维护，能够为用户提供专业的设备使用指导。\n3. 掌握运动康复的基本理论和方法，能够设计个性化的运动康复方案。 \n4. 具备一定的运动项目指导经验，能够提供跑步、健身等运动项目的专业指导。",
     "job_category": null,
     "city_info": {
       "code": "CT_11",
@@ -368,6 +1255,174 @@
       "mdm_code": null,
       "node_status": null
     },
+    "recruit_type": {
+      "id": "202",
+      "name": "实习",
+      "en_name": "Intern",
+      "i18n_name": "实习",
+      "depth": 2,
+      "parent": {
+        "id": "2",
+        "name": "校招",
+        "en_name": "Campus",
+        "i18n_name": "校招",
+        "depth": 1,
+        "parent": null,
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "children": null,
+      "active_status": 1,
+      "selectability": 1
+    },
+    "publish_time": 1793347051782,
+    "job_hot_flag": null,
+    "job_subject": null,
+    "code": null,
+    "department_id": null,
+    "job_function": {
+      "id": "7178035552473448557",
+      "name": "产品类",
+      "en_name": "Product",
+      "i18n_name": "产品类",
+      "parent_id": null,
+      "index": null,
+      "active_status": null,
+      "biz_create_time": null,
+      "biz_modify_time": null,
+      "parent": null
+    },
+    "job_process_id": "7178695863320199277",
+    "recommend_id": null,
+    "city_list": [
+      {
+        "code": "CT_11",
+        "name": "北京",
+        "en_name": "Beijing",
+        "location_type": null,
+        "i18n_name": "北京",
+        "py_name": null,
+        "mdm_code": null,
+        "node_status": null
+      }
+    ],
+    "job_post_info": {
+      "id": null,
+      "job_id": null,
+      "title": null,
+      "sub_title": null,
+      "address_id": null,
+      "address": "北京",
+      "city": null,
+      "education": null,
+      "experience": null,
+      "description": null,
+      "requirement": null,
+      "min_salary": null,
+      "max_salary": null,
+      "currency": null,
+      "head_count": null,
+      "crator_id": null,
+      "expiry_time": null,
+      "progress": null,
+      "department_id": null,
+      "job_type": null,
+      "recruitment_type": {
+        "id": "202",
+        "name": "实习",
+        "en_name": "Intern",
+        "i18n_name": "实习",
+        "depth": 2,
+        "parent": {
+          "id": "2",
+          "name": "校招",
+          "en_name": "Campus",
+          "i18n_name": "校招",
+          "depth": 1,
+          "parent": null,
+          "children": null,
+          "active_status": 1,
+          "selectability": 1
+        },
+        "children": null,
+        "active_status": 1,
+        "selectability": 1
+      },
+      "job_process_time": null,
+      "job_in_charge_user_id": null,
+      "biz_create_time": null,
+      "HighlightList": null,
+      "JobChannelPublishList": null,
+      "required_degree": null,
+      "never_expiry": null,
+      "job_hot_flag": null,
+      "subject": null,
+      "sequence": null,
+      "min_level": null,
+      "max_level": null,
+      "job_post_object_value_map": {},
+      "code": null,
+      "job_active_status": null,
+      "job_process_type": null,
+      "biz_modify_time": null,
+      "job_function": null,
+      "job_process": null,
+      "job_process_id": null,
+      "job_category": null,
+      "address_list": [
+        {
+          "id": "7184719621932941420",
+          "name": "北京",
+          "en_name": "Peking",
+          "district": null,
+          "city": {
+            "city_code": "CT_11",
+            "name": "北京",
+            "en_name": "Beijing",
+            "i18n_name": "北京",
+            "py_name": "beijing"
+          },
+          "state": {
+            "state_code": "ST_8",
+            "name": "北京",
+            "en_name": "Beijing",
+            "i18n_name": "北京"
+          },
+          "country": {
+            "country_code": "CN_1",
+            "name": "中国大陆",
+            "en_name": "Chinese Mainland",
+            "i18n_name": "中国大陆"
+          },
+          "i18n_name": "北京",
+          "active_status": 1
+        }
+      ],
+      "city_list": null,
+      "correlation_job_list": null,
+      "tag_list": null,
+      "department": null,
+      "job_storefront_mode": null,
+      "storefront_list": null,
+      "target_major_list": null,
+      "schema": null,
+      "job_post_process_time_list": null,
+      "job_level_id_list": null,
+      "field_template_result": null
+    },
+    "storefront_mode": 1,
+    "storefront_list": null,
+    "process_type": 2
+  },
+  {
+    "id": "7702047255155181860",
+    "title": "内容-策略产品实习生",
+    "sub_title": null,
+    "description": "【岗位职责】\n1.负责小爱同学内容垂域的云端策略(音乐，视频，电台等)和大模型应用，定义语音交互场景下的高频内容消费场景的产品形态，在不同终端的打造极致的影音视听体验;\n2.为内容类语音体验负责，能够协同资源运营，搜推算法，AGENT&TOOLS等各模块，结合数据\\反馈等多维度，抓住关键问题，提升用户体验;\n3.参与特定场景下的新能力探索，敏锐挖掘用户潜在需求与痛点，制定解决方案。",
+    "requirement": "1.优秀的沟通能力、快速学习能力，拥有较强的同理心和理解力，有耐心及自驱力;\n2.对用户使用行为、产品核心需求有深刻理解，擅长连接产品内容与用户;\n3.拥有开放的脑洞，热点敏感，文字能力良好，善于搜集整合策划方案，撰写prompt等;\n4.对AI或智能语音助手有一定了解，对音乐、新闻、电台等内容垂域有兴趣有理解;\n",
+    "job_category": null,
+    "city_info": null,
     "recruit_type": {
       "id": "202",
       "name": "实习",
@@ -521,7 +1576,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -697,7 +1753,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -873,7 +1930,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -1049,7 +2107,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -1225,7 +2284,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -1233,21 +2293,12 @@
   },
   {
     "id": "7699746217916483876",
-    "title": "Agent评测产品经理-2027届",
+    "title": "Agent评测产品经理实习生",
     "sub_title": null,
     "description": "我们正在寻找专注于提升小米全系列产品中大模型应用策略产品实习生，重点优化模型在知识百科、新闻时事、生活服务、学习办公、AI创作、营养健康、学科教育、AI编程、情感陪伴、智能家居等场景的理解与推理能力，推动大模型在复杂综合问题上的表现。\n1. 研究用户需求：研究用户在知识百科、新闻时事、生活服务、学习办公、AI创作、营养健康、学科教育、AI编程、情感陪伴、智能家居等场景的真实需求，明确对大模型能力的要求。\n2. 开发科学基准测试：定义接近用户真实体感的体验评估标准，构建科学的评测方法，衡量模型在复杂用户场景中的表现。\n3.构建各种自动评测能力：参考用户场景和行业benchmark，构建小爱各场景的自动评测能力。",
     "requirement": "1.文学、哲学、心理学、数学、物理、化学、生物、医学、计算机、工程等相关领域，本硕博均可。\n2. 较强的动手能力和学习意愿，会使用coze、dify等大模型workflow工具。\n3. 热爱生活，知识面丰富，对用户体验敏感。\n4. 良好的沟通能力，能够与不同背景的研究人员合作，共同推进复杂项目。",
     "job_category": null,
-    "city_info": {
-      "code": "CT_11",
-      "name": "北京",
-      "en_name": "Beijing",
-      "location_type": null,
-      "i18n_name": "北京",
-      "py_name": null,
-      "mdm_code": null,
-      "node_status": null
-    },
+    "city_info": null,
     "recruit_type": {
       "id": "202",
       "name": "实习",
@@ -1401,7 +2452,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -1577,7 +2629,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -1753,7 +2806,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -1929,183 +2983,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
-    },
-    "storefront_mode": 1,
-    "storefront_list": null,
-    "process_type": 2
-  },
-  {
-    "id": "7696865520612706601",
-    "title": "数据产品",
-    "sub_title": null,
-    "description": "1. 参与数据产品建设，协助梳理业务需求、业务流程和数据使用场景，推动数据产品持续优化。\n2. 参与指标体系建设，整理业务指标、维度和数据来源，协助统一指标定义、计算逻辑和使用口径。\n3. 参与经营分析，围绕业务目标整理数据、发现问题并输出分析结论，为业务决策提供支持。\n4. 参与 AI 相关数据建设，包括底层数据建设、AI框架建设、评测体系建设。\n5. 参与 AI 的 CoWork 相关工作的建设与运营。",
-    "requirement": "1. 本科及以上学历，计算机、统计学、数学、信息管理、经济管理等相关专业优先。\n2. 对数据产品、商业分析或 AI 数据建设感兴趣，愿意深入了解业务和数据背后的实际问题。\n3. 具备一定的数据处理和分析能力，能够熟练使用 Excel；了解 SQL 或有相关实践经验。\n4. 逻辑清晰、细心负责，能够发现数据问题并主动核对原因。\n5. 有指标体系、数据看板、经营分析、数据标注、模型评测或数据产品相关项目经验者优先。\n6. 能够连续实习6个月及以上，每周保证稳定的实习时间。",
-    "job_category": null,
-    "city_info": {
-      "code": "CT_11",
-      "name": "北京",
-      "en_name": "Beijing",
-      "location_type": null,
-      "i18n_name": "北京",
-      "py_name": null,
-      "mdm_code": null,
-      "node_status": null
-    },
-    "recruit_type": {
-      "id": "202",
-      "name": "实习",
-      "en_name": "Intern",
-      "i18n_name": "实习",
-      "depth": 2,
-      "parent": {
-        "id": "2",
-        "name": "校招",
-        "en_name": "Campus",
-        "i18n_name": "校招",
-        "depth": 1,
-        "parent": null,
-        "children": null,
-        "active_status": 1,
-        "selectability": 1
-      },
-      "children": null,
-      "active_status": 1,
-      "selectability": 1
-    },
-    "publish_time": 1792066174719,
-    "job_hot_flag": null,
-    "job_subject": null,
-    "code": null,
-    "department_id": null,
-    "job_function": {
-      "id": "7178035552473448557",
-      "name": "产品类",
-      "en_name": "Product",
-      "i18n_name": "产品类",
-      "parent_id": null,
-      "index": null,
-      "active_status": null,
-      "biz_create_time": null,
-      "biz_modify_time": null,
-      "parent": null
-    },
-    "job_process_id": "7178695863320199277",
-    "recommend_id": null,
-    "city_list": [
-      {
-        "code": "CT_11",
-        "name": "北京",
-        "en_name": "Beijing",
-        "location_type": null,
-        "i18n_name": "北京",
-        "py_name": null,
-        "mdm_code": null,
-        "node_status": null
-      }
-    ],
-    "job_post_info": {
-      "id": null,
-      "job_id": null,
-      "title": null,
-      "sub_title": null,
-      "address_id": null,
-      "address": "北京",
-      "city": null,
-      "education": null,
-      "experience": null,
-      "description": null,
-      "requirement": null,
-      "min_salary": null,
-      "max_salary": null,
-      "currency": null,
-      "head_count": null,
-      "crator_id": null,
-      "expiry_time": null,
-      "progress": null,
-      "department_id": null,
-      "job_type": null,
-      "recruitment_type": {
-        "id": "202",
-        "name": "实习",
-        "en_name": "Intern",
-        "i18n_name": "实习",
-        "depth": 2,
-        "parent": {
-          "id": "2",
-          "name": "校招",
-          "en_name": "Campus",
-          "i18n_name": "校招",
-          "depth": 1,
-          "parent": null,
-          "children": null,
-          "active_status": 1,
-          "selectability": 1
-        },
-        "children": null,
-        "active_status": 1,
-        "selectability": 1
-      },
-      "job_process_time": null,
-      "job_in_charge_user_id": null,
-      "biz_create_time": null,
-      "HighlightList": null,
-      "JobChannelPublishList": null,
-      "required_degree": null,
-      "never_expiry": null,
-      "job_hot_flag": null,
-      "subject": null,
-      "sequence": null,
-      "min_level": null,
-      "max_level": null,
-      "job_post_object_value_map": {},
-      "code": null,
-      "job_active_status": null,
-      "job_process_type": null,
-      "biz_modify_time": null,
-      "job_function": null,
-      "job_process": null,
-      "job_process_id": null,
-      "job_category": null,
-      "address_list": [
-        {
-          "id": "7184719621932941420",
-          "name": "北京",
-          "en_name": "Peking",
-          "district": null,
-          "city": {
-            "city_code": "CT_11",
-            "name": "北京",
-            "en_name": "Beijing",
-            "i18n_name": "北京",
-            "py_name": "beijing"
-          },
-          "state": {
-            "state_code": "ST_8",
-            "name": "北京",
-            "en_name": "Beijing",
-            "i18n_name": "北京"
-          },
-          "country": {
-            "country_code": "CN_1",
-            "name": "中国大陆",
-            "en_name": "Chinese Mainland",
-            "i18n_name": "中国大陆"
-          },
-          "i18n_name": "北京",
-          "active_status": 1
-        }
-      ],
-      "city_list": null,
-      "correlation_job_list": null,
-      "tag_list": null,
-      "department": null,
-      "job_storefront_mode": null,
-      "storefront_list": null,
-      "target_major_list": null,
-      "schema": null,
-      "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -2281,7 +3160,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -2457,7 +3337,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -2624,183 +3505,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
-    },
-    "storefront_mode": 1,
-    "storefront_list": null,
-    "process_type": 2
-  },
-  {
-    "id": "7695586403459385663",
-    "title": "AI应用产品经理-汽车专项-实习-2027届",
-    "sub_title": null,
-    "description": "1. 负责辅助产品经理完成创新产品的规划和设计，挖掘大模型在汽车行业落地机会，挖掘大模型在团队组织提效方面的落地机会\n2. 了解大模型、Agent、RAG等技术，能够和产品经理一道推动技术在产品中的应用\n3. 建设反馈驱动的闭环，持续提升大模型在特定业务场景的能力\n4. 梳理开发需求，传递开发需求到开发团队",
-    "requirement": "1. 本科及以上学历，计算机、数学、人工智能等相关专业优先；有AI产品经理相关实习经验者优先。\n2. 具备AI行业知识和技术理解，熟悉大模型相关技术和应用。对预训练语言模型、精调和提示工程等大模型应用有一定理解。\n3. 具有良好的结构化思维能力，数据敏感，自驱力强，能通过数据分析发现并解决问题。\n4. 具备卓越的产品规划和创新能力，能够敏锐捕捉市场机会。\n5. 具备较强的沟通推动、合作和表达能力，能与多方合作团队进行紧密配合。\n6. 学习能力强，自驱力强，能够跟上大模型方向的快速变化。",
-    "job_category": null,
-    "city_info": {
-      "code": "CT_11",
-      "name": "北京",
-      "en_name": "Beijing",
-      "location_type": null,
-      "i18n_name": "北京",
-      "py_name": null,
-      "mdm_code": null,
-      "node_status": null
-    },
-    "recruit_type": {
-      "id": "202",
-      "name": "实习",
-      "en_name": "Intern",
-      "i18n_name": "实习",
-      "depth": 2,
-      "parent": {
-        "id": "2",
-        "name": "校招",
-        "en_name": "Campus",
-        "i18n_name": "校招",
-        "depth": 1,
-        "parent": null,
-        "children": null,
-        "active_status": 1,
-        "selectability": 1
-      },
-      "children": null,
-      "active_status": 1,
-      "selectability": 1
-    },
-    "publish_time": 1791768496498,
-    "job_hot_flag": null,
-    "job_subject": null,
-    "code": null,
-    "department_id": null,
-    "job_function": {
-      "id": "7178035552473448557",
-      "name": "产品类",
-      "en_name": "Product",
-      "i18n_name": "产品类",
-      "parent_id": null,
-      "index": null,
-      "active_status": null,
-      "biz_create_time": null,
-      "biz_modify_time": null,
-      "parent": null
-    },
-    "job_process_id": "7178695863320199277",
-    "recommend_id": null,
-    "city_list": [
-      {
-        "code": "CT_11",
-        "name": "北京",
-        "en_name": "Beijing",
-        "location_type": null,
-        "i18n_name": "北京",
-        "py_name": null,
-        "mdm_code": null,
-        "node_status": null
-      }
-    ],
-    "job_post_info": {
-      "id": null,
-      "job_id": null,
-      "title": null,
-      "sub_title": null,
-      "address_id": null,
-      "address": "北京",
-      "city": null,
-      "education": null,
-      "experience": null,
-      "description": null,
-      "requirement": null,
-      "min_salary": null,
-      "max_salary": null,
-      "currency": null,
-      "head_count": null,
-      "crator_id": null,
-      "expiry_time": null,
-      "progress": null,
-      "department_id": null,
-      "job_type": null,
-      "recruitment_type": {
-        "id": "202",
-        "name": "实习",
-        "en_name": "Intern",
-        "i18n_name": "实习",
-        "depth": 2,
-        "parent": {
-          "id": "2",
-          "name": "校招",
-          "en_name": "Campus",
-          "i18n_name": "校招",
-          "depth": 1,
-          "parent": null,
-          "children": null,
-          "active_status": 1,
-          "selectability": 1
-        },
-        "children": null,
-        "active_status": 1,
-        "selectability": 1
-      },
-      "job_process_time": null,
-      "job_in_charge_user_id": null,
-      "biz_create_time": null,
-      "HighlightList": null,
-      "JobChannelPublishList": null,
-      "required_degree": null,
-      "never_expiry": null,
-      "job_hot_flag": null,
-      "subject": null,
-      "sequence": null,
-      "min_level": null,
-      "max_level": null,
-      "job_post_object_value_map": {},
-      "code": null,
-      "job_active_status": null,
-      "job_process_type": null,
-      "biz_modify_time": null,
-      "job_function": null,
-      "job_process": null,
-      "job_process_id": null,
-      "job_category": null,
-      "address_list": [
-        {
-          "id": "7184719621932941420",
-          "name": "北京",
-          "en_name": "Peking",
-          "district": null,
-          "city": {
-            "city_code": "CT_11",
-            "name": "北京",
-            "en_name": "Beijing",
-            "i18n_name": "北京",
-            "py_name": "beijing"
-          },
-          "state": {
-            "state_code": "ST_8",
-            "name": "北京",
-            "en_name": "Beijing",
-            "i18n_name": "北京"
-          },
-          "country": {
-            "country_code": "CN_1",
-            "name": "中国大陆",
-            "en_name": "Chinese Mainland",
-            "i18n_name": "中国大陆"
-          },
-          "i18n_name": "北京",
-          "active_status": 1
-        }
-      ],
-      "city_list": null,
-      "correlation_job_list": null,
-      "tag_list": null,
-      "department": null,
-      "job_storefront_mode": null,
-      "storefront_list": null,
-      "target_major_list": null,
-      "schema": null,
-      "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -2976,7 +3682,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -3152,7 +3859,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -3328,7 +4036,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -3504,7 +4213,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -3680,7 +4390,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -3856,7 +4567,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -4032,7 +4744,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -4208,7 +4921,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -4384,183 +5098,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
-    },
-    "storefront_mode": 1,
-    "storefront_list": null,
-    "process_type": 2
-  },
-  {
-    "id": "7678594798639417636",
-    "title": "国际化语音产品经理-2027届",
-    "sub_title": null,
-    "description": "1.  负责海外版小爱同学的AI能力建设，提供独一无二的AI体验；\n2. 负责Agent、大模型海外功能设计、策略设计，对接出海能力供应商，为汽车座舱用户提供极致的AI体验；\n3. 负责海外的用户调研、需求分析、竞品分析，为产品的迭代和优化提供数据支持和建议；\n4. 与产品、技术团队紧密合作，推进问题的解决，确保产品质量的持续提升；\n5. 跟踪最新的语音助手技术趋势，为产品的创新和差异化提供策略建议。",
-    "requirement": "1.积极主动、有主人翁精神\n2.具备良好的问题发现和分析能力，能够深入挖掘产品中的问题并提出有效的解决方案。\n3.计算机、人工智能等理工类专业优先，懂AI、对AI有热情\n4.英语/德语 等语种能力过关",
-    "job_category": null,
-    "city_info": {
-      "code": "CT_11",
-      "name": "北京",
-      "en_name": "Beijing",
-      "location_type": null,
-      "i18n_name": "北京",
-      "py_name": null,
-      "mdm_code": null,
-      "node_status": null
-    },
-    "recruit_type": {
-      "id": "202",
-      "name": "实习",
-      "en_name": "Intern",
-      "i18n_name": "实习",
-      "depth": 2,
-      "parent": {
-        "id": "2",
-        "name": "校招",
-        "en_name": "Campus",
-        "i18n_name": "校招",
-        "depth": 1,
-        "parent": null,
-        "children": null,
-        "active_status": 1,
-        "selectability": 1
-      },
-      "children": null,
-      "active_status": 1,
-      "selectability": 1
-    },
-    "publish_time": 1787812230777,
-    "job_hot_flag": null,
-    "job_subject": null,
-    "code": null,
-    "department_id": null,
-    "job_function": {
-      "id": "7178035552473448557",
-      "name": "产品类",
-      "en_name": "Product",
-      "i18n_name": "产品类",
-      "parent_id": null,
-      "index": null,
-      "active_status": null,
-      "biz_create_time": null,
-      "biz_modify_time": null,
-      "parent": null
-    },
-    "job_process_id": "7178695863320199277",
-    "recommend_id": null,
-    "city_list": [
-      {
-        "code": "CT_11",
-        "name": "北京",
-        "en_name": "Beijing",
-        "location_type": null,
-        "i18n_name": "北京",
-        "py_name": null,
-        "mdm_code": null,
-        "node_status": null
-      }
-    ],
-    "job_post_info": {
-      "id": null,
-      "job_id": null,
-      "title": null,
-      "sub_title": null,
-      "address_id": null,
-      "address": "北京",
-      "city": null,
-      "education": null,
-      "experience": null,
-      "description": null,
-      "requirement": null,
-      "min_salary": null,
-      "max_salary": null,
-      "currency": null,
-      "head_count": null,
-      "crator_id": null,
-      "expiry_time": null,
-      "progress": null,
-      "department_id": null,
-      "job_type": null,
-      "recruitment_type": {
-        "id": "202",
-        "name": "实习",
-        "en_name": "Intern",
-        "i18n_name": "实习",
-        "depth": 2,
-        "parent": {
-          "id": "2",
-          "name": "校招",
-          "en_name": "Campus",
-          "i18n_name": "校招",
-          "depth": 1,
-          "parent": null,
-          "children": null,
-          "active_status": 1,
-          "selectability": 1
-        },
-        "children": null,
-        "active_status": 1,
-        "selectability": 1
-      },
-      "job_process_time": null,
-      "job_in_charge_user_id": null,
-      "biz_create_time": null,
-      "HighlightList": null,
-      "JobChannelPublishList": null,
-      "required_degree": null,
-      "never_expiry": null,
-      "job_hot_flag": null,
-      "subject": null,
-      "sequence": null,
-      "min_level": null,
-      "max_level": null,
-      "job_post_object_value_map": {},
-      "code": null,
-      "job_active_status": null,
-      "job_process_type": null,
-      "biz_modify_time": null,
-      "job_function": null,
-      "job_process": null,
-      "job_process_id": null,
-      "job_category": null,
-      "address_list": [
-        {
-          "id": "7184719621932941420",
-          "name": "北京",
-          "en_name": "Peking",
-          "district": null,
-          "city": {
-            "city_code": "CT_11",
-            "name": "北京",
-            "en_name": "Beijing",
-            "i18n_name": "北京",
-            "py_name": "beijing"
-          },
-          "state": {
-            "state_code": "ST_8",
-            "name": "北京",
-            "en_name": "Beijing",
-            "i18n_name": "北京"
-          },
-          "country": {
-            "country_code": "CN_1",
-            "name": "中国大陆",
-            "en_name": "Chinese Mainland",
-            "i18n_name": "中国大陆"
-          },
-          "i18n_name": "北京",
-          "active_status": 1
-        }
-      ],
-      "city_list": null,
-      "correlation_job_list": null,
-      "tag_list": null,
-      "department": null,
-      "job_storefront_mode": null,
-      "storefront_list": null,
-      "target_major_list": null,
-      "schema": null,
-      "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -4736,7 +5275,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -4912,7 +5452,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -5088,7 +5629,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -5255,7 +5797,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -5431,7 +5974,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -5607,7 +6151,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -5783,7 +6328,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -5959,7 +6505,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -6126,7 +6673,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -6302,7 +6850,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -6469,7 +7018,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -6645,7 +7195,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -6821,7 +7372,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -6997,7 +7549,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -7173,7 +7726,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -7349,7 +7903,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -7525,7 +8080,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "tag_list": [
       {
@@ -7746,7 +8302,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "tag_list": [
       {
@@ -7967,7 +8524,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -8143,7 +8701,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -8319,7 +8878,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -8495,7 +9055,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -8671,7 +9232,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -8847,7 +9409,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -9023,7 +9586,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -9199,7 +9763,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -9375,7 +9940,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -9551,7 +10117,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -9727,7 +10294,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -9903,7 +10471,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -10079,7 +10648,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -10255,7 +10825,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -10431,7 +11002,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -10607,7 +11179,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
@@ -10783,7 +11356,8 @@
       "target_major_list": null,
       "schema": null,
       "job_post_process_time_list": null,
-      "job_level_id_list": null
+      "job_level_id_list": null,
+      "field_template_result": null
     },
     "storefront_mode": 1,
     "storefront_list": null,
