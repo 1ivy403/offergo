@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-09 17:25",
+  "refreshed_at": "2026-11-16 17:22",
   "scrapers": [
     {
       "name": "alibaba",
@@ -33,7 +33,7 @@
     },
     {
       "name": "bilibili_campus",
-      "count": 2,
+      "count": 4,
       "prev_count": 2,
       "status": "ok"
     },
@@ -45,14 +45,14 @@
     },
     {
       "name": "bilibili_social",
-      "count": 29,
+      "count": 30,
       "prev_count": 29,
       "status": "ok"
     },
     {
       "name": "bytedance",
-      "count": 172,
-      "prev_count": 171,
+      "count": 173,
+      "prev_count": 172,
       "status": "ok"
     },
     {
@@ -165,20 +165,20 @@
     },
     {
       "name": "kuaishou_campus_intern",
-      "count": 5,
+      "count": 4,
       "prev_count": 5,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_intern",
-      "count": 108,
-      "prev_count": 104,
+      "count": 112,
+      "prev_count": 108,
       "status": "ok"
     },
     {
       "name": "kuaishou_zhaopin_social",
-      "count": 153,
-      "prev_count": 154,
+      "count": 149,
+      "prev_count": 153,
       "status": "ok"
     },
     {
@@ -309,8 +309,8 @@
     },
     {
       "name": "pdd_social",
-      "count": 9,
-      "prev_count": 10,
+      "count": 11,
+      "prev_count": 9,
       "status": "ok"
     },
     {
@@ -375,8 +375,8 @@
     },
     {
       "name": "tencent",
-      "count": 161,
-      "prev_count": 160,
+      "count": 170,
+      "prev_count": 161,
       "status": "ok"
     },
     {
@@ -417,14 +417,14 @@
     },
     {
       "name": "wangyi",
-      "count": 45,
-      "prev_count": 46,
+      "count": 48,
+      "prev_count": 45,
       "status": "ok"
     },
     {
       "name": "xiaohongshu",
-      "count": 34,
-      "prev_count": 32,
+      "count": 38,
+      "prev_count": 34,
       "status": "ok"
     },
     {
@@ -435,8 +435,8 @@
     },
     {
       "name": "xiaomi_intern",
-      "count": 23,
-      "prev_count": 24,
+      "count": 20,
+      "prev_count": 23,
       "status": "ok"
     },
     {
@@ -495,6 +495,6 @@
     }
   ],
   "warnings": [],
-  "actions_run_id": "42589636959",
+  "actions_run_id": "43835032285",
   "status": "ok"
 }
