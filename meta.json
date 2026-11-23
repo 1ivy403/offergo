@@ -1,9 +1,9 @@
 {
-  "refreshed_at": "2026-11-16 17:22",
-  "total": 1884,
-  "added": 18,
-  "expired": 12,
-  "expired_total": 59,
+  "refreshed_at": "2026-11-23 18:36",
+  "total": 1865,
+  "added": 0,
+  "expired": 2,
+  "expired_total": 61,
   "status": "ok",
   "manual_refresh": {
     "alibaba_taotian_last": "2026-06-08",
